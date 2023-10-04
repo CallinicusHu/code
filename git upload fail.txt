@@ -1,0 +1,235 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\User> cd .\code\
+PS C:\Users\User\code> git init
+Reinitialized existing Git repository in C:/Users/User/code/.git/
+PS C:\Users\User\code> git commit -m "create Discord Python interpreter bot
+>> "
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        arcade_game peti.py
+        ex1.py
+        ex10.py
+        ex11.py
+        ex12.py
+        ex13.py
+        ex2.py
+        ex3.py
+        ex6.py
+        ex7.py
+        ex8.py
+        ex9.py
+        exchange peti.py
+        gyak1.py
+        gyak2.py
+        nemmegy1de.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\User\code> git add .
+warning: in the working copy of 'arcade_game peti.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'exchange peti.py', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\User\code> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\User\code> git remote add https://github.com/CallinicusHu/code
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch> master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+PS C:\Users\User\code> git remote add https://github.com/CallinicusHu/code -t -m
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch> master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+PS C:\Users\User\code> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   arcade_game peti.py
+        new file:   ex1.py
+        new file:   ex10.py
+        new file:   ex11.py
+        new file:   ex12.py
+        new file:   ex13.py
+        new file:   ex2.py
+        new file:   ex3.py
+        new file:   ex6.py
+        new file:   ex7.py
+        new file:   ex8.py
+        new file:   ex9.py
+        new file:   exchange peti.py
+        new file:   gyak1.py
+        new file:   gyak2.py
+        new file:   nemmegy1de.py
+
+PS C:\Users\User\code> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\User\code> git push --force
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\User\code> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   arcade_game peti.py
+        new file:   ex1.py
+        new file:   ex10.py
+        new file:   ex11.py
+        new file:   ex12.py
+        new file:   ex13.py
+        new file:   ex2.py
+        new file:   ex3.py
+        new file:   ex6.py
+        new file:   ex7.py
+        new file:   ex8.py
+        new file:   ex9.py
+        new file:   exchange peti.py
+        new file:   gyak1.py
+        new file:   gyak2.py
+        new file:   nemmegy1de.py
+
+PS C:\Users\User\code> git add .
+PS C:\Users\User\code> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   arcade_game peti.py
+        new file:   ex1.py
+        new file:   ex10.py
+        new file:   ex11.py
+        new file:   ex12.py
+        new file:   ex13.py
+        new file:   ex2.py
+        new file:   ex3.py
+        new file:   ex6.py
+        new file:   ex7.py
+        new file:   ex8.py
+        new file:   ex9.py
+        new file:   exchange peti.py
+        new file:   gyak1.py
+        new file:   gyak2.py
+        new file:   nemmegy1de.py
+
+PS C:\Users\User\code> git commit -m "így kell?"
+[master (root-commit) 0827078] így kell?
+ 16 files changed, 471 insertions(+)
+ create mode 100644 arcade_game peti.py
+ create mode 100644 ex1.py
+ create mode 100644 ex10.py
+ create mode 100644 ex11.py
+ create mode 100644 ex12.py
+ create mode 100644 ex13.py
+ create mode 100644 ex2.py
+ create mode 100644 ex3.py
+ create mode 100644 ex6.py
+ create mode 100644 ex7.py
+ create mode 100644 ex8.py
+ create mode 100644 ex9.py
+ create mode 100644 exchange peti.py
+ create mode 100644 gyak1.py
+ create mode 100644 gyak2.py
+ create mode 100644 nemmegy1de.py
+PS C:\Users\User\code> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\User\code> ls
+
+
+    Directory: C:\Users\User\code
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     2023. 10. 04.     12:33                build
+d-----     2023. 10. 04.     12:33                dist
+-a----     2023. 09. 28.     15:42           1968 arcade_game peti.py
+-a----     2023. 09. 14.     18:48            408 ex1.py
+-a----     2023. 09. 28.     15:39            272 ex10.py
+-a----     2023. 09. 30.     19:42            236 ex11.py
+-a----     2023. 09. 30.     19:45            185 ex12.py
+-a----     2023. 09. 30.     19:51            272 ex13.py
+-a----     2023. 09. 14.     18:55            166 ex2.py
+-a----     2023. 09. 18.     13:25            525 ex3.py
+-a----     2023. 09. 21.     18:48            519 ex6.py
+-a----     2023. 09. 21.     18:57            500 ex7.py
+-a----     2023. 09. 28.     19:26            538 ex8.py
+-a----     2023. 09. 28.     19:07            399 ex9.py
+-a----     2023. 09. 28.     16:52           3012 exchange peti.py
+-a----     2023. 10. 03.      1:02           1638 gyak1.py
+-a----     2023. 10. 04.     11:51           2135 gyak2.py
+-a----     2023. 09. 22.     12:59           3090 nemmegy1de.py
+
+
+PS C:\Users\User\code> git add .
+PS C:\Users\User\code> git commit -m "így kell??"
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\User\code> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\User\code> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\User\code> git add .
+PS C:\Users\User\code> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\User\code>
+
