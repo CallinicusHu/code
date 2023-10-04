@@ -1,0 +1,73 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\User> cd .\code\
+PS C:\Users\User\code> git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git upload fail.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\User\code> git add .
+PS C:\Users\User\code> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git upload fail.txt
+
+PS C:\Users\User\code> git commit -m "nemértem"
+[master 610d183] nemértem
+ 1 file changed, 235 insertions(+)
+ create mode 100644 git upload fail.txt
+PS C:\Users\User\code> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+PS C:\Users\User\code> git remote add code https://github.com/CallinicusHu/code.git
+PS C:\Users\User\code> git push code
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream code master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\User\code> git push --set-upstream code master
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (20/20), 7.43 KiB | 3.72 MiB/s, done.
+Total 20 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/CallinicusHu/code/pull/new/master
+remote:
+To https://github.com/CallinicusHu/code.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'code/master'.
+PS C:\Users\User\code> git status
+On branch master
+Your branch is up to date with 'code/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\User\code> git add .
+PS C:\Users\User\code> git status
+On branch master
+Your branch is up to date with 'code/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\User\code> git push --force
+Everything up-to-date
+PS C:\Users\User\code>
