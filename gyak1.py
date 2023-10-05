@@ -1,12 +1,12 @@
-four_classes = ["Fighter", "Mage", "Priest", "Rogue"]
+four_paths = ["Fighter", "Mage", "Priest", "Rogue"]
 
 #c = 0 # a c számlálni van
-new_class = "Yes"
+new_path = "Yes"
 
-def class_choice():
-    print("\nYou may select your class now. \n\nThe Classes are:\n1:", four_classes[0] + "\n2:", four_classes[1] + "\n3:", four_classes[2] + "\n4:", four_classes[3])
+def path_choice():
+    print("\nYou may select your path now. \n\nThe Paths are:\n1:", four_paths[0] + "\n2:", four_paths[1] + "\n3:", four_paths[2] + "\n4:", four_paths[3])
 
-    print("\nType the assigned number of the preffered class:", end=" ")
+    print("\nType the assigned number of the preferred path:", end=" ")
     y = (int(input()))-1
 
     if 0 > y:
@@ -16,15 +16,15 @@ def class_choice():
     return y
 # asszem az ebben lévő y független a későbbi y-tól
 
-while new_class == "Yes":
-    y = class_choice()
-    print("\nYour class:", four_classes[y])
-    print("\nAre you happy with your class? Would you like to pick another?\nType:\nYes, if you would like to pick a new class.\nOr\nNo, if you are happy with your class.")
-    new_class = input()
-    if new_class == "No":
-        print("\nGreat! Have fun with your class!")
-    elif new_class == "Yes":
-        print("\nOkey, pick another one.")
+while new_path == "Yes":
+    y = path_choice()
+    print("\nYour path:", four_paths[y])
+    print("\nAre you happy with your path? Would you like to pick another?\nType:\nYes, if you would like to pick a new path.\nOr\nNo, if you are happy with your path.")
+    new_path = input()
+    if new_path == "No":
+        print("\nGreat! Have fun with your path!")
+    elif new_path == "Yes":
+        print("\nOkey, pick another one!")
     else:
         raise ValueError("Sorry I can only accept a Yes or No answer!")
 
@@ -61,7 +61,7 @@ Rogue = [
 10, 13, 11, 9,
 12, 12, 10, 9]
 
-if four_classes[y] == "Fighter":
+if four_paths[y] == "Fighter":
     print("""
     12, 11, 9, 11,
     13, 9, 10, 11,
