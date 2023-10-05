@@ -29,17 +29,15 @@ while new_class == "Yes":
         raise ValueError("Sorry I can only accept a Yes or No answer!")
 
 
+Fighter = [
+12, 11, 9, 11, # 0-4
+13, 9, 10, 11, # 4-8
+12, 10, 10, 11, # 8-12
+11, 12, 10, 10, # 12-16
+13, 10, 10, 10, # 16-20
+12, 12, 9, 10] # 20-24
 
-"""
-Fighter
-12, 11, 9, 11
-13, 9, 10, 11
-12, 10, 10, 11
-11, 12, 10, 10
-13, 10, 10, 10
-12, 12, 9, 10
-"""
+print(Fighter[4: 8]) #vajon hogy tudom úgy printelni hogy nem lesznek [ között ] a számok
 
 # Itt tartok, szeretném hogy ismerje a fighter lehetséges attribute sorozatait amiket ki is tud osztani neki.
 # Amit nem tudok hogy teszem bele 4 elemű listám egy 6 elemű listába amit utána kioszthatok, az is fix hogy az elem[1] az erő, 2 az ügyesség, stb.
-# RNGt sem nem néztem még meg hogy kell, de az később jön.
