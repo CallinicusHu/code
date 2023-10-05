@@ -16,11 +16,13 @@ for c in range(0, 5):
 
 print("\n")
 
+print("word")
 for word in x:
     print(word)
 
 print("\n")
 
+print("x")
 for word in x:
     print(x)
 

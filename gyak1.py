@@ -37,7 +37,62 @@ Fighter = [
 13, 10, 10, 10, # 16-20
 12, 12, 9, 10] # 20-24
 
-print(Fighter[4: 8]) #vajon hogy tudom úgy printelni hogy nem lesznek [ között ] a számok
+Mage = [
+10, 10, 12, 11,
+10, 10, 11, 12,
+9, 10, 13, 11,
+9, 10, 11, 13,
+10, 9, 13, 11,
+9, 10, 12, 12]
+
+Priest = [
+9, 10, 13, 11,
+13, 10, 9, 11,
+11, 10, 10, 12,
+11, 10, 12, 10,
+12, 9, 12, 10,
+12, 9, 10, 12]
+
+Rogue = [
+9, 12, 12, 10,
+10, 11, 12, 10,
+10, 12, 11, 10,
+12, 11, 10, 10,
+10, 13, 11, 9,
+12, 12, 10, 9]
+
+if four_classes[y] == "Fighter":
+    print("""
+    12, 11, 9, 11,
+    13, 9, 10, 11,
+    12, 10, 10, 11,
+    11, 12, 10, 10,
+    13, 10, 10, 10,
+    12, 12, 9, 10
+    """)
+
+#print(Fighter[4: 8]) #vajon hogy tudom úgy printelni hogy nem lesznek [ között ] a számok
+
+"""
+fighter_sum = 0
+mage_sum = 0
+priest_sum = 0
+rogue_sum = 0
+
+for total in Fighter:
+    fighter_sum = fighter_sum + total
+print(fighter_sum)
+for total in Mage:
+    mage_sum = mage_sum + total
+print(mage_sum)
+for total in Priest:
+    priest_sum = priest_sum + total
+print(priest_sum)
+for total in Rogue:
+    rogue_sum = rogue_sum + total
+print(rogue_sum)
+"""
+#teszteltem hogy jól írtam-e be a tulajdonságokat
 
 # Itt tartok, szeretném hogy ismerje a fighter lehetséges attribute sorozatait amiket ki is tud osztani neki.
 # Amit nem tudok hogy teszem bele 4 elemű listám egy 6 elemű listába amit utána kioszthatok, az is fix hogy az elem[1] az erő, 2 az ügyesség, stb.
