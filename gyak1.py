@@ -61,15 +61,56 @@ Rogue = [
 10, 13, 11, 9,
 12, 12, 10, 9]
 
-if four_paths[y] == "Fighter":
-    print("""
-    12, 11, 9, 11,
-    13, 9, 10, 11,
-    12, 10, 10, 11,
-    11, 12, 10, 10,
-    13, 10, 10, 10,
-    12, 12, 9, 10
-    """)
+def print_possible_statblocks(y):
+    if four_paths[y] == "Fighter":
+        print("""
+           ST  AG  IN  WI
+        1: 12, 11,  9, 11,
+        2: 13,  9, 10, 11,
+        3: 12, 10, 10, 11,
+        4: 11, 12, 10, 10,
+        5: 13, 10, 10, 10,
+        6: 12, 12,  9, 10
+        """)
+
+    if four_paths[y] == "Mage":
+        print("""
+           ST  AG  IN  WI
+        1: 10, 10, 12, 11,
+        2: 10, 10, 11, 12,
+        3:  9, 10, 13, 11,
+        4:  9, 10, 11, 13,
+        5: 10,  9, 13, 11,
+        6:  9, 10, 12, 12
+        """)
+
+    if four_paths[y] == "Priest":
+        print("""
+           ST  AG  IN  WI
+        1:  9, 10, 13, 11,
+        2: 13, 10,  9, 11,
+        3: 11, 10, 10, 12,
+        4: 11, 10, 12, 10,
+        5: 12,  9, 10, 12,
+        6: 11,  9, 10, 13
+        """)
+
+    if four_paths[y] == "Rogue":
+        print("""
+           ST  AG  IN  WI
+        1:  9, 12, 12, 10,
+        2: 10, 11, 12, 10,
+        3: 10, 12, 11, 10,
+        4: 12, 11, 10, 10,
+        5: 10, 13, 11,  9,
+        6: 12, 12, 10,  9
+        """)
+
+    return four_paths[y]
+
+print("\nHere is the list of your possible Attribute scores:")
+print_possible_statblocks(y)
+print("Chose one of the lines from the list, by typing the count number of the: ", end="")
 
 #print(Fighter[4: 8]) #vajon hogy tudom úgy printelni hogy nem lesznek [ között ] a számok
 
