@@ -33,7 +33,7 @@ while new_path == "Yes":
     else:
         raise ValueError("Sorry I can only accept a Yes or No answer!")
 
-Fighter = [
+fighter = [
     12, 11, 9, 11,  # 0-4
     13, 9, 10, 11,  # 4-8
     12, 10, 10, 11,  # 8-12
@@ -41,7 +41,7 @@ Fighter = [
     13, 10, 10, 10,  # 16-20
     12, 12, 9, 10]  # 20-24
 
-Mage = [
+mage = [
     10, 10, 12, 11,
     10, 10, 11, 12,
     9, 10, 13, 11,
@@ -49,7 +49,7 @@ Mage = [
     10, 9, 13, 11,
     9, 10, 12, 12]
 
-Priest = [
+priest = [
     9, 10, 13, 11,
     13, 10, 9, 11,
     11, 10, 10, 12,
@@ -57,7 +57,7 @@ Priest = [
     12, 9, 12, 10,
     12, 9, 10, 12]
 
-Rogue = [
+rogue = [
     9, 12, 12, 10,
     10, 11, 12, 10,
     10, 12, 11, 10,
@@ -67,7 +67,7 @@ Rogue = [
 
 
 def print_possible_statblocks(y):
-    if four_paths[y] == "Fighter":
+    if four_paths[y] == "fighter":
         print("""
            ST  AG  IN  WI
         1: 12, 11,  9, 11,
@@ -78,7 +78,7 @@ def print_possible_statblocks(y):
         6: 12, 12,  9, 10
         """)
 
-    if four_paths[y] == "Mage":
+    if four_paths[y] == "mage":
         print("""
            ST  AG  IN  WI
         1: 10, 10, 12, 11,
@@ -89,7 +89,7 @@ def print_possible_statblocks(y):
         6:  9, 10, 12, 12
         """)
 
-    if four_paths[y] == "Priest":
+    if four_paths[y] == "priest":
         print("""
            ST  AG  IN  WI
         1:  9, 10, 13, 11,
@@ -100,7 +100,7 @@ def print_possible_statblocks(y):
         6: 11,  9, 10, 13
         """)
 
-    if four_paths[y] == "Rogue":
+    if four_paths[y] == "rogue":
         print("""
            ST  AG  IN  WI
         1:  9, 12, 12, 10,
@@ -111,7 +111,7 @@ def print_possible_statblocks(y):
         6: 12, 12, 10,  9
         """)
 
-    return four_paths[y]
+
 
 
 print("\nHere is the list of your possible Attribute scores:")
@@ -126,16 +126,16 @@ mage_sum = 0
 priest_sum = 0
 rogue_sum = 0
 
-for total in Fighter:
+for total in fighter:
     fighter_sum = fighter_sum + total
 print(fighter_sum)
-for total in Mage:
+for total in mage:
     mage_sum = mage_sum + total
 print(mage_sum)
-for total in Priest:
+for total in priest:
     priest_sum = priest_sum + total
 print(priest_sum)
-for total in Rogue:
+for total in rogue:
     rogue_sum = rogue_sum + total
 print(rogue_sum)
 """
