@@ -1,7 +1,7 @@
 from sys import argv
 
-script, user name = argv
-prompt = '> '
+script, user_name = argv
+prompt = '>rte '
 
 print(f"Hi {user_name}, I'm the {script} script.")
 print("I'd like to ask you a few questions.")

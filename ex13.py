@@ -1,6 +1,6 @@
-from sys import argy
+from sys import argv
 # ready the WYSS section for how to run this
-script, first, second, third = argy
+script, first, second, third = argv
 
 print("The script is called:", script)
 print("Your first variable is:", first)
