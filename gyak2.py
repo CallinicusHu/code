@@ -18,8 +18,10 @@ def kitalalom_a_szamot(x, y, c):
             y = x #cheatcode ami megnyeri a játátékot =5 * 5 * 5 * 5 * 5 * 5 * 5
             #print(y)
             #print(x)
-        if y == 279936: print(x) #cheatcode ami kiírja a helyes választ =6 * 6 * 6 * 6 * 6 * 6 * 6
+        if y == 279936:
+            print(x) #cheatcode ami kiírja a helyes választ =6 * 6 * 6 * 6 * 6 * 6 * 6
         #megoldandó: ha cheatcodeot ír be valaki ne fusson hibára szerk: megoldva
+            c -= 1
 
         if (y < 1 or y > 100) ^ (y == 279936): raise ValueError("\nCsak 1-től 100-ig terjedő természetes számot tudok elfogadni.")
         # ha jól értem most ez úgy gondolkozik hogy
@@ -52,7 +54,7 @@ def kitalalom_a_szamot(x, y, c):
 
     #Ez meglepően egyszerű volt (a xorig az már nem), majd folytatom azzal, hogy felajánlja, hogy melyikőtök találjon ki számot és kitalálja a számod a valószínűleg leggyorsabban.
 
-def talald_ki_a_szamot(x, y, c):
+#def talald_ki_a_szamot(x, y, c):
 
 
 kitalalom_a_szamot(x, y, c)
