@@ -116,7 +116,7 @@ def print_possible_statblocks(y):
 
 def select_attribute_line(line): # tudom hogy nem működik elakadtam vele
     if y == 0:
-        st = fighter[line * 4 - 4]
+        st = fighter[line * 4 - 4] # azt akarom hogy a megadott sorszámot felszorozza 4-el ami 1-nél pl 4 levon belőle 4-et és az az elem lesz az st pl a 0.
         ag = fighter[line * 4 - 3]
         agy = fighter[line * 4 - 2]
         wil = fighter[line * 4 - 1]
