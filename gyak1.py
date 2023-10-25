@@ -15,7 +15,7 @@ def path_choice():
         raise ValueError("You tried to cheat the [] with a 0 or negative number.")
         # Más invalid értékkel amúgy is hibára futott a powershellben.
 
-    return y
+    return y # az y a kaszt sorszáma
 
 
 # asszem az ebben lévő y független a későbbi y-tól
@@ -33,13 +33,15 @@ while new_path == "Yes":
     else:
         raise ValueError("Sorry I can only accept a Yes or No answer!")
 
+your_path = four_paths[y]
+
 fighter = [
-    12, 11, 9, 11,  # 0-4
-    13, 9, 10, 11,  # 4-8
-    12, 10, 10, 11,  # 8-12
-    11, 12, 10, 10,  # 12-16
-    13, 10, 10, 10,  # 16-20
-    12, 12, 9, 10]  # 20-24
+    12, 11, 9, 11,  # 0-3
+    13, 9, 10, 11,  # 4-7
+    12, 10, 10, 11,  # 8-11
+    11, 12, 10, 10,  # 12-15
+    13, 10, 10, 10,  # 16-19
+    12, 12, 9, 10]  # 20-23
 
 mage = [
     10, 10, 12, 11,
@@ -67,7 +69,7 @@ rogue = [
 
 
 def print_possible_statblocks(y):
-    if four_paths[y] == "fighter":
+    if four_paths[y] == "Fighter":
         print("""
            ST  AG  IN  WI
         1: 12, 11,  9, 11,
@@ -78,7 +80,7 @@ def print_possible_statblocks(y):
         6: 12, 12,  9, 10
         """)
 
-    if four_paths[y] == "mage":
+    if four_paths[y] == "Mage":
         print("""
            ST  AG  IN  WI
         1: 10, 10, 12, 11,
@@ -89,7 +91,7 @@ def print_possible_statblocks(y):
         6:  9, 10, 12, 12
         """)
 
-    if four_paths[y] == "priest":
+    if four_paths[y] == "Priest":
         print("""
            ST  AG  IN  WI
         1:  9, 10, 13, 11,
@@ -100,7 +102,7 @@ def print_possible_statblocks(y):
         6: 11,  9, 10, 13
         """)
 
-    if four_paths[y] == "rogue":
+    if four_paths[y] == "Rogue":
         print("""
            ST  AG  IN  WI
         1:  9, 12, 12, 10,
@@ -112,11 +114,24 @@ def print_possible_statblocks(y):
         """)
 
 
+def select_attribute_line(line): # tudom hogy nem működik elakadtam vele
+    if y == 0:
+        st = fighter[line * 4 - 4]
+        ag = fighter[line * 4 - 3]
+        agy = fighter[line * 4 - 2]
+        wil = fighter[line * 4 - 1]
+    #print(f"\nStrength: {st}\nAgility: {ag}\nIntellect: {agy}\nWill: {wil}")
+    print(st)
+    print(ag)
+    print(agy)
+    print(wil)
 
 
 print("\nHere is the list of your possible Attribute scores:")
 print_possible_statblocks(y)
-print("Chose one of the lines from the list, by typing the count number of the: ", end="")
+print("Chose one of the lines from the list, by typing the count number of the line: ", end="")
+select_attribute_line(input())
+
 
 # print(Fighter[4: 8]) #vajon hogy tudom úgy printelni hogy nem lesznek [ között ] a számok
 
