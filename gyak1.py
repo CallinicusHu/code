@@ -119,7 +119,7 @@ def select_attribute_line(line): # todo: többi kasztok, hiba ha nem 1-6 van meg
     if y == 0:
         st = fighter[line * 4 - 4]
         ag = fighter[line * 4 - 3]
-        agy = fighter[line * 4 - 2]
+        agy = fighter[line * 4 - 2] #az intellectet nehéz rövidíteni mert az int és in is másra kell az agy meg nem jó mert olyan mint az ag vagy agi az ész meg ékezetes olyant nem akarok
         wil = fighter[line * 4 - 1]
     print(f"\nStrength: {st}\nAgility: {ag}\nIntellect: {agy}\nWill: {wil}")
     """
@@ -132,7 +132,7 @@ def select_attribute_line(line): # todo: többi kasztok, hiba ha nem 1-6 van meg
 print("\nHere is the list of your possible Attribute scores:")
 print_possible_statblocks(y)
 print("Chose one of the lines from the list, by typing the count number of the line: ", end="")
-select_attribute_line(input())
+select_attribute_line(input()) # todo: egy statjaid lista amibe a statjaid kerülnek amiket megadsz a select_attribute_lineal
 
 
 # print(Fighter[4: 8]) #vajon hogy tudom úgy printelni hogy nem lesznek [ között ] a számok
