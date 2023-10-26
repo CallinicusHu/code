@@ -121,7 +121,7 @@ def select_attribute_line(line): # todo: többi kasztok, hiba ha nem 1-6 van meg
         ag = fighter[line * 4 - 3]
         agy = fighter[line * 4 - 2] #az intellectet nehéz rövidíteni mert az int és in is másra kell az agy meg nem jó mert olyan mint az ag vagy agi az ész meg ékezetes olyant nem akarok
         wil = fighter[line * 4 - 1]
-    print(f"\nStrength: {st}\nAgility: {ag}\nIntellect: {agy}\nWill: {wil}")
+        print(f"\nStrength: {st}\nAgility: {ag}\nIntellect: {agy}\nWill: {wil}")
     """
     print(st)
     print(ag)
