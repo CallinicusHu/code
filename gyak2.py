@@ -59,6 +59,25 @@ def kitalalom_a_szamot(talald_ki, aktualis_tipp, hanyadik_tipp):
 
 #def talald_ki_a_szamot(x, y, c):
 
+def talald_ki_a_szamot():
+    print("Egytől százig mondhatsz egy számot, írd be, nem fogok lesni: ", end="")
+    y = int(input())
+    if y < 1 or y > 100: raise ValueError("\nTényleg nem lestem, de ez a szám szabálytalan!")
 
-kitalalom_a_szamot(x, y, c)
-talald_ki_a_szamot(x, y, c)
+    x = random.randint(40, 60)
+
+    while not(x == y):
+        c += 1
+        print(f"A szám amire gondoltál lehet hogy...{x}?\nÍrd be, hogy 1 ha igen, 2 ha nem.")
+        igennem = int(input())
+        if igennem == 1 and x == y: print("Szuper! "
+        #to be continued
+
+
+
+
+
+
+
+#kitalalom_a_szamot(x, y, c) #ideiglenesen kikapcsolva
+talald_ki_a_szamot()
