@@ -114,18 +114,20 @@ def print_possible_statblocks(y):
         """)
 
 
-def select_attribute_line(line): # tudom hogy nem működik elakadtam vele
+def select_attribute_line(line): # todo: többi kasztok, hiba ha nem 1-6 van megadva
+    line = int(line)
     if y == 0:
-        st = fighter[line * 4 - 4] # azt akarom hogy a megadott sorszámot felszorozza 4-el ami 1-nél pl 4 levon belőle 4-et és az az elem lesz az st pl a 0.
+        st = fighter[line * 4 - 4]
         ag = fighter[line * 4 - 3]
         agy = fighter[line * 4 - 2]
         wil = fighter[line * 4 - 1]
-    #print(f"\nStrength: {st}\nAgility: {ag}\nIntellect: {agy}\nWill: {wil}")
+    print(f"\nStrength: {st}\nAgility: {ag}\nIntellect: {agy}\nWill: {wil}")
+    """
     print(st)
     print(ag)
     print(agy)
     print(wil)
-
+"""
 
 print("\nHere is the list of your possible Attribute scores:")
 print_possible_statblocks(y)
