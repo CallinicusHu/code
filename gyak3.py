@@ -1,11 +1,11 @@
 x = ["Egy", "Kettő", "Három", "Négy", "Öt"]
 
 c = 0
-
+"""
 while c < 5:
     print(x[c])
     c += 1
-
+"""
 print("\n")
 
 for c in range(0, 5):
