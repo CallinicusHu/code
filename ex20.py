@@ -1,6 +1,6 @@
-from sys import argv
+import sys
 
-script, input_file = argv
+script, input_file = sys.argv
 
 def print_all(f):
     #print(f.read())
