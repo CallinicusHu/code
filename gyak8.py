@@ -13,7 +13,7 @@ for art in art_tup:
 def create_art_xp_table():
     art_xp_table = {}
     next_level_cost = 0
-    for level in range(1, 31):
+    for level in range(1, 33):
         next_level_cost += level
         art_xp_table.update({level: next_level_cost})
     return art_xp_table
@@ -38,18 +38,18 @@ def spend_art_xp(art_xp_pool):
         specialize.append(random.randint(0, 14))
     for ign in range(random.randint(0, 4)):
         ignore.append(random.randint(0, 14))
-    print(len(specialize))
+    #print(len(specialize))
 
-    print("likes: ", end=" ")
-    for spec in specialize:
-        print(art_tup[spec], end=" ")
-    print("\n")
-    print("dislikes: ", end=" ")
-    for ign in ignore:
-        print(art_tup[ign], end=" ")
+    #print("likes: ", end=" ")
+    #for spec in specialize:
+    #    print(art_tup[spec], end=" ")
+    #print("\n")
+    #print("dislikes: ", end=" ")
+    #for ign in ignore:
+    #    print(art_tup[ign], end=" ")
 
     years = min(max(int(art_xp_pool/30), 1), 5)
-    print("\n", years)
+    #print("\n", years)
 
     for xp in range(art_xp_pool):
         which_art = random.randint(0, 14)
@@ -84,7 +84,28 @@ our_arts_xp = dict.fromkeys(art_list, 0)
 
 our_arts_level = spend_art_xp(art_xp_pool)
 
-for item in our_arts_level:
-    print(item, f"XP: {our_arts_xp.get(item)}".ljust(8), "level:", our_arts_level.get(item))
+#for item in our_arts_level:
+#    print(item, f"XP: {our_arts_xp.get(item)}".ljust(8), "level:", our_arts_level.get(item))
 
 
+art_xp_and_lvl = []
+
+for art in art_list:
+    art_xp_and_lvl.append(f"| {art} Level: {str(our_arts_level.get(art)).ljust(3)} XP: {str(our_arts_xp.get(art)).ljust(3)}| ")
+
+count = 0
+
+art_xp_and_lvl_str = ""
+
+for art in range(15):
+    art_xp_and_lvl_str += art_xp_and_lvl[count]
+
+    if (art + 1) % 3 == 0:
+        art_xp_and_lvl_str += "\n"
+
+    count += 5
+    if count > 14:
+        count -= 14
+
+
+print(art_xp_and_lvl_str)
