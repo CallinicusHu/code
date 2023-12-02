@@ -32,12 +32,18 @@ def spend_art_xp(art_xp_pool):
 
 
     specialize = []
+    ignore = []
 
     for spec in range(random.randint(1, 10)):
         specialize.append(random.randint(0, 14))
+    for ign in range(random.randint(0, 4)):
+        ignore.append(random.randint(0, 14))
     print(len(specialize))
     for spec in specialize:
         print(art_tup[spec], end=" ")
+    print("\n")
+    for ign in ignore:
+        print(art_tup[ign], end=" ")
 
     years = min(max(int(art_xp_pool/30), 1), 5)
     print("\n", years)
@@ -48,6 +54,8 @@ def spend_art_xp(art_xp_pool):
             if which_art not in specialize:
                 #print("reroll", which_art)
                 which_art = random.randint(0, 14)
+        if which_art in ignore:
+            which_art = random.randint(0, 14)
         while our_arts_xp.get(art_list[which_art]) == 465:
             which_art = random.randint(0, 14)
         our_arts_xp.update({art_list[which_art]: our_arts_xp.get(art_list[which_art]) + 1})
@@ -56,9 +64,13 @@ def spend_art_xp(art_xp_pool):
 
     for art in our_arts_level:
         for level in art_xp_table:
-            if our_arts_level.get(art) <= art_xp_table.get(level):
+            if our_arts_level.get(art) < art_xp_table.get(level):
                 our_arts_level.update({art: level - 1})
                 break
+
+    #for art in our_arts_level:
+    #    if our_arts_xp.get(art) == 465:
+    #        our_arts_level.update({art: 30})
 
     return our_arts_level
 
@@ -70,6 +82,6 @@ our_arts_xp = dict.fromkeys(art_list, 0)
 our_arts_level = spend_art_xp(art_xp_pool)
 
 for item in our_arts_level:
-    print(item, f"{our_arts_xp.get(item)}".rjust(3), our_arts_level.get(item))
+    print(item, f"XP: {our_arts_xp.get(item)}".ljust(8), "level:", our_arts_level.get(item))
 
 
