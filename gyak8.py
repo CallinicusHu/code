@@ -39,9 +39,12 @@ def spend_art_xp(art_xp_pool):
     for ign in range(random.randint(0, 4)):
         ignore.append(random.randint(0, 14))
     print(len(specialize))
+
+    print("likes: ", end=" ")
     for spec in specialize:
         print(art_tup[spec], end=" ")
     print("\n")
+    print("dislikes: ", end=" ")
     for ign in ignore:
         print(art_tup[ign], end=" ")
 
