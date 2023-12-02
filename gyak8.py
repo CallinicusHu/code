@@ -56,7 +56,7 @@ def spend_art_xp(art_xp_pool):
 
     for art in our_arts_level:
         for level in art_xp_table:
-            if our_arts_level.get(art) < art_xp_table.get(level):
+            if our_arts_level.get(art) <= art_xp_table.get(level):
                 our_arts_level.update({art: level - 1})
                 break
 
