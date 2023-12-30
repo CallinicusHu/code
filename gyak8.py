@@ -10,16 +10,16 @@ for art in art_tup:
     art_list.append(f"{art}:".ljust(10).title())
 
 
-def create_art_xp_table():
+def create_art_xp_table(max_level):
     art_xp_table = {}
     next_level_cost = 0
-    for level in range(1, 33):
+    for level in range(1, max_level):
         next_level_cost += level
         art_xp_table.update({level: next_level_cost})
     return art_xp_table
 
 
-art_xp_table = create_art_xp_table()
+art_xp_table = create_art_xp_table(33)
 
 
 #for item in art_xp_table:
@@ -107,5 +107,6 @@ for art in range(15):
     if count > 14:
         count -= 14
 
-
+for art in our_arts_level.items():
+    print(art)
 print(art_xp_and_lvl_str)
