@@ -6,11 +6,11 @@ WORD_URL = "http://learncodethehardway.org/words.txt"
 WORDS = []
 
 PHRASES = {
-    "class %%% (%%%):":
+    "class %%%(%%%):":
         "Make a class named %%% that is-a %%%.",
-    "class %%%(object):\n\tdef __init__(self, ***)" :
+    "class %%%(object):\n\t    def __init__(self, ***)":
         "class %%% has-a __init__ that takes self and *** params.",
-    "class %%%(object):\n\tdef ***(self, @@@)":
+    "class %%%(object):\n\t    def ***(self, @@@)":
         "class %%% has-a function *** that takes self and @@@ params.",
     "*** = %%%()":
         "Set *** to an instance of class %%%.",
@@ -39,7 +39,7 @@ def convert(snippet, phrase):
     param_names = []
 
     for i in range(0, snippet.count("@@@")):
-        param_count = random.randint(1,3)
+        param_count = random.randint(1, 3)
         param_names.append(', '.join(
             random.sample(WORDS, param_count)))
 
@@ -54,9 +54,9 @@ def convert(snippet, phrase):
         for word in other_names:
             result = result.replace("***", word, 1)
 
-        #fake paramater lists
+        # fake paramater lists
         for word in param_names:
-                result = result.replace("@@@", word, 1)
+            result = result.replace("@@@", word, 1)
 
         results.append(result)
 
@@ -81,3 +81,6 @@ try:
                 print(f"ANSWER: {answer}\n\n")
 except EOFError:
     print("\nBye")
+
+
+
