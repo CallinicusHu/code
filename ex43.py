@@ -1,12 +1,13 @@
 import ex43_atbash_cipher
 import random
-#from textwrap import dedent
+from textwrap import dedent
 #from sys import exit
 
 class Scene(object):
 
     def enter(self):
-        pass
+        print("you reached here, enter")
+        print("actually this never ever happens")
 
 
 class Engine(object):
@@ -21,7 +22,8 @@ class Engine(object):
         while current_scene != last_scene:
             next_scene_name = current_scene.enter()
             current_scene = self.scene_map.next_scene(next_scene_name)
-            current_scene.enter()
+
+        current_scene.enter()
 
 class Death(Scene):
 
@@ -34,17 +36,56 @@ class Death(Scene):
 class CentralCorridor(Scene):
 
     def enter(self):
-        pass
+        print("You are here.")
+
+
+
+
+        #return 'death'
+
+        return 'laser_weapon_armory'
 
 class LaserWeaponArmory(Scene):
 
     def enter(self):
-        pass
+        print(dedent("""
+            The armory is locked behind a password.
+            There is a password reminder sticked on the door.
+            'It is brown as a corgi and bear as an otter.'
+            """))
+
+        password = ex43_atbash_cipher.encode(input("... "))
+
+        if password != ex43_atbash_cipher.encode(ex43_atbash_cipher.decode("ivwkz mwz")):
+            print(dedent(f"""
+            Your password appears to be incorrect.
+            You have another chance but the air is running out of the room.
+            Luckily you found another password reminder sticker.
+            It says...
+            
+            ivwkz mwz
+
+            Might be some sort of code."""))
+
+        else:
+            print("You were right!")
+            return 'the_bridge'
+
+        password = ex43_atbash_cipher.encode(input("... "))
+
+        if password != ex43_atbash_cipher.encode(ex43_atbash_cipher.decode("ivwkz mwz")):
+            print("It might be something else. How much air...")
+            return 'death'
+        else:
+            print("You were right this time!")
+            return 'the_bridge'
+
+
 
 class TheBridge(Scene):
 
     def enter(self):
-        pass
+        print("this time we are here")
 
 class EscapePod(Scene):
 
@@ -80,8 +121,5 @@ class Map(object):
 a_map = Map('central_corridor')
 a_game = Engine(a_map)
 a_game.play()
-
-#print(ex43_atbash_cipher.encode("The World is a Cruel Place"))
-#print(ex43_atbash_cipher.decode(ex43_atbash_cipher.encode("The World is a Cruel Place")))
 
 print("end")
