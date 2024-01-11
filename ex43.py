@@ -5,6 +5,9 @@ from textwrap import dedent
 
 class Scene(object):
 
+    def __init__(self):
+        print(self)
+
     def enter(self):
         print("you reached here, enter")
         print("actually this never ever happens")
@@ -13,6 +16,7 @@ class Scene(object):
 class Engine(object):
 
     def __init__(self, scene_map):
+
         self.scene_map = scene_map
 
     def play(self):
@@ -37,9 +41,6 @@ class CentralCorridor(Scene):
 
     def enter(self):
         print("You are here.")
-
-
-
 
         #return 'death'
 
@@ -85,17 +86,18 @@ class LaserWeaponArmory(Scene):
 class TheBridge(Scene):
 
     def enter(self):
-        print("this time we are here")
+        return 'escape_pod'
 
 class EscapePod(Scene):
 
     def enter(self):
-        pass
+        return 'finished'
 
 class Finished(Scene):
     def enter(self):
         print("You won! Good job.")
-        exit(0)
+        #exit(0)
+        return 'finished'
 
 
 class Map(object):
@@ -108,8 +110,12 @@ class Map(object):
         'finished': Finished(),
         }
 
-    def __init__(self, start_scene):
+    #def __init__(self, start_scene):
+    #    self.start_scene = start_scene
+
+    def set_start_scene(self, start_scene):
         self.start_scene = start_scene
+
 
     def next_scene(self, scene_name):
         return Map.scenes.get(scene_name)
@@ -117,8 +123,12 @@ class Map(object):
     def opening_scene(self):
         return self.next_scene(self.start_scene)
 
+    def __str__(self):
+        return self.start_scene
 
-a_map = Map('central_corridor')
+
+a_map = Map()
+a_map.set_start_scene("central_corridor")
 a_game = Engine(a_map)
 a_game.play()
 
