@@ -11,7 +11,7 @@ def fair_dice(sides):
 
     print(f"True average: {dx_collect / fallacy}")
     dx_collect = round(dx_collect / fallacy)
-    print(f"D{sides}: {dx_collect}\nDifference from average: {dx_collect - (sides / 2)}\n")
+    print(f"D{sides}: {dx_collect}\nDifference from average: {dx_collect - (sides / 2 + 0.5)}\n")
 
 fair_dice(4)
 fair_dice(6)
