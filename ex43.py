@@ -49,8 +49,8 @@ class Engine(object):
         last_scene = self.scene_map.next_scene('finished')
 
         while current_scene != last_scene:
-            next_scene_name = current_scene.enter()
-            current_scene = self.scene_map.next_scene(next_scene_name)
+            next_scene_name = current_scene.enter() #why these are none if open the armory is a function?
+            current_scene = self.scene_map.next_scene(next_scene_name) #when/how/why do I get off the rails?
 
         current_scene.enter()
 
