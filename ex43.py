@@ -55,7 +55,7 @@ class Engine(object):
     def where(self, here):
         print(dedent("""Type the room's number into which you wish to go.
             1: Central Corridor
-            2: Laser WeaponArmory
+            2: Laser Weapon Armory
             3: The Bridge
             4: Escape Pod
             5: I just want to win.
