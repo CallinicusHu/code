@@ -42,15 +42,15 @@ class Engine(object):
         # please
         # : ' (
         # : ' (
-        self.armory_locked = "Locked"
+        #self.armory_locked = "Locked"
 
     def play(self):
         current_scene = self.scene_map.opening_scene()
         last_scene = self.scene_map.next_scene('finished')
 
         while current_scene != last_scene:
-            next_scene_name = current_scene.enter() #why these are none if open the armory is a function?
-            current_scene = self.scene_map.next_scene(next_scene_name) #when/how/why do I get off the rails?
+            next_scene_name = current_scene.enter()  # why these are none if open the armory is a function?
+            current_scene = self.scene_map.next_scene(next_scene_name)  # when/how/why do I get off the rails?
 
         current_scene.enter()
 
@@ -93,10 +93,13 @@ class CentralCorridor(Scene):
 
 
 class LaserWeaponArmory(Scene):
+    def __init__(self):
+        super().__init__()
+        self.armory_locked = "Locked"
 
     def enter(self):
         print("This is the Laser Weapon Armory.")
-        if a_game.armory_locked == "Locked":
+        if self.armory_locked == "Locked":
             print(dedent("""
                     The armory is locked behind a password.
                     There is a password reminder sticked on the door.
@@ -119,7 +122,7 @@ class LaserWeaponArmory(Scene):
 
             else:
                 print("You were right!")
-                a_game.armory_locked = "Unlocked"
+                self.armory_locked = "Unlocked"
                 return a_game.where("2")
 
             password = ex43_atbash_cipher.encode(input("... "))
@@ -129,7 +132,7 @@ class LaserWeaponArmory(Scene):
                 return 'death'
             else:
                 print("You were right this time!")
-                a_game.armory_locked = "Unlocked"
+                self.armory_locked = "Unlocked"
                 return a_game.where("2")
         else:
             return a_game.where("2")
@@ -171,7 +174,6 @@ class Map(object):
             'death': Death(),
             'finished': Finished(),
         }
-
 
     def set_start_scene(self, start_scene):
         self.start_scene = start_scene
