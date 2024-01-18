@@ -97,44 +97,41 @@ class LaserWeaponArmory(Scene):
     def enter(self):
         print("This is the Laser Weapon Armory.")
         if a_game.armory_locked == "Locked":
-            self.open_the_armory()
+            print(dedent("""
+                    The armory is locked behind a password.
+                    There is a password reminder sticked on the door.
+                        'Someone who is attracted to the homeless is a hobosexual.
+                        Someone who is attracted to the mexixans is a...'
+                    """))  # 'It is brown as a corgi and bear as an otter.' ivwkz mwz
+
+            password = ex43_atbash_cipher.encode(input("... "))
+
+            if password != ex43_atbash_cipher.encode(ex43_atbash_cipher.decode("kvwil ksrov")):
+                print(dedent(f"""
+                    Your password appears to be incorrect.
+                    You have another chance but the air is running out of the room.
+                    Luckily you found another password reminder sticker.
+                    It says...
+
+                    kvwil ksrov
+
+                    Might be some sort of code."""))
+
+            else:
+                print("You were right!")
+                a_game.armory_locked = "Unlocked"
+                return a_game.where("2")
+
+            password = ex43_atbash_cipher.encode(input("... "))
+
+            if password != ex43_atbash_cipher.encode(ex43_atbash_cipher.decode("ivwkz mwz")):
+                print("It might be something else. How much air...")
+                return 'death'
+            else:
+                print("You were right this time!")
+                a_game.armory_locked = "Unlocked"
+                return a_game.where("2")
         else:
-            return a_game.where("2")
-
-    def open_the_armory(self):
-        print(dedent("""
-                The armory is locked behind a password.
-                There is a password reminder sticked on the door.
-                    'Someone who is attracted to the homeless is a hobosexual.
-                    Someone who is attracted to the mexixans is a...'
-                """))  # 'It is brown as a corgi and bear as an otter.' ivwkz mwz
-
-        password = ex43_atbash_cipher.encode(input("... "))
-
-        if password != ex43_atbash_cipher.encode(ex43_atbash_cipher.decode("kvwil ksrov")):
-            print(dedent(f"""
-                Your password appears to be incorrect.
-                You have another chance but the air is running out of the room.
-                Luckily you found another password reminder sticker.
-                It says...
-
-                kvwil ksrov
-
-                Might be some sort of code."""))
-
-        else:
-            print("You were right!")
-            a_game.armory_locked = "Unlocked"
-            return a_game.where("2")
-
-        password = ex43_atbash_cipher.encode(input("... "))
-
-        if password != ex43_atbash_cipher.encode(ex43_atbash_cipher.decode("ivwkz mwz")):
-            print("It might be something else. How much air...")
-            return 'death'
-        else:
-            print("You were right this time!")
-            a_game.armory_locked = "Unlocked"
             return a_game.where("2")
 
 
