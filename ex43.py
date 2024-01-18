@@ -8,7 +8,8 @@ from textwrap import dedent
 class Scene(object):
 
     def __init__(self):
-        print(self)
+        #print(self)
+        pass
 
     def enter(self):
         print("you reached here, enter")
@@ -60,17 +61,16 @@ class Engine(object):
             5: I just want to win.
             6: I just want to die.
             """))
-        where = input("< ")
 
         while True:
+            where = input("< ")
+
             if self.room_code.get(here) == self.room_code.get(where):
                 print("Good news: You are already here. Dummy.")
-                where = input("< ")
             elif where.isnumeric() and 0 < int(where) < 7:
                 return self.room_code.get(where)
             else:
                 print("Sorry you might had made a mistake, a typo or simply are retarded.")
-                where = input("< ")
 
 
 class Death(Scene):
@@ -93,7 +93,7 @@ class CentralCorridor(Scene):
 class LaserWeaponArmory(Scene):
 
     def enter(self):
-        print("This is the Laser Wearpon Armory.")
+        print("This is the Laser Weapon Armory.")
         """
         print(dedent("""
         # The armory is locked behind a password.
