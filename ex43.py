@@ -28,17 +28,17 @@ class Engine(object):
             "6": 'death',
             "5": 'finished',
 
-            #'central_corridor': "1",
-            #'laser_weapon_armory': "2",
-            #'the_bridge': "3",
-            #'escape_pod': "4",
-            #'death': "6",
-            #'finished': "5"
+            # 'central_corridor': "1",
+            # 'laser_weapon_armory': "2",
+            # 'the_bridge': "3",
+            # 'escape_pod': "4",
+            # 'death': "6",
+            # 'finished': "5"
 
         }  # can I somehow SIMPLY get the key from the value? : - ( I did not need it in the end but I would like to know
-        #tried google
-        #help
-        #please
+        # tried google
+        # help
+        # please
         # : ' (
 
     def play(self):
@@ -84,8 +84,6 @@ class CentralCorridor(Scene):
 
     def enter(self):
         print("You are at the Central Corridor.")
-
-
 
         return a_game.where("1")
 
@@ -138,7 +136,7 @@ class TheBridge(Scene):
         print("This is the Bridge.")
         return a_game.where("3")
 
-        #return 'escape_pod'
+        # return 'escape_pod'
 
 
 class EscapePod(Scene):
@@ -147,7 +145,7 @@ class EscapePod(Scene):
         print("Here is the Escape Pod.")
         return a_game.where("4")
 
-        #return 'finished'
+        # return 'finished'
 
 
 class Finished(Scene):
