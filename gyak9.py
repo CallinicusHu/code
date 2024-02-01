@@ -22,7 +22,7 @@ class Yielder(object):
         count = 0
         turns = 0
 
-        while self.hp > 0:
+        while self.hp > 0: #actually I don't know if this works or not because it doesn't even start
 
             if Yielder.D20 + self.atk >= self.ac:
                 self.hp -= min(0, Yielder.SWORD + self.dmg)
