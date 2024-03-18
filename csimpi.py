@@ -9,3 +9,6 @@ for red_panda_instance in redPanda_instances:
 
 print(len(redPanda_instances))
 print(redPanda_instances[1])
+print()
+print(myList)
+print(len(myList))
