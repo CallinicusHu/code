@@ -24,16 +24,16 @@ class Yielder(object):
 
         while self.hp > 0: #actually I don't know if this works or not because it doesn't even start
 
-            if Yielder.D20 + self.atk >= self.ac:
-                self.hp -= min(0, Yielder.SWORD + self.dmg)
-                yield #I am not exactly what this is useful but surely is
+            if Yielder.D20() + self.atk >= self.ac:
+                self.hp -= max(0, Yielder.SWORD() + self.dmg)
+                #yield print(self.hp) #I am not exactly what this is useful but surely is
                 count += 1
                 print(f"The bundáskenyér only has {self.hp} left. This was the {count}. time you hit it.")
 
             else:
                 print("Missed it!")
 
-            yield
+            #yield print(turns)
             turns += 1
         print(f"The bundáskenyér took {turns} turns.")
 
@@ -61,6 +61,13 @@ juti = Jutalmak()
 juti.jutalmazzunk_1()
 juti.jutalmazzunk_2()
 
-
-
-
+player_skill = None
+stuff_on_character_sheet = None
+stuff_we_agreed_with_dm = None
+def dobat_a_dm():
+    print("Dobj meggyőzést.")
+    stuff_we_agreed_with_dm = None
+    dob_a_jatekos = random.randint(1,20)
+    + player_skill + stuff_on_character_sheet + stuff_we_agreed_with_dm
+    if dob_a_jatekos >= dob_a_jatekos - 1:
+        return "Bementek a dungeonbe."
