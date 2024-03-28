@@ -1,6 +1,9 @@
 class redPanda:pass
 
-myList = [redPanda(), "not a redPanda", redPanda(), "also not a redPanda", redPanda()]
+rp_bestPanda = redPanda()
+rp_secondBestPanda =redPanda()
+
+myList = [rp_bestPanda, rp_secondBestPanda, rp_secondBestPanda, rp_bestPanda]
 
 redPanda_instances = [obj for obj in myList if isinstance(obj, redPanda)]
 

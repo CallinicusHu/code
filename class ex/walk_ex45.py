@@ -3,36 +3,38 @@ import move_actions_ex45
 
 class RunTheGame(object):
 
-    MOVEACTIONS = move_actions_ex45.MoveActions()
-
     def __init__(self, rooms):
-        self.rooms = rooms
+        self.MOVEACTIONS = move_actions_ex45.MoveActions(rooms)
 
-    def everything(self, action):
-        EVERYTHING = {
-            "1": self.MOVEACTIONS.through_door(1),
-            "2": self.MOVEACTIONS.through_door(2),
-            "3": self.MOVEACTIONS.through_door(3),
-            "4": self.MOVEACTIONS.through_door(4),
-            "5": self.MOVEACTIONS.through_door(5),
-            "6": self.MOVEACTIONS.through_door(6),
-            "7": self.MOVEACTIONS.through_door(7),
-            "dimension door": self.MOVEACTIONS.dimension_door(),
+        self.EVERYTHING = {
+            "normal door": lambda a: self.MOVEACTIONS.door(a),
+            "dimension door": lambda a: self.MOVEACTIONS.door(a),
 
             "light torch": "room_action",
             "poke wall": "room_action",
             "take loot": "room_action",
 
-            "byby": exit(0)
+            "byby": lambda a: exit(0)
         }
 
+
     def play(self):
+
+        print("You are in the 1st room, you can go to room 2 or 4.")
+
         while True:
             action = input("< ")
 
             if action in self.EVERYTHING:
-                self.everything(action)
+                self.EVERYTHING[action](action)
+
+            # if action.isnumeric():
+            #     int_action = int(action)
+            #     if int_action in self.MOVEACTIONS.you_are_here.DOORS:
+            #         self.MOVEACTIONS.through_door(int_action)
             #
-            # if action == "byby":
-            #     exit(0)
+            # elif action in self.EVERYTHING:
+            #     self.EVERYTHING[action](action)
+
+
 
