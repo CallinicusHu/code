@@ -28,13 +28,6 @@ class RunTheGame(object):
             if action in self.EVERYTHING:
                 self.EVERYTHING[action](action)
 
-            # if action.isnumeric():
-            #     int_action = int(action)
-            #     if int_action in self.MOVEACTIONS.you_are_here.DOORS:
-            #         self.MOVEACTIONS.through_door(int_action)
-            #
-            # elif action in self.EVERYTHING:
-            #     self.EVERYTHING[action](action)
 
 
 
