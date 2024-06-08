@@ -37,6 +37,6 @@ class Player(object):
 
 
 system = System()
-my_player = Player(4, 8, 2)
+first_player = Player(4, 8, 2)
+second_player = Player(3, 4, 5)
 
-print(my_player.roll_attack())
