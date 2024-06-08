@@ -25,3 +25,5 @@ def scan(stuff):
             commands.append(("error", word))
 
     return commands
+
+print(scan("Kill the bear."))
