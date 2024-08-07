@@ -5,7 +5,7 @@ a_lot = 1 #1_000_000
 sample = 5
 
 def d8x():
-    #makes a list of 3d8 roll outcomes
+    #makes a list of xd8 roll outcomes
     return [randint(1, 8) for _ in range(x_of_d8)]
 
 def high_roller():
