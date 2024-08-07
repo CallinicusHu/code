@@ -9,21 +9,21 @@ def d8x():
     return [randint(1, 8) for _ in range(x_of_d8)]
 
 def high_roller():
-    #adds together the highest 2 of 3d8 rolls
+    #adds together the highest 2 of xd8 rolls
     roll = d8x()
     return roll.pop(roll.index(max(roll))) + roll.pop(roll.index(max(roll)))
 
 def low_roller():
-    #adds together the lowest 2 of 3d8 rolls
+    #adds together the lowest 2 of xd8 rolls
     roll = d8x()
     return roll.pop(roll.index(min(roll))) + roll.pop(roll.index(min(roll)))
 
 def roll_high_a_lot():
-    #adds together the highest 2 of 3d8 rolls a million times
+    #adds together the highest 2 of xd8 rolls a million times
     return [high_roller() for _ in range (a_lot)]
 
 def roll_low_a_lot():
-    # adds together the lowest 2 of 3d8 rolls a million times
+    # adds together the lowest 2 of xd8 rolls a million times
     return [low_roller() for _ in range(a_lot)]
 
 
