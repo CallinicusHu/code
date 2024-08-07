@@ -4,6 +4,7 @@ import random
 class System(object):
 
     def __init__(self):
+
         pass
 
     def roll_check(self, score):  # how can you do this without the score argument?
@@ -38,5 +39,6 @@ class Player(object):
 
 system = System()
 first_player = Player(4, 8, 2)
+first_player = Player(System(4), System(8), System(2))
 second_player = Player(3, 4, 5)
 
