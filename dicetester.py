@@ -74,3 +74,5 @@ list_of_rolls = create_a_list_of_rolls()
 print("new type \n")
 
 print(f"you rolled with: {x_of_d8}d8 a {a_lot} of times\nbig\n{average_the_goodies()}\nsmall\n{average_the_baddies()}")
+
+#mergemerge
