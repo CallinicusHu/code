@@ -1,27 +1,42 @@
 import csv
 
-játékbeosztás = []
+def csinálj_listát_belőle(file):
 
-with open('beosztosfile.csv', newline='') as csvfile:
-    játékbeosztásnyit = csv.reader(csvfile, delimiter=',')
-    for row in játékbeosztásnyit:
-        játékbeosztás.append(row)
+    listánk = []
 
-fejléc = játékbeosztás[0]
-del játékbeosztás[0]
+    with open(file, newline='') as csvfile:
+        nyit = csv.reader(csvfile, delimiter=',')
+        for row in nyit:
+            listánk.append(row)
 
-játékbeosztás_formázva = []
+    del listánk[0]
 
-for sor, játék in enumerate(játékbeosztás):
-    játékbeosztás_formázva.append([])
-    for oszlop, elem in enumerate(játék):
-        if elem:
-            játékbeosztás_formázva[sor].append(elem)
+    formázott_listánk = []
+
+    for sor, játék in enumerate(listánk):
+        formázott_listánk.append([])
+        for oszlop, elem in enumerate(játék):
+            if elem:
+                formázott_listánk[sor].append(elem)
+
+    return formázott_listánk
 
 
-csütörtök = játékbeosztás_formázva[:8]
-péntek = játékbeosztás_formázva[8:15]
-szombat = játékbeosztás_formázva[15:22]
+def beosztó(eztet):
+
+    beosztva = []
+
+    for hanyadik, játék in enumerate(eztet):
+
+        beosztva.append(Játék(
+            játék[1],
+            játék[2],
+            játék[3],
+            játék[4],
+            játék[5:],
+            játék[0]))
+
+    return beosztva
 
 class Játék(object):
 
@@ -33,15 +48,20 @@ class Játék(object):
         self.jelentkezők = jelentkezők
         self.nap = nap
 
-játékok = []
+    def __str__(self):
+        return (f"{self.minimum_létszám}, "
+                f"{self.maximum_létszám}, "
+                f"{self.mesélő}, "
+                f"{self.cím}, "
+                f"{self.jelentkezők}, "
+                f"{self.nap}")
 
-for játék in játékbeosztás:
+játékbeosztás = csinálj_listát_belőle("beosztosfile.csv")
+beosztott = csinálj_listát_belőle("beosztott.csv")
 
-    játékok.append(Játék(
-        játék[0],
-        játék[1],
-        játék[2],
-        játék[3],
-        játék[4:]
+print(
 
-    ))
+)
+print(beosztott[0]
+      )
+print()
