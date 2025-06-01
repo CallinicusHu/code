@@ -60,15 +60,9 @@ with (open('hhtabor2025info.csv', 'w', newline='') as file):
             except:
                 temp.append("HIÁNYZIK")
             temp.append(session["name"])  # játék neve
-            if session["name"] == "Ahriman felemelkedése és bukása":  # max hely
-                temp.append(20)
-            else:
-                temp.append(session["table_size"])  # max hely
+            temp.append(session["table_count"] * session["table_size"])  # max hely
             temp.append(len(session["players"]))  # foglalt hely
-            if session["name"] == "Ahriman felemelkedése és bukása":  # szabad hely
-                temp.append(20 - len(session["players"]))
-            else:
-                temp.append(session["table_size"] - len(session["players"]))  # szabad hely
+            temp.append(session["table_count"] * session["table_size"] - len(session["players"]))  # szabad hely
             for player in session["players"]:  # játékosok
                 temp.append(f"{player["name"]}")
             writer.writerow(temp)
