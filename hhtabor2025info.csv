@@ -5,16 +5,16 @@ Szombat,Talbot,A Veremszurdok népe,5,1,4,Balint Morasz
 Szombat,Callinicus,Szakszervezet,5,5,0,Hacsi,Tamás Tóth,Kóth János,Földes Ádám,Daniel Foldes
 Szombat,Richárd Ferenczi,Szabotázs,5,1,4,Geri
 Szombat,Cápa,Machine Tractor Station Kharkov-37,5,4,1,Bernáth Balázs,Bakti,Magyar Dávid (Davelot),Mihaly
-Szombat,Gábor Kozma,Chariot of the Gods,5,1,4,Dominik Szécskai
+Szombat,Gábor Kozma,Chariot of the Gods,5,2,3,Dominik Szécskai,Fari
 Szombat,Gábor Havasi,A hegy gyomrában,5,2,3,godpower,Lipi Robi
 Szombat,Fekete Ferenc,Shahrukh szentélye,5,4,1,O.Martin,Galamb,Polecsák Milán,Polecsak Botond
 Vasárnap,Gábor Havasi,Temetõi meló,5,4,1,O.Martin,Gonda Gyöngyi Adrienn,Czigány Péter,Magyar Dávid (Davelot)
 Vasárnap,UnforcedError (Emese) VC Hungary,Menekítés a Sírföldekrõl,6,0,6
-Vasárnap,Callinicus,Ahriman felemelkedése és bukása,20,16,4,Katalin Makó,Makó Balázs,Hacsi,Wolfy,Fekete Ferenc,Bíborka,Kóth János,Geri,Szõri András,Miyazaki Jun,Orastes,Földes Ádám,Galamb,Polecsák Milán,Polecsak Botond,Balint Morasz
+Vasárnap,Callinicus,Ahriman felemelkedése és bukása,20,17,3,Katalin Makó,Makó Balázs,Hacsi,Wolfy,Fekete Ferenc,Bíborka,Kóth János,Geri,Szõri András,Miyazaki Jun,Orastes,Földes Ádám,Galamb,Polecsák Milán,Polecsak Botond,Balint Morasz,Fari
 Vasárnap,Sára Zoltán,Oro-Gorad agyarai,4,4,0,Daniel Foldes,Bernáth Balázs,Bartha Szabolcs,Mihaly
 Vasárnap,Talbot,Titkos ösvényeken,5,5,0,Bernadett Fehér,Dominik Szécskai,Lipi Robi,Richárd Ferenczi,Cápa
 Vasárnap,Gábor Kozma,Már megint a sarkon vár a Gehenna,4,1,3,Bakti
-Hétfõ,Katalin Makó,Lopjatok nekem egy sárkányt!,5,4,1,Makó Balázs,Tamás Tóth,Balint Morasz,Bartha Szabolcs
+Hétfõ,Katalin Makó,Lopjatok nekem egy sárkányt!,5,4,1,Tamás Tóth,Balint Morasz,Bartha Szabolcs,Makó Balázs
 Hétfõ,Gábor Havasi,Spicy Miami Vice#2: Szertorna,5,1,4,Geri
 Hétfõ,Talbot,"Fekete, mély vízen",5,0,5
 Hétfõ,Kysmacsek,Warhammer 40k: The Disappearance of Escort Wing 132,3,3,0,Callinicus,Bíborka,Lipi Robi
@@ -32,7 +32,7 @@ Kedd,O.Martin,Az elátkozott verem,4,1,3,Földes Ádám
 Kedd,HIÁNYZIK,"Egy újabb fázis? (Alcím: Phasen 2,3,4. 5! 6? 7? 8?)",5,4,1,Callinicus,Gonda Gyöngyi Adrienn,Czigány Péter,Mihaly
 Kedd,Geri,Névtelen ûr,5,3,2,Matej Zapletal,Dominik Capko,Julianna
 Kedd,Gábor Kozma,"Ki mint vet, úgy arat",3,3,0,Orastes,Richárd Ferenczi,Bakti
-Kedd,O.Martin,A sötét hegycsúcs,5,0,5
+Kedd este,O.Martin,A sötét hegycsúcs,5,0,5
 Szerda,silex,A Daloló Láp legendája,5,2,3,Gábor Kozma,Daniel Foldes
 Szerda,Kóth János,A feledik világháború,5,0,5
 Szerda,Geri,Hétköznapi hõsök,5,3,2,godpower,Katalin Makó,Makó Balázs
@@ -49,12 +49,12 @@ Csütörtök,Kysmacsek,The Goblin Invasion of Baeroth's Coast,5,4,1,Hacsi,Callinicu
 Csütörtök,Fekete Ferenc,HODOR!,6,0,6
 Csütörtök,Mihaly,A leszbikus kaszkadõrök támadása,3,0,3
 Csütörtök,Tamás Tóth,Echo,5,5,0,Katalin Makó,Makó Balázs,Daniel Foldes,Balint Morasz,Barbara Barnyák
-Csütörtök,O.Martin,Miscatonics University,4,0,4
+Csütörtök este,O.Martin,Miscatonics University,4,0,4
 Péntek,Sára Zoltán,Birtokbavétel,4,1,3,Lipi Robi
 Péntek,godpower,"Amint fent, úgy lent is",5,2,3,Hacsi,Daniel Foldes
 Péntek,Glowface,A Hûségesek,5,2,3,Orastes,Barbara Barnyák
 Péntek,Tamás Tóth,Bográcsparti,5,5,0,Katalin Makó,Makó Balázs,Wolfy,Kóth János,Földes Ádám
 Péntek,Kysmacsek,The *DISGUSTING* Witches of Salem,5,4,1,Bíborka,Tamás Földes,O.Martin,Mihaly
 Péntek,Callinicus,Szervezeti leépítés,5,1,4,Bakti
-Péntek,Balint Morasz,Romok között éberen álmodva,5,0,5
+Péntek,Balint Morasz,Romok között éberen álmodva,5,1,4,Fari
 Péntek,Geri,Egy egyszerû meló,5,1,4,Richárd Ferenczi

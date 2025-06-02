@@ -530,6 +530,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Fari",
+              "email": "farago.peter2@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-01T22:11:31+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -1031,6 +1040,21 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Fari",
+              "email": "farago.peter2@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-01T22:16:22+02:00",
+              "organized_play_memberships": [
+
+              ],
+              "character": {
+                "classes": [
+                  "? 5"
+                ],
+                "combatrole": "Leader - Tactical"
+              }
             }
           ],
           "player_waitlist": [
@@ -1310,15 +1334,6 @@
           ],
           "players": [
             {
-              "name": "Makó Balázs",
-              "email": "balazsmako345@gmail.com",
-              "discord": null,
-              "signed_up_at": "2025-05-23T22:41:53+02:00",
-              "organized_play_memberships": [
-
-              ]
-            },
-            {
               "name": "Tamás Tóth",
               "email": "heavymano@gmail.com",
               "discord": null,
@@ -1350,6 +1365,21 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Makó Balázs",
+              "email": "balazsmako345@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-01T22:20:48+02:00",
+              "organized_play_memberships": [
+
+              ],
+              "character": {
+                "classes": [
+
+                ],
+                "combatrole": "Arcane Caster"
+              }
             }
           ],
           "player_waitlist": [
@@ -4194,7 +4224,21 @@
 
           ],
           "players": [
+            {
+              "name": "Fari",
+              "email": "farago.peter2@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-01T22:45:56+02:00",
+              "organized_play_memberships": [
 
+              ],
+              "character": {
+                "classes": [
+
+                ],
+                "combatrole": "Leader - Tactical"
+              }
+            }
           ],
           "player_waitlist": [
 

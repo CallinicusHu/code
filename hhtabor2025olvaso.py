@@ -13,20 +13,24 @@ columns = ["Mesélő", "Nap", "Játék",
 
 
 def daytranslate():
+    translated = ""
     if day["name"].startswith("Sat"):
-        return "Szombat"
+        translated = "Szombat"
     if day["name"].startswith("Sun"):
-        return "Vasárnap"
+        translated = "Vasárnap"
     if day["name"].startswith("Mon"):
-        return "Hétfő"
+        translated = "Hétfő"
     if day["name"].startswith("Tue"):
-        return "Kedd"
+        translated = "Kedd"
     if day["name"].startswith("Wed"):
-        return "Szerda"
+        translated = "Szerda"
     if day["name"].startswith("Thu"):
-        return "Csütörtök"
+        translated = "Csütörtök"
     if day["name"].startswith("Fri"):
-        return "Péntek"
+        translated = "Péntek"
+    if len(day["name"]) > 30:
+        translated = translated + " este"
+    return translated
 
 
 # név és e-mail cím
