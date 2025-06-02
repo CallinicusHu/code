@@ -29,7 +29,7 @@ def daytranslate():
     if day["name"].startswith("Fri"):
         translated = "Péntek"
     if len(day["name"]) > 30:
-        translated = translated + " este"
+        translated += " este"
     return translated
 
 
@@ -40,9 +40,12 @@ with open('hhtabor2025email.csv', 'w', newline='') as file:
     for day in raw_data['slots']:
         for session in day['sessions']:
             temp = []
-            try:  # Mesélő
-                temp.append(f"{session["gms"][0]["name"]} <{session["gms"][0]["email"]}>")
-            except:
+            gms = ""
+            for gm in session["gms"]: # mesélő
+                gms += gm["name"] + " <" + gm["email"] + ">" + ", "
+            if gms:
+                temp.append(gms.strip(", "))
+            else: #feltételezem hogy üres gm list esetén 0x futott le a loop, tehát a hiányzó mesélő estén üres lenne és akkor if gms: false
                 temp.append("HIÁNYZIK")
             temp.append(daytranslate())  # nap
             temp.append(session["name"])  # játék neve
@@ -59,9 +62,12 @@ with (open('hhtabor2025info.csv', 'w', newline='') as file):
         for session in day['sessions']:
             temp = []
             temp.append(daytranslate())  # nap
-            try:  # mesélő
-                temp.append(session["gms"][0]["name"])
-            except:
+            gms = ""
+            for gm in session["gms"]: # mesélő
+                gms += gm["name"] + ", "
+            if gms:
+                temp.append(gms.strip(", "))
+            else: #feltételezem hogy üres gm list esetén 0x futott le a loop, tehát a hiányzó mesélő estén üres lenne és akkor if gms: false
                 temp.append("HIÁNYZIK")
             temp.append(session["name"])  # játék neve
             temp.append(session["table_count"] * session["table_size"])  # max hely
@@ -70,3 +76,4 @@ with (open('hhtabor2025info.csv', 'w', newline='') as file):
             for player in session["players"]:  # játékosok
                 temp.append(f"{player["name"]}")
             writer.writerow(temp)
+
