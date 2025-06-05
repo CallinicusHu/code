@@ -210,7 +210,15 @@
             }
           ],
           "player_waitlist": [
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "waitlisted_at": "2025-06-03T10:15:00+02:00",
+              "organized_play_memberships": [
 
+              ]
+            }
           ]
         },
         {
@@ -548,6 +556,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Dezső Attila",
+              "email": "sideriusdeside@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T02:15:06+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -627,6 +644,21 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Vörös Kata",
+              "email": "rockerkata@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-03T22:29:08+02:00",
+              "organized_play_memberships": [
+
+              ],
+              "character": {
+                "classes": [
+
+                ],
+                "combatrole": "Defender"
+              }
             }
           ],
           "player_waitlist": [
@@ -703,6 +735,94 @@
               "email": "deepseaboti@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-27T21:55:35+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "MrGenki",
+              "email": "szeman.bence92@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T10:40:30+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
+          ],
+          "player_waitlist": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "a1ce4f74-348e-494f-af5e-c8b11b1c3c34",
+      "name": "Sat 19/7 2025, 8pm - Sun 20/7 2025, 12am",
+      "venue": null,
+      "starts_at": "2025-07-19T20:00:00+02:00",
+      "ends_at": "2025-07-20T00:00:00+02:00",
+      "sessions": [
+        {
+          "name": "Kreml társasjáték",
+          "status": "published",
+          "visible": false,
+          "uuid": "0f412941-616a-4737-9482-797c7a117f6e",
+          "scenario": {
+            "name": "Kreml társasjáték",
+            "campaign": null,
+            "game_system": "Board Game",
+            "author": "Bernáth Balázs",
+            "min_level": null,
+            "max_level": null,
+            "blurb": "<i>avagy kívánja-e valaki rehabilitálni Schukrutoff elvtársat?</i>\n\nA 60-as években a Szovjetunió központi bizottsága nem a gyengéknek való. 23 politikus tör kíméletlen eszközökkel a vezető posztokra, és amelyikük 3 évben is képes főtitkárként integetni a Nagy Októberi Szocialista Forradalom emlékére rendezett parádén, annak neve bekerül a történelemkönyvekbe. A győztes játékos azonban az lesz, akinek a legnagyobb a befolyása erre a politikusra. A munka öregít, egy szibériai száműzetés még nem a politikai karrier vége, a szanatóriumba vonulás pedig nem életbiztosítás. A szerencse forgandó, bár a köpönyegekhez képest mozdíthatatlan kőszikla. Akár egy névtelen csinovnyikból is könnyen lehet főtitkár, ha megfelelő pártfogói vannak! A telefonok megállás nélkül csörögnek... \nA játékosok a játékban nem valamelyik politikust személyesítik meg, hanem 10 a játék elején általuk kiválasztott politikusra van kisebb-nagyobb befolyásuk, amely révén azok döntéseit meghatározhatják. \n\n<b>RENDSZER / SZABÁLYKÖNYV:</b> https://tarsasjatekok.com/tarsasjatek/kremlin-1986\n\n<b>KOMOLYSÁG INDEX:</b> 1/5\nA játékkal játszani kell, nem magától szórakoztat. A röhögés a fő cél, de a hangulat érdekében kövessük a korszak és a politikai rendszer logikáját!\n\n<b>JÁTÉKOSOK:</b> 2-5 fő."
+          },
+          "table_count": 1,
+          "table_size": 5,
+          "notes": null,
+          "virtual_table_tops": [
+
+          ],
+          "voice_chat_services": [
+
+          ],
+          "gms": [
+            {
+              "name": "Bernáth Balázs",
+              "email": "bbernath020516@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T06:24:47+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
+          ],
+          "gm_waitlist": [
+
+          ],
+          "players": [
+            {
+              "name": "Callinicus",
+              "email": "szemetdiszno@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T10:15:48+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Talbot",
+              "email": "talbot272@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T20:12:54+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Dezső Attila",
+              "email": "sideriusdeside@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T02:16:19+02:00",
               "organized_play_memberships": [
 
               ]
@@ -791,6 +911,15 @@
               "email": "davmagyar1@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-28T21:37:20+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-03T10:19:35+02:00",
               "organized_play_memberships": [
 
               ]
@@ -1082,10 +1211,60 @@
                 ],
                 "combatrole": "Leader - Tactical"
               }
+            },
+            {
+              "name": "Vörös Kata",
+              "email": "rockerkata@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-03T22:12:28+02:00",
+              "organized_play_memberships": [
+
+              ],
+              "character": {
+                "classes": [
+
+                ],
+                "combatrole": "Tank"
+              }
+            },
+            {
+              "name": "MrGenki",
+              "email": "szeman.bence92@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T10:38:47+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Dezső Attila",
+              "email": "sideriusdeside@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T02:08:21+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
+            {
+              "name": "Fórján Bernát",
+              "email": "forjan.bernat@bit-edu.hu",
+              "discord": null,
+              "waitlisted_at": "2025-06-05T08:11:24+02:00",
+              "organized_play_memberships": [
 
+              ]
+            },
+            {
+              "name": "BÁLINT ZALÁN ÁDÁM",
+              "email": "balintzalanadam@gmail.com",
+              "discord": null,
+              "waitlisted_at": "2025-06-05T08:15:27+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
           ]
         },
         {
@@ -1757,6 +1936,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "MrGenki",
+              "email": "szeman.bence92@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T10:50:27+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -1845,6 +2033,24 @@
                 ],
                 "combatrole": null
               }
+            },
+            {
+              "name": "Fórján Bernát",
+              "email": "forjan.bernat@bit-edu.hu",
+              "discord": null,
+              "signed_up_at": "2025-06-05T08:16:06+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "BÁLINT ZALÁN ÁDÁM",
+              "email": "balintzalanadam@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T08:16:15+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -1991,6 +2197,15 @@
               "email": "kukutxin@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-28T20:42:36+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-03T10:20:55+02:00",
               "organized_play_memberships": [
 
               ]
@@ -2469,6 +2684,50 @@
           ]
         },
         {
+          "name": "Tartarus Gate",
+          "status": "published",
+          "visible": false,
+          "uuid": "2eb8afc2-2ddd-40d1-82c2-18d9747326c6",
+          "scenario": {
+            "name": "Tartarus Gate",
+            "campaign": null,
+            "game_system": "Rebellion Unplugged",
+            "author": "Nagy Krisztián (santito)",
+            "min_level": null,
+            "max_level": null,
+            "blurb": "<i>Az OBOL Corporation megavállalat karbantartó brigádját mélyálomból ébresztik fel, hogy helyrehozzák a Charon szállítóhajó meghibásodását…</i>\n\nA jövőben járunk: az emberiség gyarmatosította az űrt, a megavállalatok pedig gyarmatosították az emberiséget. A Vállalati Háborúknak köszönhetően a Föld jobbára kizsigerelt pusztaság, a lakosság megavárosokba zsúfolódva próbál egyről a kettőre jutni.\nA karakterek az OBOL Corporation fizetetlen gyakornokai, akik egy szállítóhajó fedélzetén karbantartási munkával gyűjtik a Vállalati Krediteket (ki használ ma már egyáltalán pénzt?), hogy egyszer a cég hivatalos alkalmazottjaivá válhassanak és új életet kezdhessenek a Charon sokéves útja végén: a Tartarus Gate űrállomáson.\n\n<b>KOMOLYSÁG INDEX:</b> 3/5.\nEz egy szatirikus hangvételű sci-fi horror játék egy disztópikus világban, amiben ugyan megfér a humor, de a karakterek nagyon gyorsan, nagyon csúnya véget érhetnek.\n\n<b>RENDSZER / SZABÁLYKÖNYV: </b>\nRebellion Unplugged / Adventure Presents\nA játék egyszerű, három hatoldalú dobókockát használó, 4 oldalas\nszabályrendszerrel rendelkezik és a Rebellion Unplugged magazinformátumú szerepjátéksorozatának (Adventure Presents) első tagja, tehát aki ezt már végigjátszotta, az értelemszerűen ne jelentkezzen erre a mesére.\n\n<b>JÁTÉKOSOK:</b> 4-5 fő.\nElőzetes szetting- vagy szabályismeret nem, minimális angol nyelvtudás szükséges.\nA zsáner miatt, ha valakinek a gyomra nem bírja az Alien, Event Horizon, Pandorum filmtriumvirátust, inkább ne jelentkezzen.\n\n<b>KARAKTEREK:</b>\nHat, előre generált karakterből lehet választani."
+          },
+          "table_count": 1,
+          "table_size": 5,
+          "notes": null,
+          "virtual_table_tops": [
+
+          ],
+          "voice_chat_services": [
+
+          ],
+          "gms": [
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T06:22:49+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
+          ],
+          "gm_waitlist": [
+
+          ],
+          "players": [
+
+          ],
+          "player_waitlist": [
+
+          ]
+        },
+        {
           "name": "Egy újabb fázis? (Alcím: Phasen 2,3,4. 5! 6? 7? 8?)",
           "status": "published",
           "visible": false,
@@ -2629,10 +2888,36 @@
                 ],
                 "combatrole": null
               }
+            },
+            {
+              "name": "MrGenki",
+              "email": "szeman.bence92@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T10:53:01+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Fórján Bernát",
+              "email": "forjan.bernat@bit-edu.hu",
+              "discord": null,
+              "signed_up_at": "2025-06-05T08:17:05+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
+            {
+              "name": "BÁLINT ZALÁN ÁDÁM",
+              "email": "balintzalanadam@gmail.com",
+              "discord": null,
+              "waitlisted_at": "2025-06-05T08:17:06+02:00",
+              "organized_play_memberships": [
 
+              ]
+            }
           ]
         },
         {
@@ -2722,6 +3007,50 @@
       "starts_at": "2025-07-22T18:00:00+02:00",
       "ends_at": "2025-07-23T00:00:00+02:00",
       "sessions": [
+        {
+          "name": "Colonial Administration Licenses",
+          "status": "published",
+          "visible": false,
+          "uuid": "4bb00302-6559-4f0c-b282-6ffc478a1c4a",
+          "scenario": {
+            "name": "Colonial Administration Licenses",
+            "campaign": null,
+            "game_system": "Board Game",
+            "author": "Callinicus",
+            "min_level": null,
+            "max_level": null,
+            "blurb": "<i>Cégállamok kényszer jótékonykodnak.</i>\n\nA Lancer szerepjáték világának óriás vállalatai versengenek egymással a legtöbb jótékonysági részvény begyűjtéséért, amivel növelhetik befolyásukat az Unióban.\nE közben folyamatosan pénz (Manna) és egyéb javak cserélnek közöttük gazdát (vásárlás, lopás és egyéb fura módokon), időnként elkergetik egymás flottáit a kijelölt műveleti területekről.\nA játékszabály sajátosságai:\n- a játék elején a frakciók különböző mennyiségű Mannával kezdenek és ez a pénz mozog közöttük. Minden fejlesztést, költséget, erőforrást egymástól tudnak csak vásárolni\n- nincs bank, közös készlet, általában semmi sem kerül ki a játékból véglegesen\n- a játék fő mechnikái kártya alapúak, ez behoz egy adag kiszámíthatatlanságot és véletlen faktort, különösen a HORUS szándékosan játékszabályokat felülíró, furcsa és kaotikus lapjai esetén\nA játék teljesen házibarkács, öszevissza vásárolt bigyókból raktam össze a készletet és vágtam ki a nyomtatott lapokat.\nKépek (egyelőre) nincsenek benne.\nLancer ismerete nem szükséges hozzá.\nEddigi tapasztalatok alapján a játék várható hossza szabálymagyarázással együtt olyan ~4 óra.\nHa igény, kedv van rá más estén is szívesen előveszem, bemutatom, kedden akár két menet is belefér.\n\n<b>KOMOLYSÁG INDEX:</b> 4/5\nOda kell rá figyelni, tervezni benne, ugyanakkor időnként a kártyajárás alátehet az embereknek, ilyenkor tudni kell elengedni és tovább lépni a dolgon.\nPVP játék.\n\n<b>RENDSZER / SZABÁLYKÖNYV: </b>\nColonial Administration Licenses:\na card-based board game in the universe of Lancer\nAngolul van, 30 oldal, még a tábor előtt át akarom még egyszer nézni és hibajavítani, de meg fogom osztani. Nem kell előre elolvasni, ott el fogok mondani minden szabályt.\nA kártyák szövege is angolul van.\n\n<b>JÁTÉKOSOK:</b> 3-5 fő (+én)\n4 vagy 6 fővel működik ideálisan a játék, 5-tel kicsit furán jön ki néhány dolog. (Dolgozom, hogy megoldjam.)\nNémi angoltudás nem árt.\n\n<b>KARAKTEREK:</b> \nA Lancer világának nagy játékosai, \nHORUS, SSC, IPS-N, HA, GMS és  RKF."
+          },
+          "table_count": 1,
+          "table_size": 5,
+          "notes": null,
+          "virtual_table_tops": [
+
+          ],
+          "voice_chat_services": [
+
+          ],
+          "gms": [
+            {
+              "name": "Callinicus",
+              "email": "szemetdiszno@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-04T06:23:42+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
+          ],
+          "gm_waitlist": [
+
+          ],
+          "players": [
+
+          ],
+          "player_waitlist": [
+
+          ]
+        },
         {
           "name": "A sötét hegycsúcs",
           "status": "published",
@@ -3023,10 +3352,27 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Fórján Bernát",
+              "email": "forjan.bernat@bit-edu.hu",
+              "discord": null,
+              "signed_up_at": "2025-06-05T08:18:15+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
+            {
+              "name": "BÁLINT ZALÁN ÁDÁM",
+              "email": "balintzalanadam@gmail.com",
+              "discord": null,
+              "waitlisted_at": "2025-06-05T08:18:20+02:00",
+              "organized_play_memberships": [
 
+              ]
+            }
           ]
         },
         {
@@ -3090,6 +3436,15 @@
               "email": "batboy_hu@yahoo.com",
               "discord": null,
               "signed_up_at": "2025-05-30T06:17:00+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Dezső Attila",
+              "email": "sideriusdeside@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T02:23:53+02:00",
               "organized_play_memberships": [
 
               ]
@@ -3321,6 +3676,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-03T10:21:37+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -3501,6 +3865,15 @@
               "email": "kukutxin@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-28T20:44:39+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Dezső Attila",
+              "email": "sideriusdeside@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T02:26:46+02:00",
               "organized_play_memberships": [
 
               ]
@@ -3706,7 +4079,24 @@
 
           ],
           "players": [
+            {
+              "name": "Fórján Bernát",
+              "email": "forjan.bernat@bit-edu.hu",
+              "discord": null,
+              "signed_up_at": "2025-06-05T08:18:50+02:00",
+              "organized_play_memberships": [
 
+              ]
+            },
+            {
+              "name": "BÁLINT ZALÁN ÁDÁM",
+              "email": "balintzalanadam@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T08:18:53+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
           ],
           "player_waitlist": [
 
@@ -3750,7 +4140,15 @@
 
           ],
           "players": [
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-03T10:22:17+02:00",
+              "organized_play_memberships": [
 
+              ]
+            }
           ],
           "player_waitlist": [
 
@@ -4013,6 +4411,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-03T10:22:49+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -4071,6 +4478,24 @@
               "email": "barbarnyak7@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-30T10:54:27+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Fórján Bernát",
+              "email": "forjan.bernat@bit-edu.hu",
+              "discord": null,
+              "signed_up_at": "2025-06-05T08:19:02+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "BÁLINT ZALÁN ÁDÁM",
+              "email": "balintzalanadam@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T08:19:07+02:00",
               "organized_play_memberships": [
 
               ]
@@ -4290,6 +4715,15 @@
               "email": "kukutxin@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-28T20:45:01+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Dezső Attila",
+              "email": "sideriusdeside@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T02:29:13+02:00",
               "organized_play_memberships": [
 
               ]
