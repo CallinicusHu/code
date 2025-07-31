@@ -210,15 +210,7 @@
             }
           ],
           "player_waitlist": [
-            {
-              "name": "NAGY Krisztián",
-              "email": "krisznagy@gmail.com",
-              "discord": null,
-              "waitlisted_at": "2025-06-03T10:15:00+02:00",
-              "organized_play_memberships": [
 
-              ]
-            }
           ]
         },
         {
@@ -264,6 +256,42 @@
               "email": "balint@morasz.hu",
               "discord": null,
               "signed_up_at": "2025-05-29T19:03:53+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T13:59:57+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T14:09:56+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-07T14:42:02+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Joe",
+              "email": "csuti.jozsef@freemail.hu",
+              "discord": null,
+              "signed_up_at": "2025-06-29T20:02:19+02:00",
               "organized_play_memberships": [
 
               ]
@@ -386,7 +414,7 @@
           ],
           "gms": [
             {
-              "name": "Richárd Ferenczi",
+              "name": "Ricko",
               "email": "ferenczi.richard@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-26T17:25:35+02:00",
@@ -404,6 +432,24 @@
               "email": "radigergo@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-27T10:41:18+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Sára-Csombor Rita",
+              "email": "sara.csombor.rita@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T22:26:45+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Sára Zoltán",
+              "email": "cthulhuka@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-12T10:17:06+02:00",
               "organized_play_memberships": [
 
               ]
@@ -486,15 +532,6 @@
               "organized_play_memberships": [
 
               ]
-            },
-            {
-              "name": "Sára Zoltán",
-              "email": "cthulhuka@gmail.com",
-              "discord": null,
-              "signed_up_at": "2025-06-02T20:10:10+02:00",
-              "organized_play_memberships": [
-
-              ]
             }
           ],
           "player_waitlist": [
@@ -562,6 +599,24 @@
               "email": "sideriusdeside@gmail.com",
               "discord": null,
               "signed_up_at": "2025-06-05T02:15:06+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Mocsári Bernadett",
+              "email": "mocsari.betti@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-11T14:40:00+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Marton Antal",
+              "email": "marton.antal2@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-16T10:32:15+02:00",
               "organized_play_memberships": [
 
               ]
@@ -826,6 +881,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Balint Morasz",
+              "email": "balint@morasz.hu",
+              "discord": null,
+              "signed_up_at": "2025-07-12T22:09:01+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -970,7 +1034,36 @@
 
           ],
           "players": [
+            {
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T14:29:21+02:00",
+              "organized_play_memberships": [
 
+              ],
+              "character": {
+                "classes": [
+                  "Gunslinger "
+                ],
+                "combatrole": "Striker - Melee"
+              }
+            },
+            {
+              "name": "Marton Antal",
+              "email": "marton.antal2@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-16T10:52:57+02:00",
+              "organized_play_memberships": [
+
+              ],
+              "character": {
+                "classes": [
+                  "Bard [Maestro] "
+                ],
+                "combatrole": "Medic/Support"
+              }
+            }
           ],
           "player_waitlist": [
 
@@ -1412,7 +1505,7 @@
               ]
             },
             {
-              "name": "Richárd Ferenczi",
+              "name": "Ricko",
               "email": "ferenczi.richard@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-27T23:55:32+02:00",
@@ -1421,19 +1514,13 @@
               ]
             },
             {
-              "name": "Cápa",
-              "email": "csaja.p@gmail.com",
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
               "discord": null,
-              "signed_up_at": "2025-05-28T12:12:33+02:00",
+              "signed_up_at": "2025-06-06T14:47:53+02:00",
               "organized_play_memberships": [
 
-              ],
-              "character": {
-                "classes": [
-                  "Jedi Consular "
-                ],
-                "combatrole": "Summoner"
-              }
+              ]
             }
           ],
           "player_waitlist": [
@@ -1501,6 +1588,15 @@
               "email": "h.petra0917@gmail.com",
               "discord": null,
               "signed_up_at": "2025-06-02T15:01:18+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Mocsári Bernadett",
+              "email": "mocsari.betti@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-11T14:43:35+02:00",
               "organized_play_memberships": [
 
               ]
@@ -1597,13 +1693,16 @@
               "signed_up_at": "2025-06-01T22:20:48+02:00",
               "organized_play_memberships": [
 
-              ],
-              "character": {
-                "classes": [
+              ]
+            },
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T00:11:07+02:00",
+              "organized_play_memberships": [
 
-                ],
-                "combatrole": "Arcane Caster"
-              }
+              ]
             }
           ],
           "player_waitlist": [
@@ -1653,6 +1752,24 @@
               "email": "radigergo@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-29T11:22:42+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T14:40:03+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Joe",
+              "email": "csuti.jozsef@freemail.hu",
+              "discord": null,
+              "signed_up_at": "2025-07-14T15:02:11+02:00",
               "organized_play_memberships": [
 
               ]
@@ -1714,6 +1831,33 @@
               "email": "h.petra0917@gmail.com",
               "discord": null,
               "signed_up_at": "2025-06-02T15:03:17+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Glowface",
+              "email": "balazs.b.foldes@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-07T09:05:01+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Hacsi",
+              "email": "pacsek@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-11T18:55:37+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Kóth János",
+              "email": "kothjanos13@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-13T14:51:15+02:00",
               "organized_play_memberships": [
 
               ]
@@ -1868,7 +2012,7 @@
               ]
             },
             {
-              "name": "Richárd Ferenczi",
+              "name": "Ricko",
               "email": "ferenczi.richard@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-27T23:34:42+02:00",
@@ -2051,6 +2195,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "SZABÓ GERGELY",
+              "email": "sz.gergely1868@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-18T12:02:23+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -2118,6 +2271,24 @@
               "email": "batboy_hu@yahoo.com",
               "discord": null,
               "signed_up_at": "2025-05-30T06:15:54+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Marton Antal",
+              "email": "marton.antal2@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-16T10:32:25+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "brel",
+              "email": "waltheraltvick@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-13T14:38:07+02:00",
               "organized_play_memberships": [
 
               ]
@@ -2206,58 +2377,6 @@
               "email": "krisznagy@gmail.com",
               "discord": null,
               "signed_up_at": "2025-06-03T10:20:55+02:00",
-              "organized_play_memberships": [
-
-              ]
-            }
-          ],
-          "player_waitlist": [
-
-          ]
-        },
-        {
-          "name": "Sword and Wizardy: The Black Wyrm of Brandonsford",
-          "status": "published",
-          "visible": false,
-          "uuid": "c48a2221-25a9-450c-8f07-321a4c31e90c",
-          "scenario": {
-            "name": "Sword and Wizardy: The Black Wyrm of Brandonsford",
-            "campaign": null,
-            "game_system": "Swords & Wizardry",
-            "author": "Cápa",
-            "min_level": null,
-            "max_level": null,
-            "blurb": "<i>Hexcrawl</i>\n\nA Sword &amp; Wizardry egy retró stílusú fantasy szerepjáték, amely az 1974-es eredeti Dungeons &amp; Dragons (OD&amp;D) szabályain alapul, azokat modern formában újragondolva. Célja, hogy visszahozza a klasszikus kalandjátékok hangulatát, egyszerű szabályokkal és erősen a mesélői szabadságra építő játékmenettel.\nA rendszer letisztult és könnyen tanulható, ideális azoknak, akik szeretnék felfedezni az „ős-D&amp;D” szellemiségét. A játék támogatja a gyors karakteralkotást, a sandbox-stílusú kalandokat és a taktikai harcot, miközben teret enged az improvizációnak és a felfedezés örömének.\nThe Black Wyrm of Brandonsford\nEgy sárkány fészkel az erdő mélyén.\nMost, a vérszomjas bestia Brandonsford népére vetette ki árnyékát: felfalt mindent, ami élni mert a erdő határában. A város lakói rettegve húzódtak vissza falai mögé; senki sem meri átlépni a kapuk küszöbét. Az emberek nyomtalanul eltűntek az erdőből, s az üresen maradt rengeteget a tündérek vették birtokba. A természet szeszélyes gyermekei most uralkodnak, és a koboldkirály, Hogboon, új birodalmat álmodott magának: az egész erdőt követeli trónjához, mint jog szerinti örökségét.\n\n<b>KOMOLYSÁG INDEX:</b> 3/5. \n\n<b>RENDSZER / SZABÁLYKÖNYV: </b>Sword and Wizardy Complete\n\n<b>JÁTÉKOSOK:</b> 3-5 fő\n\n<b>KARAKTEREK: </b>Helyszínen közösen megalkotva."
-          },
-          "table_count": 1,
-          "table_size": 5,
-          "notes": null,
-          "virtual_table_tops": [
-
-          ],
-          "voice_chat_services": [
-
-          ],
-          "gms": [
-            {
-              "name": "Cápa",
-              "email": "csaja.p@gmail.com",
-              "discord": null,
-              "signed_up_at": "2025-05-27T05:44:17+02:00",
-              "organized_play_memberships": [
-
-              ]
-            }
-          ],
-          "gm_waitlist": [
-
-          ],
-          "players": [
-            {
-              "name": "Hacsi",
-              "email": "pacsek@gmail.com",
-              "discord": null,
-              "signed_up_at": "2025-05-24T08:54:52+02:00",
               "organized_play_memberships": [
 
               ]
@@ -2537,6 +2656,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Marton Antal",
+              "email": "marton.antal2@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-16T11:09:19+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -2670,10 +2798,19 @@
           ],
           "players": [
             {
-              "name": "Földes Ádám",
-              "email": "foldiadam028@gmail.com",
+              "name": "SZABÓ GERGELY",
+              "email": "sz.gergely1868@gmail.com",
               "discord": null,
-              "signed_up_at": "2025-05-27T20:25:02+02:00",
+              "signed_up_at": "2025-06-18T12:06:05+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "BÁLINT ZALÁN ÁDÁM",
+              "email": "balintzalanadam@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-11T19:15:02+02:00",
               "organized_play_memberships": [
 
               ]
@@ -2721,7 +2858,24 @@
 
           ],
           "players": [
+            {
+              "name": "Földes Ádám",
+              "email": "foldiadam028@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-07T14:36:59+02:00",
+              "organized_play_memberships": [
 
+              ]
+            },
+            {
+              "name": "Balint Morasz",
+              "email": "balint@morasz.hu",
+              "discord": null,
+              "signed_up_at": "2025-07-12T22:10:14+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
           ],
           "player_waitlist": [
 
@@ -2800,10 +2954,27 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T14:45:41+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "waitlisted_at": "2025-06-06T14:57:19+02:00",
+              "organized_play_memberships": [
 
+              ]
+            }
           ]
         },
         {
@@ -2909,15 +3080,7 @@
             }
           ],
           "player_waitlist": [
-            {
-              "name": "BÁLINT ZALÁN ÁDÁM",
-              "email": "balintzalanadam@gmail.com",
-              "discord": null,
-              "waitlisted_at": "2025-06-05T08:17:06+02:00",
-              "organized_play_memberships": [
 
-              ]
-            }
           ]
         },
         {
@@ -2968,7 +3131,7 @@
               ]
             },
             {
-              "name": "Richárd Ferenczi",
+              "name": "Ricko",
               "email": "ferenczi.richard@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-27T23:54:22+02:00",
@@ -2992,6 +3155,15 @@
               "email": "cthulhuka@gmail.com",
               "discord": null,
               "waitlisted_at": "2025-06-02T20:01:32+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "waitlisted_at": "2025-06-06T15:09:55+02:00",
               "organized_play_memberships": [
 
               ]
@@ -3052,6 +3224,67 @@
           ]
         },
         {
+          "name": "A Vérhold árnyéka",
+          "status": "published",
+          "visible": false,
+          "uuid": "d583b972-3580-4cc7-be5a-7c744e4ce542",
+          "scenario": {
+            "name": "A Vérhold árnyéka",
+            "campaign": null,
+            "game_system": "Rangers of Shadow Deep",
+            "author": "Talbor",
+            "min_level": null,
+            "max_level": null,
+            "blurb": "<i>Van kedved a Királyságot védő erőkhöz csatlakozni Árnyékmély arctalan fenyegetése ellen?</i>\n\nEgy fontos üzenetet kell elvinnetek a Taraj-gerinc túloldalán állomásozó királyi csapatokhoz. Egész álló nap hajszoltátok magatokat, hogy minél előbb odaérjetek, ám az este egy kopár fennsíkon ért benneteket. Tábortűz fénye lobban nem messze előttetek. Szerencsére emberek ülik körül az izzó fahasábokat, egy közeli helyőrség pihenő őrjárata az. A négy férfi kissé zilált és zavarodott, de ahogy felismerik bennetek a Királyi Őrgárda harcosait, megered a nyelvük. Váltott farkas támadt rájuk, s ugyan visszaverték, de a veszélyes vad a közeli major felé menekült. Kevésnek érzik az erejüket a bestia ellen, és a segítségeteket kérik. \nUgyan a rátok bízott üzenet sürgős, ám eskütök kötelez és nem hagyhatjátok sorsára a tanya lakóit sem. Ráadásul hosszú még az éjszaka, és ha a fenevad prédát szimatol, nem lesztek biztonságban a nyílt terepen... Lassan a hegyek tarajos csúcsai fölé kúszik a telihold, és a távolból farkasvonyitást sodor felétek a szél. \n\n<b>KOMOLYSÁG INDEX:</b> 3/5. \n\n<b>RENDSZER / SZABÁLYKÖNYV: </b>\nRangers of Shadow Deep (kooperatív skirmish game, térképpel, 2D minifigurákkal, proto-RPG szabályokkal)\n\n<b>JÁTÉKOSOK:</b> 1-3 fő. \nKezdő játékos is jöhet bátran, a rendszer szabályai egyszerűen tanulhatók.\n\n<b>KARAKTEREK: </b>\nElőre generált rangerekből (fejenként 1) és csatlósokból (összesen 4) helyben lehet választani."
+          },
+          "table_count": 1,
+          "table_size": 3,
+          "notes": null,
+          "virtual_table_tops": [
+
+          ],
+          "voice_chat_services": [
+
+          ],
+          "gms": [
+            {
+              "name": "Talbot",
+              "email": "talbot272@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-09T09:48:58+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
+          ],
+          "gm_waitlist": [
+
+          ],
+          "players": [
+            {
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-10T02:32:20+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-10T02:33:27+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
+          ],
+          "player_waitlist": [
+
+          ]
+        },
+        {
           "name": "A sötét hegycsúcs",
           "status": "published",
           "visible": false,
@@ -3089,7 +3322,15 @@
 
           ],
           "players": [
+            {
+              "name": "SZABÓ GERGELY",
+              "email": "sz.gergely1868@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-18T12:20:14+02:00",
+              "organized_play_memberships": [
 
+              ]
+            }
           ],
           "player_waitlist": [
 
@@ -3159,51 +3400,34 @@
               "organized_play_memberships": [
 
               ]
-            }
-          ],
-          "player_waitlist": [
-
-          ]
-        },
-        {
-          "name": "A feledik világháború",
-          "status": "published",
-          "visible": false,
-          "uuid": "e5547bd8-33b1-4586-8e97-829954835ca4",
-          "scenario": {
-            "name": "A feledik világháború",
-            "campaign": null,
-            "game_system": "UNI-D12",
-            "author": "Kóth János",
-            "min_level": null,
-            "max_level": null,
-            "blurb": "<i>Egy félszerzet kommandós csapat átvág egy fantasy világháborús fronton, titkos küldetésen</i>\n\nA Hősök Kora véget ért. A főmágusokat régen eltemették, a legendás kardoknak már nincsenek méltó hordozói, és az istenek sincsenek közel a halandókhoz. Ahogy a mágia felhígult, mindenkinek jutott legalább egy szikra — így természetesen hamar lángra kaphat a világ.\nAz első jelek a Markandi Egyesült Királyságok és a Hexark Technokrácia háborújaként jelentek meg. A fellengzős nevek mögött nem túl jelentős országok bújnak meg, a harcok azonban évek óta tartanak, és csak egyre hevesebbek. A világ többi része kapva kap az alkalmon, hogy „támogatás” címen kipróbálhassa legújabb fegyvereit.\nAhogy a világ két részre szakad, mindkét oldal a végső rohamra készül — Markand hősei pedig titkos parancsokat kapnak.\nRohamvarázsbotokat feltölteni, pálcákat betárazni, rúnagránátokat biztosítani! \nVár az új háború!\n\n<b>KOMOLYSÁG INDEX:</b> 4/5 \nA humor és viccelődés elfér amíg a játékosoknak elfogadható, viszont a kaland egy háborúról, annak brutalitását is beleértve.\n\n<b>RENDSZER / SZABÁLYKÖNYV: </b>\nUNI-D12 (házi, könnyen tanulható rendszer)\n\n<b>JÁTÉKOSOK: 3-5 fő. </b>\n\n<b>KARAKTEREK: </b>\nMesélő által előre generált karakterekből helyben választhattok."
-          },
-          "table_count": 1,
-          "table_size": 5,
-          "notes": null,
-          "virtual_table_tops": [
-
-          ],
-          "voice_chat_services": [
-
-          ],
-          "gms": [
+            },
             {
-              "name": "Kóth János",
-              "email": "kothjanos13@gmail.com",
+              "name": "Marton Antal",
+              "email": "marton.antal2@gmail.com",
               "discord": null,
-              "signed_up_at": "2025-05-26T12:59:22+02:00",
+              "signed_up_at": "2025-06-16T10:33:46+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "BÁLINT ZALÁN ÁDÁM",
+              "email": "balintzalanadam@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-03T17:03:25+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Fórján Bernát",
+              "email": "forjan.bernat@bit-edu.hu",
+              "discord": null,
+              "signed_up_at": "2025-07-13T17:52:56+02:00",
               "organized_play_memberships": [
 
               ]
             }
-          ],
-          "gm_waitlist": [
-
-          ],
-          "players": [
-
           ],
           "player_waitlist": [
 
@@ -3270,6 +3494,24 @@
               "email": "balazsmako345@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-28T20:55:17+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T23:01:21+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Sípos László György",
+              "email": "chipie.ambrosia@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-21T11:15:59+02:00",
               "organized_play_memberships": [
 
               ]
@@ -3352,27 +3594,10 @@
               "organized_play_memberships": [
 
               ]
-            },
-            {
-              "name": "Fórján Bernát",
-              "email": "forjan.bernat@bit-edu.hu",
-              "discord": null,
-              "signed_up_at": "2025-06-05T08:18:15+02:00",
-              "organized_play_memberships": [
-
-              ]
             }
           ],
           "player_waitlist": [
-            {
-              "name": "BÁLINT ZALÁN ÁDÁM",
-              "email": "balintzalanadam@gmail.com",
-              "discord": null,
-              "waitlisted_at": "2025-06-05T08:18:20+02:00",
-              "organized_play_memberships": [
 
-              ]
-            }
           ]
         },
         {
@@ -3448,6 +3673,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "Talbot",
+              "email": "talbot272@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-12T09:02:10+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -3511,10 +3745,28 @@
               ]
             },
             {
-              "name": "Richárd Ferenczi",
+              "name": "Ricko",
               "email": "ferenczi.richard@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-27T23:49:18+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T15:20:29+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Kóth János",
+              "email": "kothjanos13@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-12T10:10:14+02:00",
               "organized_play_memberships": [
 
               ]
@@ -3685,6 +3937,24 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "SZABÓ GERGELY",
+              "email": "sz.gergely1868@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-18T12:06:56+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "brel",
+              "email": "waltheraltvick@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-13T14:47:16+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -3700,58 +3970,6 @@
       "starts_at": "2025-07-24T10:00:00+02:00",
       "ends_at": "2025-07-24T19:00:00+02:00",
       "sessions": [
-        {
-          "name": "Eileen Og",
-          "status": "published",
-          "visible": false,
-          "uuid": "d9c1e9b7-7534-4029-a09c-fa7965b1d260",
-          "scenario": {
-            "name": "Eileen Og",
-            "campaign": null,
-            "game_system": "Cairn",
-            "author": "silex",
-            "min_level": null,
-            "max_level": null,
-            "blurb": "<i>Nyári fagy, kiürült kovácsműhely és egy rejtélyes eltünés - mi történik Petravoreban?</i>\n\nPetravore egy egy erdőszéli halászfalu, ahol az utóbbi napokban elharapództak a fura események: nyár közepe van, mégis elfagyott az eper. A kovácsműhelyből minden vas eltűnt. Néhány nappal később Eileen Ognak, a falu legszebb hajadonjának is nyoma vész.\nÉs ekkor váratlanul megjelenik a Folyó Hercege és követeli, hogy a falu adja elő a jegyesét.\nVajon megtaláljuk időben az eltűnt lányt? Megérti a Herceg, hogy a türelem nagy erény? Az események menthetetlenül megsebzik Petravore közösségét, vagy visszatérnek a dolgok valaha a rendes kerékvágásba?\nA rendszer egyszerű, gyorsan elsajátítható. A játék és a mesélő is kezdőbarát. A hangsúly a kreatív problémamegoldáson és a szociális szerepjátszáson van. Insight/investigation dobás nem várható: a karaktered azt gondolja, amit te is gondolsz az adott helyzetben. Ha keresel valamit, mondd meg, hogyan - ha megtalálható, megtalálod.\n\n<b>Komolysági index:</b> 3/5\n\n<b>Rendszer/szabálykönyv:</b> Cairn 2e\n\n<b>Játékosok: </b>3-5 fő. Kezdőbarát.\n\n<b>Karakterek: </b>Helyben alkotjuk együtt. A rendszer nagyon támogatja a gyors, néhány dobásos karakteralkotást."
-          },
-          "table_count": 1,
-          "table_size": 5,
-          "notes": null,
-          "virtual_table_tops": [
-
-          ],
-          "voice_chat_services": [
-
-          ],
-          "gms": [
-            {
-              "name": "silex",
-              "email": "silex010101@gmail.com",
-              "discord": null,
-              "signed_up_at": "2025-05-27T05:50:38+02:00",
-              "organized_play_memberships": [
-
-              ]
-            }
-          ],
-          "gm_waitlist": [
-
-          ],
-          "players": [
-            {
-              "name": "Lipi Robi",
-              "email": "lipi.alexandra@hotmail.com",
-              "discord": null,
-              "signed_up_at": "2025-05-27T20:10:30+02:00",
-              "organized_play_memberships": [
-
-              ]
-            }
-          ],
-          "player_waitlist": [
-
-          ]
-        },
         {
           "name": "A nyúlon túl",
           "status": "published",
@@ -3795,6 +4013,42 @@
               "email": "johnormandi@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-28T18:24:35+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T22:01:14+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T13:40:32+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Lipi Robi",
+              "email": "lipi.alexandra@hotmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-11T20:11:18+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "NAGY Krisztián",
+              "email": "krisznagy@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-13T15:43:29+02:00",
               "organized_play_memberships": [
 
               ]
@@ -3908,7 +4162,7 @@
           ],
           "gms": [
             {
-              "name": "Richárd Ferenczi",
+              "name": "Ricko",
               "email": "ferenczi.richard@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-26T17:26:16+02:00",
@@ -3953,6 +4207,15 @@
               "email": "melkor78@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-28T21:36:58+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "brel",
+              "email": "waltheraltvick@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-13T14:42:18+02:00",
               "organized_play_memberships": [
 
               ]
@@ -4035,6 +4298,15 @@
               "organized_play_memberships": [
 
               ]
+            },
+            {
+              "name": "SZABÓ GERGELY",
+              "email": "sz.gergely1868@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-18T12:16:08+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -4093,58 +4365,6 @@
               "email": "balintzalanadam@gmail.com",
               "discord": null,
               "signed_up_at": "2025-06-05T08:18:53+02:00",
-              "organized_play_memberships": [
-
-              ]
-            }
-          ],
-          "player_waitlist": [
-
-          ]
-        },
-        {
-          "name": "A leszbikus kaszkadőrök támadása",
-          "status": "published",
-          "visible": false,
-          "uuid": "6763c159-aa53-498a-af29-e019eda92c60",
-          "scenario": {
-            "name": "A leszbikus kaszkadőrök támadása",
-            "campaign": null,
-            "game_system": "Genesys",
-            "author": "Kántor Mihály",
-            "min_level": null,
-            "max_level": null,
-            "blurb": "<i>Mindenfajta fantasztikus elemet nélkülöző könnyed, a 80s évek akciófilmjeit és a Macho Women with Guns szerepjáték pánkulturális lenyomatát ötvöző kaland.</i>\n\n1986-ot írunk. A Val Verde banánköztársaság trópusi szigetén a Zombie Inferno című amerikai film utolsó forgatási napja virrad fel. A produkció házigazdája, Arius Esperanza tábornok, estére vendégül várja a stáb néhány kiválasztott tagját egy búcsúvacsorára a Kormorán-fészek erődbe.\nAz 1979-es teheráni Argo-akció után a CIA ismét egy filmforgatás álcáját felhasználva kezd titkos műveletbe. Az ALS (azaz az All Ladies Stunts) kaszkadőrcsoport, és annak hazafias érzetű vezetője Kiki Stone, nem rest kivenni a részét az akcióból, mely minden korábbi munkájuknál veszélyesebbnek ígérkezik.\nA filmiparban azonban mindenki ismeri az ALS mottóját: “Szakmájuk a veszély…”\n\n<b>KOMOLYSÁG INDEX:</b> 3/5\n\n<b>RENDSZER / SZABÁLYKÖNYV: </b>\nGenesys - FFG (A rendszerismeret előny, az angol nyelv ismerete elvárás.)\n\n<b>JÁTÉKOSOK:</b> 3 fő. \n\n<b>KARAKTEREK:</b> \nMesélő által előre generált három női karakter közül lehet választani."
-          },
-          "table_count": 1,
-          "table_size": 3,
-          "notes": null,
-          "virtual_table_tops": [
-
-          ],
-          "voice_chat_services": [
-
-          ],
-          "gms": [
-            {
-              "name": "Mihaly",
-              "email": "batboy_hu@yahoo.com",
-              "discord": null,
-              "signed_up_at": "2025-05-30T06:13:37+02:00",
-              "organized_play_memberships": [
-
-              ]
-            }
-          ],
-          "gm_waitlist": [
-
-          ],
-          "players": [
-            {
-              "name": "NAGY Krisztián",
-              "email": "krisznagy@gmail.com",
-              "discord": null,
-              "signed_up_at": "2025-06-03T10:22:17+02:00",
               "organized_play_memberships": [
 
               ]
@@ -4289,7 +4509,42 @@
 
           ],
           "players": [
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T15:25:47+02:00",
+              "organized_play_memberships": [
 
+              ]
+            },
+            {
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-06T15:26:22+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "SZABÓ GERGELY",
+              "email": "sz.gergely1868@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-18T12:21:10+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Mihaly",
+              "email": "batboy_hu@yahoo.com",
+              "discord": null,
+              "signed_up_at": "2025-07-11T21:32:38+02:00",
+              "organized_play_memberships": [
+
+              ]
+            }
           ],
           "player_waitlist": [
 
@@ -4347,6 +4602,15 @@
               "email": "lipi.alexandra@hotmail.com",
               "discord": null,
               "signed_up_at": "2025-05-27T21:10:36+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "SZABÓ GERGELY",
+              "email": "sz.gergely1868@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-18T12:10:00+02:00",
               "organized_play_memberships": [
 
               ]
@@ -4417,6 +4681,24 @@
               "email": "krisznagy@gmail.com",
               "discord": null,
               "signed_up_at": "2025-06-03T10:22:49+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Sára-Csombor Rita",
+              "email": "sara.csombor.rita@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-05T22:28:20+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Bartha Szabolcs",
+              "email": "melkor78@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-25T10:45:19+02:00",
               "organized_play_memberships": [
 
               ]
@@ -4496,6 +4778,15 @@
               "email": "balintzalanadam@gmail.com",
               "discord": null,
               "signed_up_at": "2025-06-05T08:19:07+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Dezső Attila",
+              "email": "sideriusdeside@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-13T15:32:40+02:00",
               "organized_play_memberships": [
 
               ]
@@ -4666,71 +4957,27 @@
               "organized_play_memberships": [
 
               ]
-            }
-          ],
-          "player_waitlist": [
-
-          ]
-        },
-        {
-          "name": "Szervezeti leépítés",
-          "status": "published",
-          "visible": false,
-          "uuid": "a3ba3a14-62e1-411d-8d72-4d398a46078c",
-          "scenario": {
-            "name": "Szervezeti leépítés",
-            "campaign": null,
-            "game_system": "Fabula Ultima",
-            "author": "Callinicus",
-            "min_level": null,
-            "max_level": null,
-            "blurb": "<i>Goth, grimdark, gore játék némi fantasy elemekkel, a \"Repo! The Genetic Opera\", \"eXistenZ\", és a \"Brazil\" című filmek ihletésében.</i>\n\nA 2056-os évet írjuk, vírusos szervleépülésben kihalt az emberiség 99%-a. Egyetlen módja a középtávú életbenmaradásnak a GeneCo által kölcsönzött pótszervek használata. A szervbérlet árát azonban minden héten fizetni kell. Aki késik az számíthat a Boncember tűpontos látogatására, hogy visszavegye tőle a cég tulajdonát képező szerveket. Akinek bérletre nem telik, annak fájdalomcsillapítóra sem.\nTemetőőrökként sokáig biztos állásotok volt, azonban a város új, hatékonyabb módszereket vezet be a hullatárolásra, titeket pedig nem csak kirúgtak, de ezzel együtt a számláitokat se tudjátok már a héten fizetni.\nTalán a fehérképű Sírrabló segíthet.\nElvégre a temető nélkül az ő munkája is veszélyben van.\nDe megvédhet-e a Boncembertől? Nem a Boncembertől senki nem védhet meg.\nSietnetek kell, már közeledik...\n\n<b>KOMOLYSÁG INDEX:</b> 3/5. \nA fekete humor olyan mint a láb. Nem mindenkinek van.\nSenki és semmmi sincs biztonságban a Boncembertől, különösen a jóízlés nincs.\nEttől függetlenül kérem nem szétkreténkedni a játékot, mert attól rossz lesz a kedvem és hamar elfáradok. Próbáljunk \"ontopic\", \"in\" és egyéb ilyesmik maradni.\n\n<b>RENDSZER / SZABÁLYKÖNYV:</b> \nFabula Ultima, Techno Fantasy\nHarcokon kívül szabálykönnyű, egyszerű játék. A harcok taktikusak, változatos képességekkel és lehetőségekkel tarkítottak, és harci térkép - battlegrid/mat - használata nélkül zajlanak.\nA rendszer egyik sajátossága, hogy a mesélő nem tudja megölni a játékos karaktereket, bizonyos helyzetekben a játékos kérheti, hogy meghalhasson a karaktere.\n\n<b>JÁTÉKOSOK: </b>3-5 fő. \nKezdők is jöhetnek, némi angol nyelvtudás szükséges lehet a karakterlapok megértéséhez, de nem bonyolultabb, mint egy DnD-nél.\nEz egy nagyon - sőt akár komikusan - véres játék lesz, így aki viszolyog az élvebelezésős, testnyílásokból vérzős, emberi szervekből bútor faragós leírásoktól, nem biztos hogy jól fogja magát érezni. Ezen felül szexuális, gyógyszeripari és politikai témák is felvetülhetnek.\nFüggőség, halál, elkeseredettség, belezőkarmoló.\n\n<b>KARAKTEREK: </b>\nMesélő által előre megalkotott karakterekből lehet majd választani."
-          },
-          "table_count": 1,
-          "table_size": 5,
-          "notes": null,
-          "virtual_table_tops": [
-
-          ],
-          "voice_chat_services": [
-
-          ],
-          "gms": [
-            {
-              "name": "Callinicus",
-              "email": "szemetdiszno@gmail.com",
-              "discord": null,
-              "signed_up_at": "2025-05-23T19:21:43+02:00",
-              "organized_play_memberships": [
-
-              ]
-            }
-          ],
-          "gm_waitlist": [
-
-          ],
-          "players": [
-            {
-              "name": "Bakti",
-              "email": "kukutxin@gmail.com",
-              "discord": null,
-              "signed_up_at": "2025-05-28T20:45:01+02:00",
-              "organized_play_memberships": [
-
-              ]
             },
             {
-              "name": "Dezső Attila",
-              "email": "sideriusdeside@gmail.com",
+              "name": "Regina laczkovics",
+              "email": "regi.laczkovics@gmail.com",
               "discord": null,
-              "signed_up_at": "2025-06-05T02:29:13+02:00",
+              "signed_up_at": "2025-06-06T15:35:28+02:00",
               "organized_play_memberships": [
 
               ]
             }
           ],
           "player_waitlist": [
+            {
+              "name": "Szemenkár Ilona",
+              "email": "lev.fiok@gmail.com",
+              "discord": null,
+              "waitlisted_at": "2025-06-06T16:33:32+02:00",
+              "organized_play_memberships": [
 
+              ]
+            }
           ]
         },
         {
@@ -4785,6 +5032,24 @@
                 ],
                 "combatrole": "Leader - Tactical"
               }
+            },
+            {
+              "name": "Miyazaki Jun",
+              "email": "vamerras@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-11T21:56:22+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Callinicus",
+              "email": "szemetdiszno@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-13T13:19:29+02:00",
+              "organized_play_memberships": [
+
+              ]
             }
           ],
           "player_waitlist": [
@@ -4830,10 +5095,46 @@
           ],
           "players": [
             {
-              "name": "Richárd Ferenczi",
+              "name": "Ricko",
               "email": "ferenczi.richard@gmail.com",
               "discord": null,
               "signed_up_at": "2025-05-27T23:47:46+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Galamb",
+              "email": "lpolecsak@yahoo.com",
+              "discord": null,
+              "signed_up_at": "2025-06-14T13:06:49+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Polecsák Milán",
+              "email": "milanpolecsak@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-06-14T13:07:30+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "Fekete Ferenc",
+              "email": "nekkkromanta@freemail.hu",
+              "discord": null,
+              "signed_up_at": "2025-06-28T11:51:53+02:00",
+              "organized_play_memberships": [
+
+              ]
+            },
+            {
+              "name": "brel",
+              "email": "waltheraltvick@gmail.com",
+              "discord": null,
+              "signed_up_at": "2025-07-13T14:39:00+02:00",
               "organized_play_memberships": [
 
               ]
