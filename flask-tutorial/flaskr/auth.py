@@ -1,4 +1,7 @@
 import functools
+import time
+from datetime import datetime
+import logging, os
 
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
@@ -9,8 +12,32 @@ from flaskr.db import get_db #flaskr.db???
 
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
+#logger = logging.getLogger(__name__)
+#logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
+
+# Set your custom log directory and file name
+log_dir = 'flask-tutorial/logs'
+os.makedirs(log_dir, exist_ok=True)
+log_file = os.path.join(log_dir, 'example.log')
+
+# Remove existing handlers if any
+for handler in logging.root.handlers[:]:
+    logging.root.removeHandler(handler)
+
+# Set up logging to file and console
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s | %(levelname)s | %(message)s',
+    datefmt='%Y.%m.%d %H:%M:%S',
+    handlers=[
+        logging.FileHandler(log_file, encoding='utf-8'),
+        logging.StreamHandler()  # Console output
+    ]
+)
+
 @bp.route('/register', methods=('GET', 'POST'))
 def register():
+    print("function register started at ", time.time())
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
@@ -40,6 +67,8 @@ def register():
 
 @bp.route('/login', methods=('GET', 'POST'))
 def login():
+    logger("function login started")
+    logging.info("CICA function login started")
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
@@ -51,12 +80,18 @@ def login():
 
         if user is None:
             error = 'Incorrect username.'
+            logger(f"error username \"{username}\" does not exist")
+            logging.warning("CICA")
         elif not check_password_hash(user['password'], password):
             error = 'Incorrect password.'
+            logger(f"error Incorrect password for user \"{username}\"")
+            logging.warning("CICA")
+
 
         if error is None:
             session.clear()
             session['user_id'] = user['id']
+            logger(f"succesful login \"{username}\"")
             return redirect(url_for('index'))
 
         flash(error)
@@ -88,3 +123,6 @@ def login_required(view):
         return view(**kwargs)
 
     return wrapped_view
+
+def logger(log):
+    print(datetime.now().strftime('%Y.%m.%d %H:%M:%S.%f')[:-3], log)
