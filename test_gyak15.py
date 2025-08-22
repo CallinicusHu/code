@@ -31,6 +31,17 @@ def test_delivery_time_bbb():
 
     assert bbb == 15
 
+def test_delivery_time_bbbbbbb(): #7b
+
+    bbbbbbb = gyak15.delivery_timer("BBBBBBB")
+
+    assert bbbbbbb == 35
+
+def test_wrongpack():
+
+    wrong = gyak15.delivery_timer("BBBMBB5")
+
+    assert wrong == "error at worktime 11 invalid package in MBB5"
 
 def test_delivery_time_ab():
 
@@ -43,8 +54,3 @@ def test_delivery_time_abb():
     abb = gyak15.delivery_timer("ABB")
 
     assert abb == 7
-
-"""def test_delivery_time_rest():
-
-    aababbab = gyak15.delivery_timer("AABABBAB")
-    abbbabaaabbb = gyak15.delivery_timer("ABBBABAAABBB")"""

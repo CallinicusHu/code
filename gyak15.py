@@ -14,62 +14,63 @@ class Truck(object):
         self.route = None  # A or B route
         self.cargo = False  # it is empty
 
+    def move(self, packages):  # packages is list_of_packages
 
-def delivery_timer(list_of_packages) -> int:
+        if self.position == 0 and packages:
+            if packages[0] == "A":
+                self.route = "A"
+            elif packages[0] == "B":
+                self.route = "B"
+            self.cargo = True
+            self.position = self.position + 1
+            packages = packages[1:]
+
+        elif self.route == "B" and self.position != 0:
+            if self.position < 5 and self.cargo:
+                self.position += 1
+                if self.position == 5:
+                    self.cargo = False
+            else:
+                self.position -= 1
+
+        elif self.route == "A" and self.position != 0:
+            if self.position < 1 and self.cargo:
+                self.position += 1
+                if self.position == 1:
+                    self.cargo = False
+            else:
+                self.position -= 1
+
+        if self.position == 0:
+            self.route = None
+
+        return packages
+
+
+def delivery_timer(list_of_packages):
     worktime = 0
     a_truck = Truck("a_truck")
     b_truck = Truck("b_truck")
-    number_of_packages = len(list_of_packages)
 
     while True:
 
+        worktime += + 1
 
-        worktime = worktime + 1
+        if len(list_of_packages) > 0 and not (list_of_packages[0] == "A" or list_of_packages[0] == "B"):
+            return f"error at worktime {worktime} invalid package in {list_of_packages}"
 
-        if a_truck.position == 0 and list_of_packages:
-            a_truck.route = "B"
-            a_truck.cargo = True
-            a_truck.position = a_truck.position + 1
-            list_of_packages = list_of_packages[1:]
+        list_of_packages = a_truck.move(list_of_packages)
 
-        elif a_truck.route == "B" and a_truck.position != 0:
-            if a_truck.position < 5:
-                a_truck.position += 1
-                if a_truck.position == 5:
-                    a_truck.cargo = False
-            else:
-                a_truck.position -= 1
+        if len(list_of_packages) > 0 and not (list_of_packages[0] == "A" or list_of_packages[0] == "B"):
+            return f"error at worktime {worktime} invalid package in {list_of_packages}"
 
-        if b_truck.position == 0 and list_of_packages:
-            b_truck.route = "B"
-            b_truck.cargo = True
-            b_truck.position = b_truck.position + 1
-            list_of_packages = list_of_packages[1:]
-
-        elif b_truck.route == "B" and b_truck.position != 0:
-            if b_truck.position < 5:
-                b_truck.position += 1
-                if b_truck.position == 5:
-                    b_truck.cargo = False
-            else:
-                b_truck.position -= 1
-
-
-        if a_truck.position == 0:
-            a_truck.route = None
-
-        if b_truck.position == 0:
-            b_truck.route = None
+        list_of_packages = b_truck.move(list_of_packages)
 
         print()
-        print(a_truck.name, a_truck.position, a_truck.cargo, a_truck.route, "worktime", worktime)
-        print(b_truck.name, b_truck.position, b_truck.cargo, b_truck.route, "worktime", worktime)
+        print(a_truck.name, "pos", a_truck.position, "cargo", a_truck.cargo, "route", a_truck.route, "worktime",
+              worktime)
+        print(b_truck.name, "pos", b_truck.position, "cargo", b_truck.cargo, "route", b_truck.route, "worktime",
+              worktime)
 
         if not a_truck.cargo and not b_truck.cargo and not list_of_packages:
             return worktime
-
-        if worktime == 20:
-            return worktime
-
-
-    # return delivery_time
