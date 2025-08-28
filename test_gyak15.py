@@ -12,6 +12,18 @@ def test_delivery_time_aa():
 
     assert aa == 13
 
+def test_delivery_time_aaa():
+
+    aaa = gyak15.delivery_timer("AAA")
+
+    assert aaa == 21
+
+def test_delivery_time_aaaa():
+
+    aaaa = gyak15.delivery_timer("AAAA")
+
+    assert aaaa == 29
+
 
 def test_delivery_time_b():
 
@@ -54,3 +66,34 @@ def test_delivery_time_abb():
     abb = gyak15.delivery_timer("ABB")
 
     assert abb == 7
+
+def test_delivery_time_aab():
+
+    aab = gyak15.delivery_timer("AAB")
+
+    assert aab == 13
+
+def test_delivery_time_aba():
+
+    aba = gyak15.delivery_timer("ABA")
+
+    assert aba == 13
+
+def test_delivery_time_bab():
+
+    bab = gyak15.delivery_timer("BAB")
+
+    assert bab == 7
+
+
+def test_delivery_time_aababbab():
+
+    aababbab = gyak15.delivery_timer("AABABBAB")
+
+    assert aababbab == "faszsetudja"
+
+def test_delivery_time_abbbabaaabbb():
+    abbbabaaabbb = gyak15.delivery_timer("ABBBABAAABBB")
+
+    assert abbbabaaabbb == "faszsetudja"
+
