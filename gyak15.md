@@ -1,0 +1,22 @@
+- [ ] Truck
+    - [ ] ✅ event
+    - [ ] ✅ time
+    - [ ] ✅ transport_id
+    - [ ] ✅ kind
+    - [ ] ✅ location
+    - [ ] ✅ destination
+    - [ ] cargo
+        - [ ] ✅ cargo_id
+        - [ ] ✅ destination
+        - [ ] ✅ origin
+- [ ] Ship
+    - [ ] 🟥 event
+    - [ ] 🟥 time
+    - [ ] 🟥 transport_id
+    - [ ] 🟥 kind
+    - [ ] 🟥 location
+    - [ ] 🟥 destination
+    - [ ] 🟥 cargo
+        - [ ] 🟥 cargo_id
+        - [ ] 🟥 destination
+        - [ ] 🟥 origin

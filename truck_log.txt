@@ -1,0 +1,23 @@
+# Deliver BABA
+{"event": "DEPART", "time": 1, "transport_id": 1, "kind": "truck_1", "location": "FACTORY", "destination": "B", "cargo": [{"cargo_id": 1, "destination": "B", "origin": "FACTORY"}]}
+{"event": "DEPART", "time": 1, "transport_id": 2, "kind": "truck_2", "location": "FACTORY", "destination": "PORT", "cargo": [{"cargo_id": 2, "destination": "A", "origin": "FACTORY"}]}
+{"event": "ARRIVE", "time": 1, "transport_id": 2, "kind": "truck_2", "location": "PORT", "cargo": [{"cargo_id": 2, "destination": "A", "origin": "PORT"}]}
+{"event": "DEPART", "time": 2, "transport_id": 3, "kind": "ship_1", "location": "PORT", "destination": "A", "cargo": [{"cargo_id": 2, "destination": "A", "origin": "PORT"}]}
+{"event": "DEPART", "time": 2, "transport_id": 2, "kind": "truck_2", "location": "PORT", "destination": "FACTORY"}
+{"event": "ARRIVE", "time": 2, "transport_id": 2, "kind": "truck_2", "location": "FACTORY" }
+{"event": "DEPART", "time": 3, "transport_id": 4, "kind": "truck_2", "location": "FACTORY", "destination": "B", "cargo": [{"cargo_id": 3, "destination": "B", "origin": "FACTORY"}]}
+{"event": "ARRIVE", "time": 5, "transport_id": 3, "kind": "ship_1", "location": "A", "cargo": [{"cargo_id": 2, "destination": "A", "origin": "PORT"}]}
+{"event": "ARRIVE", "time": 5, "transport_id": 1, "kind": "truck_1", "location": "B", "cargo": [{"cargo_id": 1, "destination": "B", "origin": "FACTORY"}]}
+{"event": "DEPART", "time": 6, "transport_id": 3, "kind": "ship_1", "location": "A", "destination": "PORT"}
+{"event": "DEPART", "time": 6, "transport_id": 1, "kind": "truck_1", "location": "B", "destination": "FACTORY"}
+{"event": "ARRIVE", "time": 7, "transport_id": 4, "kind": "truck_2", "location": "B", "cargo": [{"cargo_id": 3, "destination": "B", "origin": "FACTORY"}]}
+{"event": "DEPART", "time": 8, "transport_id": 4, "kind": "truck_2", "location": "B", "destination": "FACTORY"}
+{"event": "ARRIVE", "time": 9, "transport_id": 3, "kind": "ship_1", "location": "PORT" }
+{"event": "ARRIVE", "time": 10, "transport_id": 1, "kind": "truck_1", "location": "FACTORY" }
+{"event": "DEPART", "time": 11, "transport_id": 5, "kind": "truck_1", "location": "FACTORY", "destination": "PORT", "cargo": [{"cargo_id": 4, "destination": "A", "origin": "FACTORY"}]}
+{"event": "ARRIVE", "time": 11, "transport_id": 5, "kind": "truck_1", "location": "PORT", "cargo": [{"cargo_id": 4, "destination": "A", "origin": "PORT"}]}
+{"event": "DEPART", "time": 12, "transport_id": 6, "kind": "ship_1", "location": "PORT", "destination": "A", "cargo": [{"cargo_id": 4, "destination": "A", "origin": "PORT"}]}
+{"event": "DEPART", "time": 12, "transport_id": 5, "kind": "truck_1", "location": "PORT", "destination": "FACTORY"}
+{"event": "ARRIVE", "time": 12, "transport_id": 5, "kind": "truck_1", "location": "FACTORY" }
+{"event": "ARRIVE", "time": 12, "transport_id": 4, "kind": "truck_2", "location": "FACTORY" }
+{"event": "ARRIVE", "time": 15, "transport_id": 6, "kind": "ship_1", "location": "A", "cargo": [{"cargo_id": 4, "destination": "A", "origin": "PORT"}]}
