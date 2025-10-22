@@ -9,7 +9,8 @@ class Log(object):
         self.transport_id = 0
         self.cargo_id = 0
 
-    def create_log(self, event, time, transport_id, kind, location, v_destination=None, cargo_id=None, c_destination=None,
+    def create_log(self, event, time, transport_id, kind, location, v_destination=None, cargo_id=None,
+                   c_destination=None,
                    origin=None):
         with open("truck_log", "a", encoding="UTF-8") as truck_log:
             if cargo_id and v_destination:
@@ -36,10 +37,9 @@ class Truck(object):
         self.truck_log = truck_log
         self.my_transport_id = 0
         self.my_cargo_id = 0
+        self.sleep = True
 
     def move(self, packages, worktime):  # packages is list_of_packages
-
-
 
         if self.position == 0 and packages:
             if packages[0] == "A":
@@ -55,7 +55,8 @@ class Truck(object):
             # event, time, transportid, kind, location, destination, cargo
 
             self.truck_log.create_log(
-                "DEPART", worktime, self.my_transport_id, self.name, "FACTORY", "B" if self.route == "B" else "PORT", self.my_cargo_id, self.route, "FACTORY")
+                "DEPART", worktime, self.my_transport_id, self.name, "FACTORY", "B" if self.route == "B" else "PORT",
+                self.my_cargo_id, self.route, "FACTORY")
             self.position = self.position + 1
             if self.route == "A":
                 self.truck_log.create_log(
@@ -85,8 +86,8 @@ class Truck(object):
             self.cargo = False
             # event, time, transportid, kind, location, destination, cargo
             self.truck_log.create_log(
-                    "DEPART", worktime, self.my_transport_id, self.name, "PORT", "FACTORY")
-            self.position -= 1 #!!!
+                "DEPART", worktime, self.my_transport_id, self.name, "PORT", "FACTORY")
+            self.position -= 1  # !!!
             self.truck_log.create_log(
                 "ARRIVE", worktime, self.my_transport_id, self.name, "FACTORY")
 
@@ -94,6 +95,56 @@ class Truck(object):
             self.route = None
 
         return packages
+
+    def peti_move(self, packages, worktime):
+
+        self.begin_the_turn(packages, worktime)
+        self.take_action()
+        self.end_turn(worktime)
+
+        return packages
+
+    def begin_the_turn(self, packages, worktime):
+        if self.position == 0 and packages:
+            if packages[0] == "A":
+                self.route = "A"
+            elif packages[0] == "B":
+                self.route = "B"
+            self.cargo = True
+            self.truck_log.transport_id += 1
+            self.truck_log.cargo_id += 1
+            self.my_cargo_id = self.truck_log.cargo_id
+            self.my_transport_id = self.truck_log.transport_id
+            self.sleep = False
+            packages = packages[1:]
+
+            self.truck_log.create_log(
+                "DEPART", worktime, self.my_transport_id, self.name, "FACTORY", "B" if self.route == "B" else "PORT",
+                self.my_cargo_id, self.route, "FACTORY")
+
+    def take_action(self):
+        if self.cargo and self.position == 0:
+                self.position += 1
+
+        elif self.position > 0 and not self.cargo:
+            self.position -= 1
+
+        elif self.cargo and self.route == "B" and self.position < 5:
+            self.position += 1
+
+        else:
+            self.sleep = True
+
+    def end_turn(self, worktime):
+        if self.sleep == 1:
+            if self.position == 0:
+                self.route = None
+                self.truck_log.create_log(
+                    "ARRIVE", worktime, self.my_transport_id, self.name, "FACTORY")
+            if self.position == 1 and self.route == "A":
+                self.cargo = False
+                self.truck_log.create_log(
+                    "ARRIVE", worktime, self.my_transport_id, self.name, "PORT", None, self.my_cargo_id, "A", "PORT")
 
 
 class Ship(Truck):
@@ -168,5 +219,4 @@ def delivery_timer(list_of_packages):
         if not truck_1.cargo and not truck_2.cargo and not list_of_packages and not ship_1.port and not ship_1.cargo:
             return worktime
 
-
-delivery_timer("BABAABBBAAAAAAAA")
+# delivery_timer("BABAABBBAAAAAAAA")
