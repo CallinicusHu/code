@@ -1,0 +1,3 @@
+# Deliver B
+{"event": "DEPART", "time": 1, "transport_id": 1, "kind": "truck_1", "location": "FACTORY", "destination": "B", "cargo": [{"cargo_id": 1, "destination": "B", "origin": "FACTORY"}]}
+{"event": "ARRIVE", "time": 5, "transport_id": 1, "kind": "truck_1", "location": "B", "cargo": [{"cargo_id": 1, "destination": "B", "origin": "FACTORY"}]}

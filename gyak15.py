@@ -3,7 +3,7 @@ import json
 
 class Log(object):
     def __init__(self, packages):
-        with open("truck_log.txt", "w", encoding="UTF-8") as truck_log:
+        with open("truck_log", "w", encoding="UTF-8") as truck_log:
             truck_log.write(f"# Deliver {packages}\n")
 
         self.transport_id = 0
@@ -11,7 +11,7 @@ class Log(object):
 
     def create_log(self, event, time, transport_id, kind, location, v_destination=None, cargo_id=None, c_destination=None,
                    origin=None):
-        with open("truck_log.txt", "a", encoding="UTF-8") as truck_log:
+        with open("truck_log", "a", encoding="UTF-8") as truck_log:
             if cargo_id and v_destination:
                 truck_log.write(
                     f'\u007b"event": "{event}", "time": {time}, "transport_id": {transport_id}, "kind": "{kind}", "location": "{location}", "destination": "{v_destination}", "cargo": [\u007b"cargo_id": {cargo_id}, "destination": "{c_destination}", "origin": "{origin}"\u007d]\u007d')
@@ -169,4 +169,4 @@ def delivery_timer(list_of_packages):
             return worktime
 
 
-delivery_timer("BABA")
+delivery_timer("BABAABBBAAAAAAAA")

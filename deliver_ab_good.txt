@@ -1,0 +1,9 @@
+# Deliver AB
+{"event": "DEPART", "time": 1, "transport_id": 1, "kind": "truck_1", "location": "FACTORY", "destination": "PORT", "cargo": [{"cargo_id": 1, "destination": "A", "origin": "FACTORY"}]}
+{"event": "ARRIVE", "time": 1, "transport_id": 1, "kind": "truck_1", "location": "PORT", "cargo": [{"cargo_id": 1, "destination": "A", "origin": "PORT"}]}
+{"event": "DEPART", "time": 1, "transport_id": 2, "kind": "truck_2", "location": "FACTORY", "destination": "B", "cargo": [{"cargo_id": 2, "destination": "B", "origin": "FACTORY"}]}
+{"event": "DEPART", "time": 2, "transport_id": 3, "kind": "ship_1", "location": "PORT", "destination": "A", "cargo": [{"cargo_id": 1, "destination": "A", "origin": "PORT"}]}
+{"event": "DEPART", "time": 2, "transport_id": 1, "kind": "truck_1", "location": "PORT", "destination": "FACTORY"}
+{"event": "ARRIVE", "time": 2, "transport_id": 1, "kind": "truck_1", "location": "FACTORY" }
+{"event": "ARRIVE", "time": 5, "transport_id": 3, "kind": "ship_1", "location": "A", "cargo": [{"cargo_id": 1, "destination": "A", "origin": "PORT"}]}
+{"event": "ARRIVE", "time": 5, "transport_id": 2, "kind": "truck_2", "location": "B", "cargo": [{"cargo_id": 2, "destination": "B", "origin": "FACTORY"}]}
