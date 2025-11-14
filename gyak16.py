@@ -1,4 +1,6 @@
-distances = {
+# neighbours[city][neighbor]:km
+cities = ["Cogburg", "Copperhold", "Irondale", "Gizbourne", "Leverstorm", "Rustport", "Steamdrift"]
+neighbours = {
     "Cogburg": {
         "Copperhold": 1047,
         "Irondale": 1034,
@@ -42,17 +44,24 @@ distances = {
 
 def map_distance(start, goal):
 
-    if goal in distances[start]:
-        return distances[start][goal]
+    if goal in neighbours[start]:
+        return neighbours[start][goal]
     else:
-        return wayfinder(start, goal)
+        return wayfinder(start, goal, list(set(cities) - {start, goal}))
 
-def wayfinder(start, goal):
-    for city in distances[start]:
-
+def wayfinder(start, goal, stops):
 
 
-map_distance("Steamdrift", "Cogburg")
+
+    for stop in stops:
+        if stop in neighbours[start] and stop not in neighbours[goal]:
+
+
+
+
+
+
+print(map_distance("Steamdrift", "Cogburg"))
 print("\n")
-map_distance("Steamdrift", "Leverstorm")
+print(map_distance("Steamdrift", "Leverstorm"))
 # print(map_distance("Steamdrift", "Irondale"))
