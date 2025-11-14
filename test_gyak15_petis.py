@@ -85,6 +85,11 @@ def test_delivery_time_bab():
 
     assert bab == 7
 
+def test_delivery_time_baba():
+    baba = gyak15_petis.delivery_timer("BABA")
+
+    assert baba == 15
+
 
 def test_delivery_time_aababbab():
     aababbab = gyak15_petis.delivery_timer("AABABBAB")
@@ -96,15 +101,6 @@ def test_delivery_time_abbbabaaabbb():
     abbbabaaabbb = gyak15_petis.delivery_timer("ABBBABAAABBB")
 
     assert abbbabaaabbb != "faszsetudja"
-
-
-def test_a_log():
-    gyak15_petis.delivery_timer("A")
-    good = open("deliver_a_good.txt").readlines()
-    print(good)
-    maybe = open("truck_log_petis").readlines()
-    print(maybe)
-    assert good == maybe
 
 
 def test_a_log():

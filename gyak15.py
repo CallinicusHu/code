@@ -10,8 +10,8 @@ class Log(object):
         self.cargo_id = 0
 
     def create_log(self, event, time, transport_id, kind, location, v_destination=None, cargo_id=None,
-                   c_destination=None,
-                   origin=None):
+                    c_destination=None,
+                    origin=None):
         with open("truck_log", "a", encoding="UTF-8") as truck_log:
             if cargo_id and v_destination:
                 truck_log.write(

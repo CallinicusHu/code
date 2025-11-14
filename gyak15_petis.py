@@ -10,8 +10,8 @@ class Log(object):
         self.cargo_id = 0
 
     def create_log(self, event, time, transport_id, kind, location, v_destination=None, cargo_id=None,
-                   c_destination=None,
-                   origin=None):
+                    c_destination=None,
+                    origin=None):
         with open("truck_log_petis", "a", encoding="UTF-8") as truck_log_petis:
             if cargo_id and v_destination:
                 truck_log_petis.write(
@@ -64,6 +64,9 @@ class Truck(object):
             self.truck_log_petis.create_log(
                 "DEPART", worktime, self.my_transport_id, self.name, "FACTORY", "B" if self.route == "B" else "PORT",
                 self.my_cargo_id, self.route, "FACTORY")
+        elif self.position == 1 and self.route == "A":
+            self.truck_log_petis.create_log(
+                "DEPART", worktime, self.my_transport_id, self.name, "PORT", "FACTORY")
 
         return packages
 
@@ -77,19 +80,24 @@ class Truck(object):
         elif self.cargo and self.route == "B" and self.position < 5:
             self.position += 1
 
-        else:
-            self.sleep = True
 
     def end_turn(self, worktime):
-        if self.sleep and self.route:
-            if self.position == 0:
+        if self.route:
+            if self.position == 0 and self.route:
                 self.route = None
+                self.sleep = True
                 self.truck_log_petis.create_log(
                     "ARRIVE", worktime, self.my_transport_id, self.name, "FACTORY")
-            if self.position == 1 and self.route == "A":
+            elif self.route == "A" and self.position == 1:
                 self.cargo = False
                 self.truck_log_petis.create_log(
                     "ARRIVE", worktime, self.my_transport_id, self.name, "PORT", None, self.my_cargo_id, "A", "PORT")
+            elif self.position == 5:
+                self.cargo = False
+                self.truck_log_petis.create_log(
+                    "ARRIVE", worktime, self.my_transport_id, self.name, "B", None, self.my_cargo_id, self.route,
+                    "FACTORY")
+
 
 
 class Ship(Truck):
@@ -97,13 +105,15 @@ class Ship(Truck):
         super().__init__("ship_1", ship_log)
         self.port = ""
 
-    def shipping(self, a_truck, b_truck, worktime):
+    def porting(self, a_truck, b_truck):
         if a_truck.route == "A" and a_truck.position == 1:
             self.port += "A"
             self.my_cargo_id = a_truck.my_cargo_id
         if b_truck.route == "A" and b_truck.position == 1:
             self.port += "A"
             self.my_cargo_id = b_truck.my_cargo_id
+
+    def shipping(self, worktime):
 
         if not self.cargo and self.port and self.position == 0:
             self.cargo = True
@@ -142,7 +152,7 @@ def delivery_timer(list_of_packages):
 
         worktime += + 1
 
-        ship_1.shipping(truck_1, truck_2, worktime)
+        ship_1.shipping(worktime)
 
         if len(list_of_packages) > 0 and not (list_of_packages[0] == "A" or list_of_packages[0] == "B"):
             return f"error at worktime {worktime} invalid package in {list_of_packages}"
@@ -152,13 +162,15 @@ def delivery_timer(list_of_packages):
         if len(list_of_packages) > 0 and not (list_of_packages[0] == "A" or list_of_packages[0] == "B"):
             return f"error at worktime {worktime} invalid package in {list_of_packages}"
 
+        ship_1.porting(truck_1, truck_2)
+
         list_of_packages = truck_2.peti_move(list_of_packages, worktime)
 
         print()
         print(truck_1.name, "pos", truck_1.position, "cargo", truck_1.cargo, "route", truck_1.route, "worktime",
-              worktime)
+                worktime)
         print(truck_2.name, "pos", truck_2.position, "cargo", truck_2.cargo, "route", truck_2.route, "worktime",
-              worktime)
+                worktime)
         print(ship_1.name, "pos", ship_1.position, "cargo", ship_1.cargo)
 
         if not truck_1.cargo and not truck_2.cargo and not list_of_packages and not ship_1.port and not ship_1.cargo:
