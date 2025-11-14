@@ -43,25 +43,45 @@ neighbours = {
 
 
 def map_distance(start, goal):
-
     if goal in neighbours[start]:
-        return neighbours[start][goal]
+        return f"from {start} to {goal} the shortest distance is {neighbours[start][goal]} km"
     else:
-        return wayfinder(start, goal, list(set(cities) - {start, goal}))
+        return (f"from {start} to {goal} the shortest distance is "
+                f"{wayfinder(start, goal, list(set(cities) - {start, goal}))} km")
+
 
 def wayfinder(start, goal, stops):
+    ways = [key for key in neighbours[start].keys()]
+    way_lengths = [0 for _ in range(len(ways))]
+
+    for way in range(len(ways)):
+        index = 0
+        while True:
+            if way_lengths[way] == 0:
+                way_lengths[way] = way_lengths[way] + neighbours[start][ways[way]]
+                print(f"from {start} to {stops[index]}, +{neighbours[start][ways[way]]} km {way_lengths}")
+                way_stop = ways[way]
+
+            if stops[index] in neighbours[way_stop] and stops[index] not in neighbours[goal]:
+                way_lengths[way] = way_lengths[way] + neighbours[way_stop][stops[index]]
+                print(f"from {way_stop} to {stops[index]}, +{neighbours[way_stop][stops[index]]} km {way_lengths}")
+                way_stop = stops[index]
+                index += 1
+
+            elif stops[index] in neighbours[way_stop] and stops[index] in neighbours[goal]:
+                way_lengths[way] += neighbours[way_stop][stops[index]]
+                print(f"from {way_stop} to {stops[index]}, +{neighbours[way_stop][stops[index]]} km {way_lengths}")
+                break
+
+            else:
+                index += 1
+
+    return min(way_lengths)
 
 
-
-    for stop in stops:
-        if stop in neighbours[start] and stop not in neighbours[goal]:
-
-
-
-
-
-
+print("\n")
 print(map_distance("Steamdrift", "Cogburg"))
 print("\n")
-print(map_distance("Steamdrift", "Leverstorm"))
+print(map_distance("Irondale", "Steamdrift"))
+print("\n")
 # print(map_distance("Steamdrift", "Irondale"))
