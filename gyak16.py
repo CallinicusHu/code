@@ -41,47 +41,53 @@ neighbours = {
     }
 }
 
+def create_log(logthis):
+    with open("stopstops_log", "a", encoding="UTF-8") as stop_log:
+        stop_log.write(logthis)
+        stop_log.write("\n")
+
 
 def map_distance(start, goal):
+    with open("stopstops_log", "w", encoding="UTF-8") as stop_log:
+        stop_log.write("\n")
+
     if goal in neighbours[start]:
         return f"from {start} to {goal} the shortest distance is {neighbours[start][goal]} km"
     else:
         return (f"from {start} to {goal} the shortest distance is "
-                f"{wayfinder(start, goal, list(set(cities) - {start, goal}))} km")
+                f"{wayfinder(start, goal)} km")
 
 
-def wayfinder(start, goal, stops):
-    ways = [key for key in neighbours[start].keys()]
-    way_lengths = [0 for _ in range(len(ways))]
+def wayfinder(start, goal):
+    way_length = 0
+    way_stop = start
+    stops = cities.copy()
+    stops.remove(start)
 
-    for way in range(len(ways)):
-        index = 0
-        while True:
-            if way_lengths[way] == 0:
-                way_lengths[way] = way_lengths[way] + neighbours[start][ways[way]]
-                print(f"from {start} to {stops[index]}, +{neighbours[start][ways[way]]} km {way_lengths}")
-                way_stop = ways[way]
+    while goal not in neighbours[way_stop]:
+        for city in cities:
+            if city in neighbours[way_stop] and city in stops:
 
-            if stops[index] in neighbours[way_stop] and stops[index] not in neighbours[goal]:
-                way_lengths[way] = way_lengths[way] + neighbours[way_stop][stops[index]]
-                print(f"from {way_stop} to {stops[index]}, +{neighbours[way_stop][stops[index]]} km {way_lengths}")
-                way_stop = stops[index]
-                index += 1
+                create_log(
+                    f"Go from {way_stop} to {city} it ads {neighbours[way_stop][city]} km")
 
-            elif stops[index] in neighbours[way_stop] and stops[index] in neighbours[goal]:
-                way_lengths[way] += neighbours[way_stop][stops[index]]
-                print(f"from {way_stop} to {stops[index]}, +{neighbours[way_stop][stops[index]]} km {way_lengths}")
+                next_stop = city
+                way_length += neighbours[way_stop][next_stop]
+                way_stop = next_stop
+
+                create_log(
+                    f"The distance for this way is {way_length} km")
+
+                stops.remove(city)
+                create_log(f"{stops}")
+
                 break
+            if way_length > 10000:
+                return way_length
 
-            else:
-                index += 1
+    way_length += neighbours[way_stop][goal]
 
-    return min(way_lengths)
+    create_log(
+        f"Last we went from {way_stop} to {goal} +{neighbours[way_stop][goal]} km The total distance for this way is {way_length} km")
 
-
-print("\n")
-print(map_distance("Steamdrift", "Cogburg"))
-print("\n")
-print(map_distance("Irondale", "Steamdrift"))
-print("\n")
-# print(map_distance("Steamdrift", "Irondale"))
+    return way_length
