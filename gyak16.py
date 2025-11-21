@@ -83,6 +83,9 @@ def wayfinder(start, goal):
 
                 break
             if way_length > 10000:
+
+
+
                 return way_length
 
     way_length += neighbours[way_stop][goal]
