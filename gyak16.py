@@ -57,12 +57,33 @@ def map_distance(start, goal):
         return (f"from {start} to {goal} the shortest distance is "
                 f"{wayfinder(start, goal)} km")
 
+def find_routes(neighb, start, goal):
+    all_routes = []
+
+    def dfs(current, path):
+        path.append(current)
+
+        if current == goal:
+            all_routes.append((path.copy()))
+
+        for nxt in neighb[current]:
+            if nxt not in path:
+                dfs(nxt, path)
+
+        path.pop()
+
+    dfs(start,[])
+    return all_routes
+
 
 def wayfinder(start, goal):
+
     way_length = 0
     way_stop = start
     stops = cities.copy()
     stops.remove(start)
+
+    all_routes = find_routes(neighbours, start, goal)
 
     while goal not in neighbours[way_stop]:
         for city in cities:
@@ -94,3 +115,4 @@ def wayfinder(start, goal):
         f"Last we went from {way_stop} to {goal} +{neighbours[way_stop][goal]} km The total distance for this way is {way_length} km")
 
     return way_length
+
