@@ -1,11 +1,199 @@
 
-Go from Steamdrift to Cogburg it ads 1269 km
-The distance for this way is 1269 km
-['Copperhold', 'Irondale', 'Gizbourne', 'Leverstorm', 'Rustport']
-Go from Cogburg to Copperhold it ads 1047 km
-The distance for this way is 2316 km
-['Irondale', 'Gizbourne', 'Leverstorm', 'Rustport']
-Go from Copperhold to Irondale it ads 345 km
-The distance for this way is 2661 km
-['Gizbourne', 'Leverstorm', 'Rustport']
-Last we went from Irondale to Gizbourne +526 km The total distance for this way is 3187 km
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Irondale they are 345 km-s from each-other
+We go from Irondale to Gizbourne they are 526 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Copperhold', 'Irondale', 'Gizbourne'] route is 3187 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Irondale they are 345 km-s from each-other
+We go from Irondale to Leverstorm they are 673 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Copperhold', 'Irondale', 'Leverstorm', 'Gizbourne'] route is 4200 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Irondale they are 345 km-s from each-other
+We go from Irondale to Rustport they are 1302 km-s from each-other
+We go from Rustport to Gizbourne they are 1220 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Copperhold', 'Irondale', 'Rustport', 'Gizbourne'] route is 5183 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Copperhold', 'Leverstorm', 'Gizbourne'] route is 3751 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Irondale they are 673 km-s from each-other
+We go from Irondale to Gizbourne they are 526 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Copperhold', 'Leverstorm', 'Irondale', 'Gizbourne'] route is 4084 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Irondale they are 673 km-s from each-other
+We go from Irondale to Rustport they are 1302 km-s from each-other
+We go from Rustport to Gizbourne they are 1220 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Copperhold', 'Leverstorm', 'Irondale', 'Rustport', 'Gizbourne'] route is 6080 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Irondale they are 1034 km-s from each-other
+We go from Irondale to Gizbourne they are 526 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Irondale', 'Gizbourne'] route is 2829 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Irondale they are 1034 km-s from each-other
+We go from Irondale to Copperhold they are 345 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Irondale', 'Copperhold', 'Leverstorm', 'Gizbourne'] route is 4083 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Irondale they are 1034 km-s from each-other
+We go from Irondale to Leverstorm they are 673 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Irondale', 'Leverstorm', 'Gizbourne'] route is 3842 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Irondale they are 1034 km-s from each-other
+We go from Irondale to Rustport they are 1302 km-s from each-other
+We go from Rustport to Gizbourne they are 1220 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Irondale', 'Rustport', 'Gizbourne'] route is 4825 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Rustport they are 1421 km-s from each-other
+We go from Rustport to Gizbourne they are 1220 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Rustport', 'Gizbourne'] route is 3910 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Rustport they are 1421 km-s from each-other
+We go from Rustport to Irondale they are 1302 km-s from each-other
+We go from Irondale to Gizbourne they are 526 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Rustport', 'Irondale', 'Gizbourne'] route is 4518 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Rustport they are 1421 km-s from each-other
+We go from Rustport to Irondale they are 1302 km-s from each-other
+We go from Irondale to Copperhold they are 345 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Rustport', 'Irondale', 'Copperhold', 'Leverstorm', 'Gizbourne'] route is 5772 km-s.
+
+We go from Steamdrift to Cogburg they are 1269 km-s from each-other
+We go from Cogburg to Rustport they are 1421 km-s from each-other
+We go from Rustport to Irondale they are 1302 km-s from each-other
+We go from Irondale to Leverstorm they are 673 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Cogburg', 'Rustport', 'Irondale', 'Leverstorm', 'Gizbourne'] route is 5531 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Cogburg they are 1421 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Irondale they are 345 km-s from each-other
+We go from Irondale to Gizbourne they are 526 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Cogburg', 'Copperhold', 'Irondale', 'Gizbourne'] route is 5286 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Cogburg they are 1421 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Irondale they are 345 km-s from each-other
+We go from Irondale to Leverstorm they are 673 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Cogburg', 'Copperhold', 'Irondale', 'Leverstorm', 'Gizbourne'] route is 6299 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Cogburg they are 1421 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Cogburg', 'Copperhold', 'Leverstorm', 'Gizbourne'] route is 5850 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Cogburg they are 1421 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Irondale they are 673 km-s from each-other
+We go from Irondale to Gizbourne they are 526 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Cogburg', 'Copperhold', 'Leverstorm', 'Irondale', 'Gizbourne'] route is 6183 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Cogburg they are 1421 km-s from each-other
+We go from Cogburg to Irondale they are 1034 km-s from each-other
+We go from Irondale to Gizbourne they are 526 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Cogburg', 'Irondale', 'Gizbourne'] route is 4928 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Cogburg they are 1421 km-s from each-other
+We go from Cogburg to Irondale they are 1034 km-s from each-other
+We go from Irondale to Copperhold they are 345 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Cogburg', 'Irondale', 'Copperhold', 'Leverstorm', 'Gizbourne'] route is 6182 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Cogburg they are 1421 km-s from each-other
+We go from Cogburg to Irondale they are 1034 km-s from each-other
+We go from Irondale to Leverstorm they are 673 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Cogburg', 'Irondale', 'Leverstorm', 'Gizbourne'] route is 5941 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Gizbourne they are 1220 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Gizbourne'] route is 3167 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Irondale they are 1302 km-s from each-other
+We go from Irondale to Gizbourne they are 526 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Irondale', 'Gizbourne'] route is 3775 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Irondale they are 1302 km-s from each-other
+We go from Irondale to Cogburg they are 1034 km-s from each-other
+We go from Cogburg to Copperhold they are 1047 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Irondale', 'Cogburg', 'Copperhold', 'Leverstorm', 'Gizbourne'] route is 6765 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Irondale they are 1302 km-s from each-other
+We go from Irondale to Copperhold they are 345 km-s from each-other
+We go from Copperhold to Leverstorm they are 569 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Irondale', 'Copperhold', 'Leverstorm', 'Gizbourne'] route is 5029 km-s.
+
+We go from Steamdrift to Rustport they are 1947 km-s from each-other
+We go from Rustport to Irondale they are 1302 km-s from each-other
+We go from Irondale to Leverstorm they are 673 km-s from each-other
+We go from Leverstorm to Gizbourne they are 866 km-s from each-other
+
+The distance of the ['Steamdrift', 'Rustport', 'Irondale', 'Leverstorm', 'Gizbourne'] route is 4788 km-s.
+

@@ -41,6 +41,7 @@ neighbours = {
     }
 }
 
+
 def create_log(logthis):
     with open("stopstops_log", "a", encoding="UTF-8") as stop_log:
         stop_log.write(logthis)
@@ -57,6 +58,7 @@ def map_distance(start, goal):
         return (f"from {start} to {goal} the shortest distance is "
                 f"{wayfinder(start, goal)} km")
 
+
 def find_routes(neighb, start, goal):
     all_routes = []
 
@@ -72,47 +74,23 @@ def find_routes(neighb, start, goal):
 
         path.pop()
 
-    dfs(start,[])
+    dfs(start, [])
     return all_routes
 
 
 def wayfinder(start, goal):
+    distances = []
 
-    way_length = 0
-    way_stop = start
-    stops = cities.copy()
-    stops.remove(start)
-
-    all_routes = find_routes(neighbours, start, goal)
-
-    while goal not in neighbours[way_stop]:
-        for city in cities:
-            if city in neighbours[way_stop] and city in stops:
-
-                create_log(
-                    f"Go from {way_stop} to {city} it ads {neighbours[way_stop][city]} km")
-
-                next_stop = city
-                way_length += neighbours[way_stop][next_stop]
-                way_stop = next_stop
-
-                create_log(
-                    f"The distance for this way is {way_length} km")
-
-                stops.remove(city)
-                create_log(f"{stops}")
-
+    for route in find_routes(neighbours, start, goal):
+        this_route = 0
+        for count, station in enumerate(route):
+            create_log(
+                f"We go from {station} to {route[count+1]} they are {neighbours[station][route[count+1]]} km-s from each-other")
+            this_route += neighbours[station][route[count+1]]
+            if count+2 == len(route):
                 break
-            if way_length > 10000:
+        distances.append(this_route)
+        create_log(
+            f"\nThe distance of the {route} route is {this_route} km-s.\n")
 
-
-
-                return way_length
-
-    way_length += neighbours[way_stop][goal]
-
-    create_log(
-        f"Last we went from {way_stop} to {goal} +{neighbours[way_stop][goal]} km The total distance for this way is {way_length} km")
-
-    return way_length
-
+    return min(distances)
