@@ -3,12 +3,11 @@ Event Service
 Handles all business logic for Events
 Sits between Routes and Repository
 """
-from typing import List, Type
+from typing import Type
 
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 
-from tanulosvalami.models import Event
 from tanulosvalami.repositories.event_repository import EventRepository
 from tanulosvalami.schemas.event import EventCreate, EventUpdate
 from tanulosvalami.models.event import Event

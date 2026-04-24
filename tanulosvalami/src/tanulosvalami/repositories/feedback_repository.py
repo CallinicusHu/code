@@ -57,6 +57,10 @@ Return created feedback
         self.db.refresh(db_feedback)
         return db_feedback
 
+    def delete(self, feedback_id):
+        # document why this method is empty because you made it
+        pass
+
 
 def delete(self, feedback_id: int) -> bool:
     """
