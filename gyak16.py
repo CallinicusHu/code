@@ -1,4 +1,7 @@
 # neighbours[city][neighbor]:km
+import csv
+import json
+
 cities = ["Cogburg", "Copperhold", "Irondale", "Gizbourne", "Leverstorm", "Rustport", "Steamdrift"]
 neighbours = {
     "Cogburg": {
@@ -41,6 +44,52 @@ neighbours = {
     }
 }
 
+train_data = []
+
+with open ("train_data_gyak.csv", "r", encoding="UTF-8") as source:
+    for row in source:
+        train_data.append(row.strip("\n"))
+
+for index, line in enumerate(train_data):
+    train_data[index] = line.split(',')
+
+train_data_temp = train_data.copy()
+travel_averages = neighbours.copy()
+
+travel_json = json.dumps(travel_averages, indent=4)
+
+print(travel_json)
+
+for neighbourhood in neighbours:
+    for neighbour in neighbours[neighbourhood]:
+        measure = [] #measure the average travel time between cites
+        for index, line in enumerate(train_data_temp):
+            if neighbourhood == line[2] and neighbour == line[3]:
+                measure.append(float(line[4]))
+        travel_averages[neighbourhood].update({neighbour: (sum(measure)/len(measure))})
+
+test_dataset = []
+
+with open ("train_data_test.csv", "r", encoding="UTF-8") as source:
+    for row in source:
+        test_dataset.append(row.strip("\n"))
+
+for index, line in enumerate(test_dataset):
+    test_dataset[index] = line.split(',')
+
+test_dataset.pop(0)
+
+def predict(stop1, stop2):
+    return travel_averages[stop1][stop2]
+
+error_sum = 0
+for line in test_dataset:
+    predicted_speed = predict(line[2], line[3])
+    difference = float(line[4]) - predicted_speed
+    square = difference * difference
+    error_sum += square
+mse = error_sum / len(test_dataset)
+print(f"Mean squared error is {mse}")
 
 def create_log(logthis):
     with open("stopstops_log", "a", encoding="UTF-8") as stop_log:

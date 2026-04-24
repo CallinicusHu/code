@@ -1,0 +1,21 @@
+[project]
+name = "tanulosvalami"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Callinicus",email = "szemetdiszno@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy (>=2.0.48,<3.0.0)",
+    "pydantic (>=2.13.0,<3.0.0)",
+    "fastapi (>=0.135.3,<0.136.0)"
+]
+
+[tool.poetry]
+packages = [{include = "tanulosvalami", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
