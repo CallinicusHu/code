@@ -1,12 +1,18 @@
 """
 Database configuration and session management.
 """
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, DeclarativeBase
 
 # SQLite database URL
 # A '///' után 3 slash = relatív path, 4 slash = abszolút path
-DATABASE_URL = "sqlite:///./feedback.db"
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./feedback.db")
+
+# For PostgreSQL on Render, SQLAlchemy 2.0+ requires 'postgresql://'
+# (Render URLs sometimes start with 'postgres://', so we fix it)
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
 # Engine létrehozása
 # check_same_thread=False: szükséges SQLite-hoz FastAPI-val
@@ -22,6 +28,7 @@ SessionLocal = sessionmaker(
     autoflush=False,
     bind=engine
 )
+
 
 # Declarative Base - minden model ebből fog örökölni
 class Base(DeclarativeBase):
