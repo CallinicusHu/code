@@ -14,13 +14,14 @@ DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./feedback.db")
 if DATABASE_URL.startswith("postgres://"):
     DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
-# Engine létrehozása
-# check_same_thread=False: szükséges SQLite-hoz FastAPI-val
-engine = create_engine(
-    DATABASE_URL,
-    connect_args={"check_same_thread": False},
-    echo=True  # SQL query-k kiírása (fejlesztéshez hasznos)
-)
+if "sqlite" in DATABASE_URL:
+    # Only SQLite needs check_same_thread
+    engine = create_engine(
+        DATABASE_URL, connect_args={"check_same_thread": False}, echo=True
+    )
+else:
+    # PostgreSQL or others don't want that argument
+    engine = create_engine(DATABASE_URL, echo=True)
 
 # Session factory
 SessionLocal = sessionmaker(
