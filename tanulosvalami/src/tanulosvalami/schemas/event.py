@@ -13,12 +13,12 @@ class EventBase(BaseModel):
     """
     Shared fields between all Event schemas
     """
-    title: str = Field(
+    name: str = Field(
         ...,
         min_length=3,
         max_length=100,
-        description="Title of the event",
-        examples=["Team Building 2024"]
+        description="Name of the event",
+        examples=["Team Building 2026"]
     )
     description: str | None = Field(
         default=None,
@@ -26,17 +26,24 @@ class EventBase(BaseModel):
         description="Optional description of the event",
         examples=["Annual team building event"]
     )
-    location: str = Field(
-        ...,
+    location: str | None = Field(
+        default=None,
         min_length=2,
         max_length=200,
         description="Location of the event",
-        examples=["Budapest, Office"]
+        examples=["Vác, Office"]
     )
-    event_date: datetime = Field(
+    date: datetime = Field(
         ...,
         description="Date and time of the event",
-        examples=["2024-06-15T10:00:00"]
+        examples=["2026-05-25T18:00:00"]
+    )
+    gm: str = Field(
+        ...,
+        min_length=2,
+        max_length=200,
+        description="Game Master for the event",
+        examples=["Admin"]
     )
 
 

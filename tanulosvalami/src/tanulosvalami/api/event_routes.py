@@ -24,7 +24,7 @@ def get_event_service(db: Session = Depends(get_db)) -> EventService:
 
 @router.get("/", response_model=list[EventResponse])
 def get_all_events(
-    service: EventService = Depends(get_event_service)
+        service: EventService = Depends(get_event_service)
 ):
     """
     GET /events/
@@ -35,8 +35,8 @@ def get_all_events(
 
 @router.get("/{event_id}", response_model=EventResponse)
 def get_event(
-    event_id: int,
-    service: EventService = Depends(get_event_service)
+        event_id: int,
+        service: EventService = Depends(get_event_service)
 ):
     """
     GET /events/{event_id}
@@ -48,22 +48,21 @@ def get_event(
 
 @router.post("/", response_model=EventResponse, status_code=201)
 def create_event(
-    event_data: EventCreate,
-    service: EventService = Depends(get_event_service)
+        event_data: EventCreate,
+        service: EventService = Depends(get_event_service)
 ):
     """
     POST /events/
-    Creates a new event
-    Raises 400 if end_date before start_date
+    Creates a new event in the database.
     """
     return service.create_event(event_data)
 
 
 @router.patch("/{event_id}", response_model=EventResponse)
 def update_event(
-    event_id: int,
-    event_data: EventUpdate,
-    service: EventService = Depends(get_event_service)
+        event_id: int,
+        event_data: EventUpdate,
+        service: EventService = Depends(get_event_service)
 ):
     """
     PATCH /events/{event_id}
@@ -76,8 +75,8 @@ def update_event(
 
 @router.delete("/{event_id}")
 def delete_event(
-    event_id: int,
-    service: EventService = Depends(get_event_service)
+        event_id: int,
+        service: EventService = Depends(get_event_service)
 ):
     """
     DELETE /events/{event_id}
