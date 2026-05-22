@@ -45,15 +45,8 @@ class EventService:
 
     def create_event(self, event_data: EventCreate) -> Event:
         """
-        Create a new event
-        Raises 400 if end_date is before start_date
+        Create a new event in the database.
         """
-        if event_data.end_date <= event_data.start_date:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="end_date must be after start_date"
-            )
-
         return self.repository.create(event_data)
 
     def update_event(self, event_id: int, event_data: EventUpdate) -> Event:
