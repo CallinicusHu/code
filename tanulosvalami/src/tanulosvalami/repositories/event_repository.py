@@ -45,24 +45,26 @@ class EventRepository:
         self.db.refresh(db_event)
         return db_event
 
-    def update(self, event_id: int, event_data: EventUpdate) -> Event | None:
+    def update(self, event_id: int, event_data: EventUpdate) -> Event:
         """
-        Update an existing event
-        Only updates fields that are provided (partial update)
-        Returns None if event not found
+        Updates an event in the database.
         """
-        db_event = self.get_by_id(event_id)
+        # 1. Fetch the existing event
+        db_event = self.get(event_id)  # Or however you fetch by ID in this file
 
-        if not db_event:
-            return None
+        if db_event:
+            # 2. Extract only the fields the user actually sent in the PATCH request
+            update_data = event_data.model_dump(exclude_unset=True)
 
-        # Only update fields that were actually provided
-        update_data = event_data.model_dump(exclude_unset=True)
-        for field, value in update_data.items():
-            setattr(db_event, field, value)
+            # 3. Apply those new values to the database object
+            for key, value in update_data.items():
+                setattr(db_event, key, value)
 
-        self.db.commit()
-        self.db.refresh(db_event)
+            # 4. Save and commit the changes
+            self.db.add(db_event)
+            self.db.commit()
+            self.db.refresh(db_event)
+
         return db_event
 
     def delete(self, event_id: int) -> bool:
