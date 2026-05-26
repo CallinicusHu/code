@@ -53,22 +53,12 @@ class EventService:
         """
         Update an existing event
         1. Check if event exists (raises 404 if not)
-        2. Validate dates if both are provided
-        3. Update the event
+        2. Update the event
         """
-        # Check if event exists
+        # Check if event exists (this is still good!)
         existing_event = self.get_event_by_id(event_id)
 
-        # Validate dates only if both are provided
-        start = event_data.start_date or existing_event.start_date
-        end = event_data.end_date or existing_event.end_date
-
-        if end <= start:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="end_date must be after start_date"
-            )
-
+        # Pass the data straight to the repository
         return self.repository.update(event_id, event_data)
 
     def delete_event(self, event_id: int) -> dict:
