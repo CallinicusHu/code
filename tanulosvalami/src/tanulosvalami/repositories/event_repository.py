@@ -50,7 +50,7 @@ class EventRepository:
         Updates an event in the database.
         """
         # 1. Fetch the existing event
-        db_event = self.get(event_id)  # Or however you fetch by ID in this file
+        db_event = self.get_by_id(event_id)  # Or however you fetch by ID in this file
 
         if db_event:
             # 2. Extract only the fields the user actually sent in the PATCH request
