@@ -56,32 +56,31 @@ class EventCreate(EventBase):
 
 
 class EventUpdate(BaseModel):
-    class EventUpdate(BaseModel):
-        """
-        Schema for updating an Event
-        All fields are optional - only send what you want to change
-        Used in: PUT /events/{id}
-        """
-        name: str | None = Field(
-            default=None,
-            min_length=3,
-            max_length=100
-        )
-        date: datetime | None = None
-        gm: str | None = Field(
-            default=None,
-            min_length=2,
-            max_length=200
-        )
-        location: str | None = Field(
-            default=None,
-            min_length=2,
-            max_length=200
-        )
-        description: str | None = Field(
-            default=None,
-            max_length=1000
-        )
+    """
+    Schema for updating an Event
+    All fields are optional - only send what you want to change
+    Used in: PUT /events/{id}
+    """
+    name: str | None = Field(
+        default=None,
+        min_length=3,
+        max_length=100
+    )
+    date: datetime | None = None
+    gm: str | None = Field(
+        default=None,
+        min_length=2,
+        max_length=200
+    )
+    location: str | None = Field(
+        default=None,
+        min_length=2,
+        max_length=200
+    )
+    description: str | None = Field(
+        default=None,
+        max_length=1000
+    )
 
 
 class EventResponse(EventBase):

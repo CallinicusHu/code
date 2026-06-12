@@ -1,7 +1,7 @@
 import json
 import csv
 
-with open('hhjatekok2025.json', 'r', encoding='utf-8') as file:
+with open('hhjatekok2026.json', 'r', encoding='utf-8') as file:
     raw_data = json.load(file)
 
 COLUMNS = ["Mesélő", "Nap", "Játék",
@@ -36,7 +36,7 @@ def daytranslate(day):
 
 
 # név és e-mail cím
-with open('hhtabor2025email.csv', 'w', newline='') as file:
+with open('hhtabor2026email.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(COLUMNS)
     for day in raw_data['slots']:
@@ -56,7 +56,7 @@ with open('hhtabor2025email.csv', 'w', newline='') as file:
             writer.writerow(temp)
 
 # név és egyéb
-with (open('hhtabor2025info.csv', 'w', newline='') as file):
+with (open('hhtabor2026info.csv', 'w', newline='') as file):
     writer = csv.writer(file)
     extended_columns = [COLUMNS[1], COLUMNS[0], COLUMNS[2]] + ["Max", "Foglalt", "Szabad"] + COLUMNS[3:]
     writer.writerow(extended_columns)
@@ -122,7 +122,7 @@ with (open('hhtabor2025info.csv', 'w', newline='') as file):
     writer.writerow(people_who_sit)
 """
 #megtelt játékok levéllel
-with (open('hhtabor2025megtelt.csv', 'w', newline='') as file):
+with (open('hhtabor2026megtelt.csv', 'w', newline='') as file):
     writer = csv.writer(file)
     extended_columns = ["Címek", "Fejléc", "Levél"]
     writer.writerow(extended_columns)

@@ -1,0 +1,4201 @@
+{
+    "slots": [
+      {
+        "uuid": "b4576a17-932b-4cae-8f2e-dea84ffacd6c",
+        "name": "Sat 18/7 2026, 10am-7pm",
+        "venue": null,
+        "starts_at": "2026-07-18T10:00:00+02:00",
+        "ends_at": "2026-07-18T19:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Éhség",
+            "status": "published",
+            "visible": true,
+            "uuid": "7c3e77ca-ab3a-43bb-97b6-7a47f98e7960",
+            "scenario": {
+              "name": "Éhség",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5.1e (2024 ruleset)",
+              "author": "Makó Katalin",
+              "min_level": 8,
+              "max_level": 8,
+              "blurb": "Nyomozós, akciós fantasy a mágiaindusztriális Eberronon"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Katalin Makó",
+                "email": "brianm@t-online.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:47:41+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Makó Balázs",
+                "email": "balazsmako345@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:51:03+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Mocsári Bernadett",
+                "email": "mocsari.betti@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:16:27+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "Cleric 8"
+                  ],
+                  "combatrole": null
+                }
+              },
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:34:36+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "Druid "
+                  ],
+                  "combatrole": "Controller"
+                }
+              },
+              {
+                "name": "Kiss Lóránt",
+                "email": "kiss.lori@icloud.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:19:02+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Gábor Havasi",
+                "email": "havasi.g@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T18:47:05+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A jég markában",
+            "status": "published",
+            "visible": true,
+            "uuid": "4df47dae-865c-48f8-b0a0-9cd9ea2b6b89",
+            "scenario": {
+              "name": "A jég markában",
+              "campaign": null,
+              "game_system": "Ichor",
+              "author": "Krommer Zoltán",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Hősies-taktikus fantasy szerepjáték egy új magyar indie szerepjáték világán."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Zoltan Krommer",
+                "email": "krommerzoltan@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:48:10+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Daniel Foldes",
+                "email": "foldesdani0810@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:53:55+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Zolix0820",
+                "email": "darogen@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T10:58:08+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Néma dokk",
+            "status": "published",
+            "visible": true,
+            "uuid": "43cb9c10-019a-4f3a-bc30-a450f584da45",
+            "scenario": {
+              "name": "Néma dokk",
+              "campaign": null,
+              "game_system": "Mothership RPG",
+              "author": "Mórász Bálint",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Sci-fi horror nyomozás, felfedezés egy űrállomáson és annak csillag rendszerében."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Balint Morasz (AIRB0RNE)",
+                "email": "balint@morasz.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:02:05+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Mihaly",
+                "email": "batboy_hu@yahoo.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T08:09:20+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Egy kaloda foglya",
+            "status": "published",
+            "visible": true,
+            "uuid": "bd304816-a3f3-4e68-8e21-a41edc830f61",
+            "scenario": {
+              "name": "Egy kaloda foglya",
+              "campaign": null,
+              "game_system": "Pendragon",
+              "author": "Tóth Tamás",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Az Úr 532. évét írjuk, Arthur király uralkodása az aranykorát éli. A lovagok lovagiasak, a szeretők szerelmesek, a trubadúrok szabadon énekelnek szerte az országban."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Tamás Tóth",
+                "email": "heavymano@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T18:04:33+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "godpower",
+                "email": "godpower76@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:31:00+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fekete Ferenc",
+                "email": "nekkkromanta@freemail.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T09:29:17+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Talbot",
+                "email": "talbot272@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:27:44+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "NAGY Krisztián",
+                "email": "krisznagy@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:48:35+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Regina laczkovics",
+                "email": "regi.laczkovics@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T21:14:27+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Az éteri úrnő fészke",
+            "status": "published",
+            "visible": true,
+            "uuid": "e10c5966-7146-4519-a9f6-3e718bff0474",
+            "scenario": {
+              "name": "Az éteri úrnő fészke",
+              "campaign": null,
+              "game_system": "Candela Obscura",
+              "author": "Wolfy",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Az ipari fejlődés korában élünk. A gőz, az acél és az emberi találékonyság olyan határokat feszeget, amelyekről néhány évtizede még csak álmodni mertünk. Új találmányok, új lehetőségek – és új veszélyek."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Wolfy",
+                "email": "farkas.laszlo1982@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:48:33+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Geri",
+                "email": "radigergo@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T11:02:24+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Petra Huppauer",
+                "email": "h.petra0917@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:34:58+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Havasi Hanna",
+                "email": "havasi.hanna.1028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:35:27+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Seres Péter",
+                "email": "clockro4ch@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T10:53:55+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Leto Tanai",
+                "email": "tanai.leto@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T10:55:06+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Hosszú menet",
+            "status": "published",
+            "visible": true,
+            "uuid": "7dd9b099-5444-4a9e-8797-62867b8797a5",
+            "scenario": {
+              "name": "Hosszú menet",
+              "campaign": null,
+              "game_system": "Lancer",
+              "author": "Callinicus",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Mit jelent Lancernek lenni? Ha sikerrel jártok hősök lesztek, akik megmentettek egy halott zsarnok által túszul ejtett világot. Kudarc esetén jó eséllyel nem kell végig néznetek ahogy körülöttetek minden elég."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Callinicus",
+                "email": "szemetdiszno@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-02T20:28:20+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Ricko",
+                "email": "ferenczi.richard@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:35:48+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Hacsi",
+                "email": "pacsek@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:08:09+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Földes Ádám",
+                "email": "foldiadam028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:32:21+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kóth János",
+                "email": "kothjanos13@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T12:45:44+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A cseregyerek",
+            "status": "published",
+            "visible": true,
+            "uuid": "2ba02920-0a31-4b40-89f3-5bd5fcf9b2b9",
+            "scenario": {
+              "name": "A cseregyerek",
+              "campaign": null,
+              "game_system": "Frontier Scum",
+              "author": "Szekrényes Máté",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Egy menekülő fiatalasszony és a szeretője. Egy felszarvazott férj és megszűnő üzleti sikereinek titka. Egy bandita és a halott fia. Egy egyezség és a mögötte rejlő, hátborzongató igazság. Egy céltalan határvidéki köreit járó, széthullás felé sodródó fegyveres banda és a többi sorsának összefonódása. Egy koldus. Ragadozók. Acid western, túlélő horror és végül, de nem utolsó sorban: komédia."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Máté Szekrényes",
+                "email": "szekrenyesmate@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:01:01+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Magyar Dávid (Davelot)",
+                "email": "davmagyar1@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T13:07:47+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fórján Bernát",
+                "email": "forjan.bernat@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-09T19:40:17+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Túra a pusztulás völgyébe",
+            "status": "published",
+            "visible": true,
+            "uuid": "fe29a6ed-094d-4f06-9159-46d3e638f265",
+            "scenario": {
+              "name": "Túra a pusztulás völgyébe",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5e (2014 ruleset)",
+              "author": "Rius",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Egy csipetnyit horrorisztikus fantasy. Már 6 napja nincs hír a Nagy (Káosz Birodalom), A Csillagsárkány Hegység Szövetsége és Lunária Pápai Állam hármas határáról, ahol egyesek az elátkozott Vörös napot (ennek a földnek, azaz Landiának kékes-fehér napja van, amely mögött néha feltűnik valami kicsi vörös korong) látták felkelni. Most kalandozók mehetnek oda felderíteni, ezt a különleges képességű elfek által lakott  hármas határvidéket. Fizetett túra, ki ne jelentkezne?!"
+            },
+            "table_count": 1,
+            "table_size": 6,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Dezső Attila",
+                "email": "sideriusdeside@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T18:58:50+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+  
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Convergence",
+            "status": "published",
+            "visible": true,
+            "uuid": "6d8494e7-5a86-460d-b1c1-5f94c8eaeefe",
+            "scenario": {
+              "name": "Convergence",
+              "campaign": null,
+              "game_system": "Delta Green",
+              "author": "Cápa",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Az igazság odakint van"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Cápa",
+                "email": "csaja.p@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T07:00:09+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Szemenkár Ilona",
+                "email": "lev.fiok@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T22:08:54+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "8db64c6a-6ee1-41a3-b04b-2f558fc22edf",
+        "name": "Sat 18/7 2026, 8:30-9:30pm",
+        "venue": null,
+        "starts_at": "2026-07-18T20:30:00+02:00",
+        "ends_at": "2026-07-18T21:30:00+02:00",
+        "sessions": [
+          {
+            "name": "Tudáspróba",
+            "status": "published",
+            "visible": true,
+            "uuid": "76557f25-c925-4e50-9fb5-684b9ab00df3",
+            "scenario": {
+              "name": "Tudáspróba",
+              "campaign": null,
+              "game_system": "Custom",
+              "author": "Wolfy",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Figyelem, kalandorok, technomanták és sötét lelkek! Itt az ideje, hogy kiderüljön: ki az, aki csak a felszínt kapargatja, és ki az, aki a multiverzum legmélyebb bugyrait is ismeri. Ez a kvíz nem a kezdők játszótere – itt a tudásotok, a csapatmunkátok és a kockázatvállaló képességetek lesz a fegyveretek. Készüljetek fel, mert a könnyű kérdések csak az illúzió részei, az igazi dicsőség viszont a nehéz utakon vár rátok. Készen álltok a kihívásra, vagy inkább hagyjátok, hogy elnyeljen a Warp?"
+            },
+            "table_count": 1,
+            "table_size": 40,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Wolfy",
+                "email": "farkas.laszlo1982@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-12T12:31:31+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-12T12:39:19+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Cápa",
+                "email": "csaja.p@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-12T12:49:44+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "61559739-854e-487a-b235-7d78808b495d",
+        "name": "Sun 19/7 2026, 10am-7pm",
+        "venue": null,
+        "starts_at": "2026-07-19T10:00:00+02:00",
+        "ends_at": "2026-07-19T19:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Abból lett a baj… amit Andris mesél",
+            "status": "published",
+            "visible": true,
+            "uuid": "a712e2b4-9028-4720-be58-b4dda4630db7",
+            "scenario": {
+              "name": "Abból lett a baj…",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5.1e (2024 ruleset)",
+              "author": "Andris-Callinicus-Glowface-Tomi",
+              "min_level": 6,
+              "max_level": 6,
+              "blurb": "A vasárnapi tábornapon idén is lesz többasztalos játék, némi interakcióval, összefüggéssel, közös céllal az asztalok játékosai és mesélői között. Egy sokak által jól ismert kiinduló helyzetet igyekszünk újszerű módon megcsavarni."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Szőri András",
+                "email": "vorianat@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:54:38+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Katalin Makó",
+                "email": "brianm@t-online.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:47:14+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Makó Balázs",
+                "email": "balazsmako345@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:48:40+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Geri",
+                "email": "radigergo@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T10:32:32+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A fekete ziggurat",
+            "status": "published",
+            "visible": true,
+            "uuid": "e60de9ca-501a-485b-a532-abe1512aa951",
+            "scenario": {
+              "name": "A fekete ziggurat",
+              "campaign": null,
+              "game_system": "Coriolis: The Great Dark",
+              "author": "Sára Zoltán",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Az Asherot nevű hold felszínén található egy rejtélyes építmény, amit Nazlut-Katar néven szerepel a Felfedezők Céhének archívumaiban. Amikor a Navigátorok Céhének egy magas rangú tagja eltűnik az elhagyatott romok közelében, mindenki a legrosszabbtól tart, és egy rombúvárt küldenek, hogy kiderítsék, mi történt."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Sára Zoltán",
+                "email": "cthulhuka@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:55:06+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Ricko",
+                "email": "ferenczi.richard@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:36:52+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Mihaly",
+                "email": "batboy_hu@yahoo.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T08:09:37+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "NAGY Krisztián",
+                "email": "krisznagy@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:50:06+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Abból lett a baj… amit Callinicus mesél",
+            "status": "published",
+            "visible": true,
+            "uuid": "3e334624-04cf-4e5e-b471-585b5bff8767",
+            "scenario": {
+              "name": "Abból lett a baj…",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5.1e (2024 ruleset)",
+              "author": "Andris-Callinicus-Glowface-Tomi",
+              "min_level": 6,
+              "max_level": 6,
+              "blurb": "A vasárnapi tábornapon idén is lesz többasztalos játék, némi interakcióval, összefüggéssel, közös céllal az asztalok játékosai és mesélői között. Egy sokak által jól ismert kiinduló helyzetet igyekszünk újszerű módon megcsavarni."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Callinicus",
+                "email": "szemetdiszno@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-02T20:28:38+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Balint Morasz (AIRB0RNE)",
+                "email": "balint@morasz.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:33:21+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Daniel Foldes",
+                "email": "foldesdani0810@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:49:35+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Leto Tanai",
+                "email": "tanai.leto@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T10:59:09+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "Sorcerer 6"
+                  ],
+                  "combatrole": "Arcane Caster"
+                }
+              },
+              {
+                "name": "Seres Péter",
+                "email": "clockro4ch@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T10:59:56+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "Fighter 6"
+                  ],
+                  "combatrole": "Striker - Melee"
+                }
+              },
+              {
+                "name": "Szemenkár Ilona",
+                "email": "lev.fiok@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T21:52:13+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "Wizard "
+                  ],
+                  "combatrole": "Summoner"
+                }
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Abból lett a baj… amit Glowface mesél",
+            "status": "published",
+            "visible": true,
+            "uuid": "98ad1aed-ad84-4bbd-b6ee-d586dc36bbb6",
+            "scenario": {
+              "name": "Abból lett a baj…",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5.1e (2024 ruleset)",
+              "author": "Andris-Callinicus-Glowface-Tomi",
+              "min_level": 6,
+              "max_level": 6,
+              "blurb": "A vasárnapi tábornapon idén is lesz többasztalos játék, némi interakcióval, összefüggéssel, közös céllal az asztalok játékosai és mesélői között. Egy sokak által jól ismert kiinduló helyzetet igyekszünk újszerű módon megcsavarni."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Glowface",
+                "email": "balazs.b.foldes@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-02T20:10:04+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Fekete Ferenc",
+                "email": "nekkkromanta@freemail.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T09:34:10+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "Cleric 6"
+                  ],
+                  "combatrole": "Medic/Support"
+                }
+              },
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:35:27+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "Wizard "
+                  ],
+                  "combatrole": "Generalist"
+                }
+              },
+              {
+                "name": "Kóth János",
+                "email": "kothjanos13@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T12:26:39+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+  
+                  ],
+                  "combatrole": "Generalist"
+                }
+              },
+              {
+                "name": "Zolix0820",
+                "email": "darogen@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T11:08:13+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fórján Bernát",
+                "email": "forjan.bernat@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-09T19:40:52+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Abból lett a baj… amit Tomi mesél",
+            "status": "published",
+            "visible": true,
+            "uuid": "8a5335ab-cecf-4b92-aa5a-efb69cef3062",
+            "scenario": {
+              "name": "Abból lett a baj…",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5.1e (2024 ruleset)",
+              "author": "Andris-Callinicus-Glowface-Tomi",
+              "min_level": 6,
+              "max_level": 6,
+              "blurb": "A vasárnapi tábornapon idén is lesz többasztalos játék, némi interakcióval, összefüggéssel, közös céllal az asztalok játékosai és mesélői között. Egy sokak által jól ismert kiinduló helyzetet igyekszünk újszerű módon megcsavarni."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Tamás Tóth",
+                "email": "heavymano@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T18:04:50+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Hacsi",
+                "email": "pacsek@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:27:08+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Szilárd Pozsonyi",
+                "email": "szilard.pozsonyi@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T07:39:59+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Földes Ádám",
+                "email": "foldiadam028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:37:58+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kiss Lóránt",
+                "email": "kiss.lori@icloud.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:48:50+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Dezső Attila",
+                "email": "sideriusdeside@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T10:24:33+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Az azúr malomtó",
+            "status": "published",
+            "visible": true,
+            "uuid": "5334696e-6923-4ab4-944f-8abbb59ebd2e",
+            "scenario": {
+              "name": "Az azúr malomtó",
+              "campaign": null,
+              "game_system": "Fantasy AGE",
+              "author": "Talbot",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Grimdark hangulatú nyomozás egy félreeső folyóvölgyi majorban, egy eltűnt fiú nyomait követve."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Talbot",
+                "email": "talbot272@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:02:42+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+  
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Tiny Fables",
+            "status": "published",
+            "visible": true,
+            "uuid": "36c7b0eb-4a55-437e-a277-985fc97f8b06",
+            "scenario": {
+              "name": "Tiny Fables",
+              "campaign": null,
+              "game_system": "Mausritter",
+              "author": "Cápa",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Egy ősi erdő, amelyet tündérmágia torzított el; klasszikus népmesés–tündérmesés hangulat, bájosság, kedvesség, kegyetlenség, csoda és veszély."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Cápa",
+                "email": "csaja.p@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-05T10:17:53+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Mocsári Bernadett",
+                "email": "mocsari.betti@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:02:34+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "godpower",
+                "email": "godpower76@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:27:17+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Wolfy",
+                "email": "farkas.laszlo1982@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T09:54:48+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Magyar Dávid (Davelot)",
+                "email": "davmagyar1@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T09:28:34+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Regina laczkovics",
+                "email": "regi.laczkovics@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T21:03:04+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "39011bc7-a1a1-46be-8a9d-ba19baa20efb",
+        "name": "Mon 20/7 2026, 10am-7pm",
+        "venue": null,
+        "starts_at": "2026-07-20T10:00:00+02:00",
+        "ends_at": "2026-07-20T19:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Lopjatok nekem egy királyt!",
+            "status": "published",
+            "visible": true,
+            "uuid": "5a27ea81-b2a1-4947-be98-5b8bc5b856c2",
+            "scenario": {
+              "name": "Lopjatok nekem egy királyt!",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5.1e (2024 ruleset)",
+              "author": "Makó Katalin",
+              "min_level": 5,
+              "max_level": 5,
+              "blurb": "Pandurium, a hét királyság császársága a hangzatos címe ellenére egy koszfészek, legyünk méltányosak, hét koszfészek. Ezen az sem változtatott, hogy a császárnői pozíciót Kleptoria királynője, Rhimesh Bherzona szerezte meg, miután az előző uralkodót, Ku Pangot lenyűgözte egy valódi sárkánnyal."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Katalin Makó",
+                "email": "brianm@t-online.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:56:44+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Makó Balázs",
+                "email": "balazsmako345@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:51:27+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Hacsi",
+                "email": "pacsek@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:10:05+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Balint Morasz (AIRB0RNE)",
+                "email": "balint@morasz.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:40:01+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Földes Ádám",
+                "email": "foldiadam028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:38:34+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "Wizard "
+                  ],
+                  "combatrole": "Controller"
+                }
+              },
+              {
+                "name": "Daniel Foldes",
+                "email": "foldesdani0810@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:55:49+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Rideg árnyak vidékén",
+            "status": "published",
+            "visible": true,
+            "uuid": "eb2c3a39-291e-4007-8d15-7f001af5234d",
+            "scenario": {
+              "name": "Rideg árnyak vidékén",
+              "campaign": null,
+              "game_system": "The One Ring 2e",
+              "author": "Glowface",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Baljós hírek nyomában Középfölde elhagyatott tájain, Angmar régi boszorkány-földjén."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Glowface",
+                "email": "balazs.b.foldes@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-02T20:25:31+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Magyar Dávid (Davelot)",
+                "email": "davmagyar1@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T18:34:33+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "NAGY Krisztián",
+                "email": "krisznagy@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:50:39+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kiss Lóránt",
+                "email": "kiss.lori@icloud.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:04:10+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Seres Péter",
+                "email": "clockro4ch@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T11:10:28+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Leto Tanai",
+                "email": "tanai.leto@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T11:11:04+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A Láthatatlan Kéz nyomában...",
+            "status": "published",
+            "visible": true,
+            "uuid": "f7d9870b-d917-4e1a-b632-2661b30186af",
+            "scenario": {
+              "name": "A Láthatatlan Kéz nyomában...",
+              "campaign": null,
+              "game_system": "Star Wars d20",
+              "author": "Talbot",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "...avagy versenyfutás az utolsó szeparatista csatahajóért. Kell hozzá egy galaxis méretű versenypálya, néhány mindenre elszánt versenyző, és egy minden képzeletet felülmúló jutalom az első helyezettnek. Vajon ti lesztek azok?"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Talbot",
+                "email": "talbot272@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:03:07+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Mihaly",
+                "email": "batboy_hu@yahoo.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T08:10:48+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Az Éj–anya holdja",
+            "status": "published",
+            "visible": true,
+            "uuid": "2dd01f64-7656-4f09-ac10-a595c64ff175",
+            "scenario": {
+              "name": "Az Éj–anya holdja",
+              "campaign": null,
+              "game_system": "Call of Cthulhu 7th Edition",
+              "author": "Sára Zoltán",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Modern Cthulhu hívása kaland Manhattan hajléktalanjaival a főszerepben."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Sára Zoltán",
+                "email": "cthulhuka@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:56:29+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Fekete Ferenc",
+                "email": "nekkkromanta@freemail.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:42:53+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fórján Bernát",
+                "email": "forjan.bernat@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-09T19:41:29+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A fiak bűne",
+            "status": "published",
+            "visible": true,
+            "uuid": "773c2e36-7627-4ac6-97d0-389bf0681329",
+            "scenario": {
+              "name": "A fiak bűne",
+              "campaign": null,
+              "game_system": "Legend of the Five Rings",
+              "author": "Wolfy",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Rokugan családjai közül a Skorpiók azok, akik méltán kiérdemelték a „hírhedt” jelzőt."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Wolfy",
+                "email": "farkas.laszlo1982@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:55:45+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:36:37+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kóth János",
+                "email": "kothjanos13@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T12:34:47+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Nyomozás a Kristály-tó vidékén",
+            "status": "published",
+            "visible": true,
+            "uuid": "d582ba35-d93d-42f4-9dd0-bed846bf5297",
+            "scenario": {
+              "name": "Nyomozás a Kristály-tó vidékén",
+              "campaign": null,
+              "game_system": "Heimurinn",
+              "author": "Godpower",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Fagyföldön is történnek bűncselekmények. Bizony az igazságnak sok arca van ott is. A játékosoknak ki kell deríteni ki árulhatta el a Turgadon klánt. Több személy is szerepel a gyanúsítottak között, különböző rangú és módú személyek. Fagyföld azonban kemény vidék, a természet a vadálatok a barbárok."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "godpower",
+                "email": "godpower76@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:56:59+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Zolix0820",
+                "email": "darogen@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T11:12:02+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Az alkony tervezet",
+            "status": "published",
+            "visible": true,
+            "uuid": "44a6376b-84e4-473b-969f-54c17cc55b07",
+            "scenario": {
+              "name": "Az alkony tervezet",
+              "campaign": null,
+              "game_system": "Shadowrun Sixth World",
+              "author": "Ricko",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Egy sorozatgyilkos garázdálkodik Seattle utcáin, és Mr. Johnson szeretné eltűntetni. Tiétek a lehetőség."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Ricko",
+                "email": "ferenczi.richard@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:56:05+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Mocsári Bernadett",
+                "email": "mocsari.betti@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:09:54+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Regina laczkovics",
+                "email": "regi.laczkovics@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T21:27:26+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Szemenkár Ilona",
+                "email": "lev.fiok@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T22:54:43+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Olvasztótégely",
+            "status": "published",
+            "visible": true,
+            "uuid": "c72a5c05-0875-4f9b-bd35-dc90443960d2",
+            "scenario": {
+              "name": "Olvasztótégely",
+              "campaign": null,
+              "game_system": "The Transformers RPG",
+              "author": "Geri",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Autobot ellenállók harca az elnyomó Álcák ellen, a Transformerek ősi világán."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Geri",
+                "email": "radigergo@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:03:26+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Tamás Tóth",
+                "email": "heavymano@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T00:41:45+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "98b40991-2304-45bf-89c3-b0811c51d8bd",
+        "name": "Mon 20/7 2026, 9pm - Tue 21/7 2026, 12am",
+        "venue": null,
+        "starts_at": "2026-07-20T21:00:00+02:00",
+        "ends_at": "2026-07-21T00:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Ten Candles",
+            "status": "published",
+            "visible": true,
+            "uuid": "c0f3d03d-447d-4df3-ab11-4a60f2935a7b",
+            "scenario": {
+              "name": "Ten Candles",
+              "campaign": null,
+              "game_system": "Ten Candles",
+              "author": "Betti",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "A világ sötétbe borult. A nap eltűnt. A rádiók elhallgattak. És odakint… valami mozog a sötétben."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Mocsári Bernadett",
+                "email": "mocsari.betti@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:57:40+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Wolfy",
+                "email": "farkas.laszlo1982@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T09:57:06+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Talbot",
+                "email": "talbot272@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:29:29+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Földes Ádám",
+                "email": "foldiadam028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:39:02+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Dezső Attila",
+                "email": "sideriusdeside@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T17:46:34+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Ricko",
+                "email": "ferenczi.richard@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-10T19:15:29+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Ködszerzet társasozás",
+            "status": "published",
+            "visible": true,
+            "uuid": "b10223d5-fd92-4823-b2b8-289a20b88ef2",
+            "scenario": {
+              "name": "Ködszerzet társasozás",
+              "campaign": null,
+              "game_system": "Custom",
+              "author": "Tóth Tamás",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Kártyás pakliépítős társasjáték Brandon Sanderson Mistborn regényeinek világán. Lobbantsd a fémet, csapd le az ellent, vagy csak questelj, miközben téged ütnek, több út vezet a győzelemhez!"
+            },
+            "table_count": 1,
+            "table_size": 4,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Tamás Tóth",
+                "email": "heavymano@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:20:53+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:37:01+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Regina laczkovics",
+                "email": "regi.laczkovics@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T22:52:30+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Szemenkár Ilona",
+                "email": "lev.fiok@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T22:55:29+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Cápa",
+                "email": "csaja.p@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-12T12:49:58+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "4514f9dc-d15f-4792-9325-1c27fa9dd364",
+        "name": "Tue 21/7 2026, 10am-5pm",
+        "venue": null,
+        "starts_at": "2026-07-21T10:00:00+02:00",
+        "ends_at": "2026-07-21T17:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Settenkedő, mély sötétség",
+            "status": "published",
+            "visible": true,
+            "uuid": "9fa0b959-7744-4060-abfc-d19784b1033c",
+            "scenario": {
+              "name": "Settenkedő, mély sötétség",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5e (2014 ruleset)",
+              "author": "Betti",
+              "min_level": 4,
+              "max_level": 4,
+              "blurb": "Egy rejtélyes könyv, egy furcsa robbanás, eltűnő emberek, és egy kihalt bányásztelep... Cinóberfalu hetven évvel ezelőtt még gazdagsággal kecsegetett, ma már azonban sokan azt sem tudják, hogy valaha létezett. Aki pedig még emlékszik rá, borzongva tekint vissza."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Mocsári Bernadett",
+                "email": "mocsari.betti@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:04:20+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Wolfy",
+                "email": "farkas.laszlo1982@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T09:59:27+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "? 4"
+                  ],
+                  "combatrole": "Medic/Support"
+                }
+              },
+              {
+                "name": "Kiss Lóránt",
+                "email": "kiss.lori@icloud.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:35:19+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fekete Ferenc",
+                "email": "nekkkromanta@freemail.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:47:15+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "? 4"
+                  ],
+                  "combatrole": "Generalist"
+                }
+              },
+              {
+                "name": "Seres Péter",
+                "email": "clockro4ch@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T11:14:48+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "? 4"
+                  ],
+                  "combatrole": "Rogue"
+                }
+              },
+              {
+                "name": "Leto Tanai",
+                "email": "tanai.leto@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T11:15:48+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+                    "? 4"
+                  ],
+                  "combatrole": null
+                }
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Próbaidő",
+            "status": "published",
+            "visible": true,
+            "uuid": "202a043f-47ca-421a-bf2d-3d4cd9cd044b",
+            "scenario": {
+              "name": "Próbaidő",
+              "campaign": null,
+              "game_system": "Dungeon Inc",
+              "author": "silex",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Ha mindig is kíváncsi voltál, hogyan működnek a kulisszák mögött, ez a te játékod! Most a házigazdák (igen, a szörnyek) bőrébe bújva tapasztalhatod meg a vállalati élet mindennapjait és vendégek kiirtásával és kirablásával járó nehézségeket!"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "silex",
+                "email": "silex010101@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:03:58+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Bátor",
+                "email": "bator.kovari@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T09:04:59+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Talbot",
+                "email": "talbot272@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:30:27+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Földes Ádám",
+                "email": "foldiadam028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:41:02+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kóth János",
+                "email": "kothjanos13@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T19:46:52+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Regina laczkovics",
+                "email": "regi.laczkovics@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T21:30:28+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+              {
+                "name": "Szemenkár Ilona",
+                "email": "lev.fiok@gmail.com",
+                "discord": null,
+                "waitlisted_at": "2026-06-08T22:23:12+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Barbár kaland!",
+            "status": "published",
+            "visible": true,
+            "uuid": "a4db638a-d859-41cc-924b-4fada60fd9ef",
+            "scenario": {
+              "name": "Barbár kaland!",
+              "campaign": null,
+              "game_system": "Symbaroum",
+              "author": "Godpower",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Más Symbaroum kalandokkal ellentétben a játékosok Davokart egy új, nem ambriai perspektívából tekinthetik meg. A játékosoknak barbár karaktereket kell alakítaniuk, klánt választva."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "godpower",
+                "email": "godpower76@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:58:01+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Sára Zoltán",
+                "email": "cthulhuka@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:57:07+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "NAGY Krisztián",
+                "email": "krisznagy@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:55:05+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Dűne társasjáték",
+            "status": "published",
+            "visible": true,
+            "uuid": "ef152b9f-d8dc-46cd-8589-db31f983d154",
+            "scenario": {
+              "name": "Dűne társasjáték",
+              "campaign": null,
+              "game_system": "Dune, Gale Force Nine edition (2019)",
+              "author": "Callinicus",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Egy játék hódítással, diplomáciával, ármánnyal és árulással. A fűszernek áramolnia kell..."
+            },
+            "table_count": 1,
+            "table_size": 6,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Callinicus",
+                "email": "szemetdiszno@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-02T20:29:16+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Balint Morasz (AIRB0RNE)",
+                "email": "balint@morasz.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:35:49+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Daniel Foldes",
+                "email": "foldesdani0810@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T13:06:05+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Haláli iramban",
+            "status": "published",
+            "visible": true,
+            "uuid": "b794437d-e988-47ad-ba99-4adf5b6113ef",
+            "scenario": {
+              "name": "Haláli iramban",
+              "campaign": null,
+              "game_system": "Crash Pandas",
+              "author": "Tóth Tamás",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Féktelen száguldás és életveszély. Veszélyes betörések. Ez teszi ki minden mosómedve életét Los Angeles utcáin. Vedd a kezedbe a sorsodat, tedd félre a túlélési ösztönödet, és próbálj meg vezetni egy autót többed magaddal a Crash Pandas játékban!"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Tamás Tóth",
+                "email": "heavymano@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T18:05:30+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Katalin Makó",
+                "email": "brianm@t-online.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:47:44+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Makó Balázs",
+                "email": "balazsmako345@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:48:57+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Ricko",
+                "email": "ferenczi.richard@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:38:40+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kovács Zoltán",
+                "email": "kovacszoltan369@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:08:45+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:37:34+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Keserű fagylalt",
+            "status": "published",
+            "visible": true,
+            "uuid": "4dd12a49-c5cc-40ec-8c2e-c7bca2a744e3",
+            "scenario": {
+              "name": "Keserű fagylalt",
+              "campaign": null,
+              "game_system": "Beach Patrol",
+              "author": "Magyar Dávid",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Egy mesés, szicíliai tengerparton fogtok alakítani egy vízimentő csapatot. Azt gyanítjátok, hogy a főnökötök exbarátnője, egy vonzó és kiszámíthatatlan fagylaltárus lány, készül valamire ellenetek."
+            },
+            "table_count": 1,
+            "table_size": 4,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Magyar Dávid (Davelot)",
+                "email": "davmagyar1@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:58:43+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Mihaly",
+                "email": "batboy_hu@yahoo.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T08:11:32+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Dezső Attila",
+                "email": "sideriusdeside@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T10:42:02+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fórján Bernát",
+                "email": "forjan.bernat@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-09T20:59:41+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Year of the Rat",
+            "status": "published",
+            "visible": true,
+            "uuid": "12f95d42-7abf-4d0a-bb79-dfdb5b7d515e",
+            "scenario": {
+              "name": "Year of the Rat",
+              "campaign": null,
+              "game_system": "Mothership RPG",
+              "author": "Cápa",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Pénz, kaszinó, idegenek, minden mi egy jó játékhoz kell."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Cápa",
+                "email": "csaja.p@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T07:01:36+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Hacsi",
+                "email": "pacsek@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T08:14:11+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Zolix0820",
+                "email": "darogen@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T11:37:39+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "5b991138-6e40-4d0a-864f-41338c4d9ea7",
+        "name": "Tue 21/7 2026, 7pm - Wed 22/7 2026, 12am",
+        "venue": null,
+        "starts_at": "2026-07-21T19:00:00+02:00",
+        "ends_at": "2026-07-22T00:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Hősök Küldetése – A Birodalom megmentői",
+            "status": "published",
+            "visible": true,
+            "uuid": "19abb2ba-18d3-4f4d-b4b3-3c4b3fa47a3c",
+            "scenario": {
+              "name": "Hősök Küldetése – A Birodalom megmentői",
+              "campaign": null,
+              "game_system": "HeroQuest the Board Game",
+              "author": "Talbot",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Csatlakozz hozzánk egy klasszikus HeroQuest kalandra, ahol kardcsapások, varázslatok és hőstettek között dől el a Birodalom sorsa!"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Talbot",
+                "email": "talbot272@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:04:52+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "godpower",
+                "email": "godpower76@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:35:43+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kiss Lóránt",
+                "email": "kiss.lori@icloud.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T17:06:19+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Kanyon Futam",
+            "status": "published",
+            "visible": true,
+            "uuid": "3e0a6a92-40d4-432e-99fd-2a3fc3e8e9bc",
+            "scenario": {
+              "name": "Kanyon Futam",
+              "campaign": null,
+              "game_system": "Gaslands",
+              "author": "silex",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Wargame matchbox és hotwheels kisaútókkal, ütközésekkel, lövöldözéssel"
+            },
+            "table_count": 1,
+            "table_size": 4,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "silex",
+                "email": "silex010101@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:05:05+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Bátor",
+                "email": "bator.kovari@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T09:05:19+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Geri",
+                "email": "radigergo@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T11:05:07+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "6d36f2a4-6bd9-4764-8f5e-c23e72387100",
+        "name": "Wed 22/7 2026, 10am-7pm",
+        "venue": null,
+        "starts_at": "2026-07-22T10:00:00+02:00",
+        "ends_at": "2026-07-22T19:00:00+02:00",
+        "sessions": [
+          {
+            "name": "A maszkabál",
+            "status": "published",
+            "visible": true,
+            "uuid": "317dddf1-8d6a-4305-9f7a-e5de127b196a",
+            "scenario": {
+              "name": "A maszkabál",
+              "campaign": null,
+              "game_system": "Swords of the Serpentine",
+              "author": "Planewalker",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Egy kalandos történet a Kígyókard szerepjáték világának központi helyszínén, Hídvárosban. A történet egyik célja, hogy a csapat rájöjjön, mi SaggioLeone elvarázsolt tornyának a titka. A többi meg jön magától. A karneváli forgatagban úgyis mindenki a saját, titkolt kis céljait kergeti. Ám azt sem szabad elfelejteni, hogy Denári szent városában az óvatlanok hamar egy ádáz penge (vagy borzalmas fogsor) rosszabbik végén találhatják magukat…"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+  
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Katalin Makó",
+                "email": "brianm@t-online.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:47:33+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Makó Balázs",
+                "email": "balazsmako345@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:48:48+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Sára Zoltán",
+                "email": "cthulhuka@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:54:53+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:45:10+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kóth János",
+                "email": "kothjanos13@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T16:49:41+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Egy romlott alma",
+            "status": "published",
+            "visible": true,
+            "uuid": "e9a8944f-9802-4f82-afc4-ab70dc8e6723",
+            "scenario": {
+              "name": "Egy romlott alma",
+              "campaign": null,
+              "game_system": "Shadow of the Weird Wizard",
+              "author": "Sólyom Péter",
+              "min_level": 2,
+              "max_level": 2,
+              "blurb": "A Misztikus Mágus évszázadokon át árnyékot vetett keleten, a puszta jelenléte elrettentő volt ahhoz, hogy senki se merészkedjen a Határvidéken túlra. De a Misztikus Mágus nincs többé, és a népek ezrével özönlenek a bizonytalanság és a háború elől. Ezen a furcsa földön ismeretlen veszélyek leselkednek a telepesekre, igazi hősőkre van szükségük a túléléshez."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Sólyom Péter",
+                "email": "solyompeter@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T12:05:59+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Daniel Foldes",
+                "email": "foldesdani0810@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T13:13:39+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Szemenkár Ilona",
+                "email": "lev.fiok@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-09T07:36:24+02:00",
+                "organized_play_memberships": [
+  
+                ],
+                "character": {
+                  "classes": [
+  
+                  ],
+                  "combatrole": "Arcane Caster"
+                }
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A várakozó árnyak",
+            "status": "published",
+            "visible": true,
+            "uuid": "b3a2cdcf-a34e-4224-bed3-aacbc4e5a3de",
+            "scenario": {
+              "name": "A várakozó árnyak",
+              "campaign": null,
+              "game_system": "Shadow of the Demon Lord",
+              "author": "Császkáló",
+              "min_level": 1,
+              "max_level": 1,
+              "blurb": "- Nincs nevünk, de a félelmet megismertetjük veletek – suttogta az egyik lény, alakja ködösen váltakozott a valóság áttetsző határán. – Mi vagyunk a rémárnyak, a világ szélén várakozó, mindent elnyelő sötétség."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+  
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+  
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Az elfeledett kapu",
+            "status": "published",
+            "visible": true,
+            "uuid": "935f4d31-76ea-4df2-a9bf-a3256a1040de",
+            "scenario": {
+              "name": "Az elfeledett kapu",
+              "campaign": null,
+              "game_system": "Shadow of the Demon Lord",
+              "author": "Éberen Őrködő",
+              "min_level": 5,
+              "max_level": 5,
+              "blurb": "A város által megbízott különleges ügynökökként kényes ügyben kell nyomoznotok egy igen feszült helyzetben. Ha jól rendezitek el a dolgokat, az nem csak sok pénzzel, jó kapcsolatokkal de igazán jó hírnévvel is jár, és végre Északi Végek szerte komoly csapatként tekintenek rátok."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Dr. Gajzágó Gergő",
+                "email": "hello@kalandhorizont.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:06:23+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "godpower",
+                "email": "godpower76@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:34:38+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Hacsi",
+                "email": "pacsek@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:19:58+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Földes Ádám",
+                "email": "foldiadam028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:47:32+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kiss Lóránt",
+                "email": "kiss.lori@icloud.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T19:15:00+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Zolix0820",
+                "email": "darogen@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T11:43:34+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A kanyon futam",
+            "status": "published",
+            "visible": true,
+            "uuid": "904f5747-4182-437e-9387-21710c73124d",
+            "scenario": {
+              "name": "A kanyon futam",
+              "campaign": null,
+              "game_system": "Salvage Union",
+              "author": "silex",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "A világ tönkrement. Lassan gördülő mozgó városokban, a sivatagot járó hatlamas szörnyek között éljük az életünket. Hőseink mechekben járják a környéket roncsok és élelem után kutatva. A Kanyon Futam a régi idők örömét idézi fel bennünk egy rövid időre – most erre készül mindenki a környéken."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "silex",
+                "email": "silex010101@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:05:28+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Bátor",
+                "email": "bator.kovari@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T09:05:29+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Geri",
+                "email": "radigergo@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T11:22:03+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fórján Bernát",
+                "email": "forjan.bernat@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-09T19:42:39+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Aki felfalja a várost",
+            "status": "published",
+            "visible": true,
+            "uuid": "1f6debf2-31cb-46d3-9c7c-3b84c3ca87ba",
+            "scenario": {
+              "name": "Aki felfalja a várost",
+              "campaign": null,
+              "game_system": "Red Mists",
+              "author": "Talbot",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Nagyhangú kocsmatöltelékek a kikötővárost fenyegető szekta ellen. Te kire fogadnál?"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Talbot",
+                "email": "talbot272@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:05:53+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Ricko",
+                "email": "ferenczi.richard@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:39:09+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Balint Morasz (AIRB0RNE)",
+                "email": "balint@morasz.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:40:22+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Dezső Attila",
+                "email": "sideriusdeside@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T10:31:13+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Láss bennem mást",
+            "status": "published",
+            "visible": true,
+            "uuid": "d6ac94bb-79c6-407a-9b51-b1abe3878014",
+            "scenario": {
+              "name": "Láss bennem mást",
+              "campaign": null,
+              "game_system": "Trail of Cthulhu",
+              "author": "F. Feri",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Ez a kaland a sci-fi ponyvák előtti tiszteletadás „némi” Mítosz-beiktatásával – mert minden sikeres őrült tudós mögött vonaglik néhány furcsa árny és csáp."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Fekete Ferenc",
+                "email": "nekkkromanta@freemail.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:06:48+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Wolfy",
+                "email": "farkas.laszlo1982@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T10:01:34+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Bernáth Balázs",
+                "email": "bbernath020516@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T07:20:29+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Mihaly",
+                "email": "batboy_hu@yahoo.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T08:13:10+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Tamás Tóth",
+                "email": "heavymano@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T09:58:57+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "NAGY Krisztián",
+                "email": "krisznagy@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:56:03+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "e4efa7e6-0bf8-47a9-919a-52527a9bf5d5",
+        "name": "Thu 23/7 2026, 10am-7pm",
+        "venue": null,
+        "starts_at": "2026-07-23T10:00:00+02:00",
+        "ends_at": "2026-07-23T19:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Feltámadás klinika",
+            "status": "published",
+            "visible": true,
+            "uuid": "761ab1ee-d39d-427f-9a61-3a8d1f634744",
+            "scenario": {
+              "name": "Feltámadás klinika",
+              "campaign": null,
+              "game_system": "Shadowrun Sixth World",
+              "author": "Ricko",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Már. Johnson megbízása klasszikus nyomozást hoz a karaktereknek neo-noir-horror hangulatban."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Ricko",
+                "email": "ferenczi.richard@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:08:50+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+  
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A hamis emlékek piaca",
+            "status": "published",
+            "visible": true,
+            "uuid": "7ff298d6-401e-4e7a-aa49-fc7221f3b86e",
+            "scenario": {
+              "name": "A hamis emlékek piaca",
+              "campaign": null,
+              "game_system": "Savage Worlds",
+              "author": "Wolfy",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Mese a Mysterious Universe világán, Fonyódi Tibor emlékére."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Wolfy",
+                "email": "farkas.laszlo1982@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:07:49+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Mihaly",
+                "email": "batboy_hu@yahoo.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T08:16:04+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:38:40+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A nép választottja",
+            "status": "published",
+            "visible": true,
+            "uuid": "2feba23f-75bd-42f2-adc8-4d4357c862ef",
+            "scenario": {
+              "name": "A nép választottja",
+              "campaign": null,
+              "game_system": "The Laundry RPG",
+              "author": "Sára Zoltán",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "A The Laundry szerepjáték Charles Stross Mosoda-akták című regényfolyamán alapul, melynek első kötete magyarul is megjelent Pokoli archívum/A Betontehén-akció címen. Ezekben a történetekben a Cthulhu-mítosz keveredik az államhivatalok túlzott bürokráciájával, mindez nyakon öntve egy jó adag fanyar humorral."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Sára Zoltán",
+                "email": "cthulhuka@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:08:16+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Daniel Foldes",
+                "email": "foldesdani0810@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T13:24:58+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Kulturált sírrablás",
+            "status": "published",
+            "visible": true,
+            "uuid": "6fc68757-0fcd-4455-bf22-1660650852d1",
+            "scenario": {
+              "name": "Kulturált sírrablás",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5.1e (2024 ruleset)",
+              "author": "Hacsi",
+              "min_level": 8,
+              "max_level": 8,
+              "blurb": "Ki ne vágyna egy kellemes éjszakai sétára az athkatlai nekropoliszban? A történelem szinte beszél hozzád. De tényleg. Épp most szólított meg és azt mondja lerágja a lábad, ha még egyszer a sírjára lépsz."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Hacsi",
+                "email": "pacsek@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:03:48+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "godpower",
+                "email": "godpower76@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:44:37+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Földes Ádám",
+                "email": "foldiadam028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:47:48+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kiss Lóránt",
+                "email": "kiss.lori@icloud.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:21:09+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kóth János",
+                "email": "kothjanos13@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T12:22:10+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Dezső Attila",
+                "email": "sideriusdeside@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T10:23:14+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A makulátlan lélek",
+            "status": "published",
+            "visible": true,
+            "uuid": "e039d39b-c1cc-418c-8d30-10f8942b785c",
+            "scenario": {
+              "name": "A makulátlan lélek",
+              "campaign": null,
+              "game_system": "Daggerheart",
+              "author": "Tóth Tamás",
+              "min_level": 3,
+              "max_level": 3,
+              "blurb": "Cassandra, a jósnő, egykori kalandozótársatok ezt az üzenetet küldte nektek, a Lélekmentő Társaság ügynökeinek, hogy segítsetek ott, ahol a hatóságok képtelenek. Mit válaszoltok?"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Tamás Tóth",
+                "email": "heavymano@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T18:06:09+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Katalin Makó",
+                "email": "brianm@t-online.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:48:02+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Makó Balázs",
+                "email": "balazsmako345@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:49:14+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Geri",
+                "email": "radigergo@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T11:45:39+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Zolix0820",
+                "email": "darogen@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T10:45:51+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Cura annonae",
+            "status": "published",
+            "visible": true,
+            "uuid": "ab4b7500-3c21-4528-ade0-23322e898da5",
+            "scenario": {
+              "name": "Cura annonae",
+              "campaign": null,
+              "game_system": "Fabula Ultima",
+              "author": "Callinicus",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "A Római Köztársaság örök. Éhségét csak az ismert világ minden javainak bekebelezése csillapíthatja. Ugyan törvénykezés nélkül nincs civilizáció, de kenyér nélkül nincs jogászkodás sem. Már egymás után két alexandriai gabona szállítmány is elveszhetett."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Callinicus",
+                "email": "szemetdiszno@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-02T20:30:24+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Balint Morasz (AIRB0RNE)",
+                "email": "balint@morasz.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:39:46+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Bernáth Balázs",
+                "email": "bbernath020516@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T07:21:44+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A nyugati kapu őrzői",
+            "status": "published",
+            "visible": true,
+            "uuid": "58c2f8ea-fd30-4149-89fc-f6a5125ac83a",
+            "scenario": {
+              "name": "A nyugati kapu őrzői",
+              "campaign": null,
+              "game_system": "Invincible RPG",
+              "author": "Glowface",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Másodvonalbeli szuperhősök megmentik (?) a várost Invincible világában"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Glowface",
+                "email": "balazs.b.foldes@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-03T10:26:17+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "NAGY Krisztián",
+                "email": "krisznagy@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T13:01:45+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Regina laczkovics",
+                "email": "regi.laczkovics@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T21:41:38+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Szemenkár Ilona",
+                "email": "lev.fiok@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T22:31:37+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fórján Bernát",
+                "email": "forjan.bernat@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-09T19:43:11+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "f43f5a3d-574c-46c5-8b64-e05782ca8e69",
+        "name": "Thu 23/7 2026, 9pm - Fri 24/7 2026, 12am",
+        "venue": null,
+        "starts_at": "2026-07-23T21:00:00+02:00",
+        "ends_at": "2026-07-24T00:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Tales from the Loop - a Társasjáték",
+            "status": "published",
+            "visible": true,
+            "uuid": "130f1b2e-b1c4-402a-b8ad-194759b58df3",
+            "scenario": {
+              "name": "Tales from the Loop - a Társasjáték",
+              "campaign": null,
+              "game_system": "Custom",
+              "author": "Glowface",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Nyomozzunk ki természetfeletti rejtélyeket tizenéves kamaszokként! Táblás társasjáték Simon Stålenhag rendkívül erős hangulatú képei alapján, a ‘80-as években, ami sohasem volt."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Glowface",
+                "email": "balazs.b.foldes@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-12T17:06:13+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+  
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "b9847eba-b444-41a5-870f-4b9c57e39e15",
+        "name": "Fri 24/7 2026, 10am-7pm",
+        "venue": null,
+        "starts_at": "2026-07-24T10:00:00+02:00",
+        "ends_at": "2026-07-24T19:00:00+02:00",
+        "sessions": [
+          {
+            "name": "Az elveszett gazdák különös esete",
+            "status": "published",
+            "visible": true,
+            "uuid": "b8af8241-2afa-458c-b1f1-96ec6f4ec1c6",
+            "scenario": {
+              "name": "Az elveszett gazdák különös esete",
+              "campaign": null,
+              "game_system": "Dungeons & Dragons 5.1e (2024 ruleset)",
+              "author": "Glowface",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Mit tehet néhány csekély hatalmú famulus, ha gazdáik – mind nagy becsnek örvendő varázshasználók – váratlanul nyomtalanul eltűnnek egy mágikus Konklávé kellős közepén?"
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Glowface",
+                "email": "balazs.b.foldes@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-02T20:26:30+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Bernáth Balázs",
+                "email": "bbernath020516@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T07:23:39+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Balint Morasz (AIRB0RNE)",
+                "email": "balint@morasz.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-06T09:08:22+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Földes Ádám",
+                "email": "foldiadam028@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:33:33+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Kiss Lóránt",
+                "email": "kiss.lori@icloud.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T16:24:28+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Zolix0820",
+                "email": "darogen@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T11:47:39+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Sajtos-tejfölös punkos",
+            "status": "published",
+            "visible": true,
+            "uuid": "9f67ef53-e11d-47c7-80d1-78b4663756d2",
+            "scenario": {
+              "name": "Sajtos-tejfölös punkos",
+              "campaign": null,
+              "game_system": "Punk Is Dead",
+              "author": "Tóth Tamás",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "5 éve már a sötét napnak, mikor a Móriczon kannásborra kéregetés közben egyszercsak a Quantum Bizbasz miatt a világ végleg be nem krepált, és a Fekete Lyukas Nap a frissen átadott, immáron a Bosnyák térig közelekedő 4-es metró járataiba kényszerítette az emberiség maradékát."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Tamás Tóth",
+                "email": "heavymano@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T18:06:45+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Ricko",
+                "email": "ferenczi.richard@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:39:54+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Daniel Foldes",
+                "email": "foldesdani0810@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:43:26+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Regina laczkovics",
+                "email": "regi.laczkovics@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T21:46:03+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Szemenkár Ilona",
+                "email": "lev.fiok@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T23:40:35+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Fórján Bernát",
+                "email": "forjan.bernat@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-09T19:43:41+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A bánat aratója",
+            "status": "published",
+            "visible": true,
+            "uuid": "f413a2a0-3dc3-41cf-be4e-ea352a203574",
+            "scenario": {
+              "name": "A bánat aratója",
+              "campaign": null,
+              "game_system": "Shadow of the Demon Lord",
+              "author": "Godpower",
+              "min_level": 2,
+              "max_level": 2,
+              "blurb": "Keresztút városában különös eltünések borzolják a kedélyeket. Ártatlanoknak veszik nyoma, de csak egy igaz ember próbálja kideríteni mi is történt velük. Azonban mikor ennek a jó embernek is nyoma veszik csakis a karakterek segíthetnek kideríteni mi történik a városban."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "godpower",
+                "email": "godpower76@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:09:12+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+  
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A vaksalai medve",
+            "status": "published",
+            "visible": true,
+            "uuid": "e9f4724c-e8d7-47f5-8988-5e5cc98606a6",
+            "scenario": {
+              "name": "A vaksalai medve",
+              "campaign": null,
+              "game_system": "Vaesen",
+              "author": "Hacsi",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Az első hó már leesett, a sötét skandináv éjszakában árnyak mozognak, vagy csak a képzeletünk játszik velünk? Furcsa események egy Uppsala melletti településen. Öreg kastélyotok viszonylagos melegét hátrahagyva felveszitek a kesztyűt."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Hacsi",
+                "email": "pacsek@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T19:03:07+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Katalin Makó",
+                "email": "brianm@t-online.hu",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:47:52+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Makó Balázs",
+                "email": "balazsmako345@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:49:06+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Sára Zoltán",
+                "email": "cthulhuka@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T07:59:13+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "NAGY Krisztián",
+                "email": "krisznagy@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T13:13:51+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Sípos László György",
+                "email": "chipie.ambrosia@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-07T10:20:34+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "A villanás",
+            "status": "published",
+            "visible": true,
+            "uuid": "1d6d89bf-cb35-4422-88c7-a1f899de3fa0",
+            "scenario": {
+              "name": "A villanás",
+              "campaign": null,
+              "game_system": "Tales from the Loop",
+              "author": "Geri",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "A ‘80-as évek, amilyen sohasem volt. A Tales from the Loop szerepjáték Simon Stålenhag képein alapul. A rendkívül erős hangulatot árasztó képek alapján készült szerepjátékban a 80-as évek végén járunk."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Geri",
+                "email": "radigergo@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-04T08:09:23+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Mihaly",
+                "email": "batboy_hu@yahoo.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T08:16:22+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              },
+              {
+                "name": "Tamás Földes",
+                "email": "foldesvurai@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:47:30+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Homebrew társasjáték kipróbálás",
+            "status": "published",
+            "visible": true,
+            "uuid": "6abc392e-6d10-4b34-b73f-6ecff99fa435",
+            "scenario": {
+              "name": "Homebrew társasjáték kipróbálás",
+              "campaign": null,
+              "game_system": "Custom",
+              "author": "Callinicus",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "Pénteki levezetésnek szeretném ajánlani a homebrew társasjátékaim kipróbálását. Lehet csak egy fog beleférni a napba, de több kör is lehet."
+            },
+            "table_count": 1,
+            "table_size": 6,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Callinicus",
+                "email": "szemetdiszno@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T10:28:29+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+              {
+                "name": "Jun “Merras” Miyazaki",
+                "email": "miyazakijun.hu@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-06T12:46:35+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "player_waitlist": [
+  
+            ]
+          },
+          {
+            "name": "Finom, de nem finomkodó",
+            "status": "published",
+            "visible": true,
+            "uuid": "9c7ee779-eac5-4bba-879c-5b3fe0731232",
+            "scenario": {
+              "name": "Finom, de nem finomkodó",
+              "campaign": null,
+              "game_system": "Cyberpunk Red",
+              "author": "Rius",
+              "min_level": null,
+              "max_level": null,
+              "blurb": "2072. május 30-31. Magyarország déli határától a százhalombattai kőolajfinomítóig kell kísérni 1 vagy 2 olajszállító kamiont. Persze ezt a kissé veszélyes és kaotikus időkben."
+            },
+            "table_count": 1,
+            "table_size": 5,
+            "notes": null,
+            "virtual_table_tops": [
+  
+            ],
+            "voice_chat_services": [
+  
+            ],
+            "gms": [
+              {
+                "name": "Dezső Attila",
+                "email": "sideriusdeside@gmail.com",
+                "discord": null,
+                "signed_up_at": "2026-06-08T07:02:30+02:00",
+                "organized_play_memberships": [
+  
+                ]
+              }
+            ],
+            "gm_waitlist": [
+  
+            ],
+            "players": [
+  
+            ],
+            "player_waitlist": [
+  
+            ]
+          }
+        ]
+      }
+    ]
+  }

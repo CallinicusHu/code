@@ -56,8 +56,9 @@ class EventService:
         2. Update the event
         """
         # Check if event exists (this is still good!)
+        print(f"\033[1;92m{event_id, event_data.description}\033[0m")
         existing_event = self.get_event_by_id(event_id)
-
+        print(f"\033[1;92m{event_id, event_data}\033[0m")
         # Pass the data straight to the repository
         return self.repository.update(event_id, event_data)
 
