@@ -12,7 +12,7 @@ from tanulosvalami.schemas.feedback import FeedbackCreate
 
 class FeedbackRepository:
 
-    def init(self, db: Session):
+    def __init__(self, db: Session):
         """
         db: SQLAlchemy Session - injected from FastAPI
         """
@@ -57,21 +57,16 @@ Return created feedback
         self.db.refresh(db_feedback)
         return db_feedback
 
-    def delete(self, feedback_id):
-        # document why this method is empty because you made it
-        pass
+    def delete(self, feedback_id: int) -> bool:
+        """
+        Delete a feedback by ID
+        Returns True if deleted, False if not found
+        """
+        db_feedback = self.get_by_id(feedback_id)
 
+        if not db_feedback:
+            return False
 
-def delete(self, feedback_id: int) -> bool:
-    """
-    Delete a feedback by ID
-    Returns True if deleted, False if not found
-    """
-    db_feedback = self.get_by_id(feedback_id)
-
-    if not db_feedback:
-        return False
-
-    self.db.delete(db_feedback)
-    self.db.commit()
-    return True
+        self.db.delete(db_feedback)
+        self.db.commit()
+        return True
